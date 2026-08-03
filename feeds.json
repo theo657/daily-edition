@@ -1,0 +1,111 @@
+{
+  "_comment": "The whole editorial policy of your paper lives in this file. Edit it and the next build picks it up. Nothing else needs changing.",
+
+  "edition": {
+    "title": "The Daily Edition",
+    "timezone": "Europe/Rome",
+    "maxAgeHours": 36,
+    "longformShelfSize": 3
+  },
+
+  "sections": [
+    { "id": "world",    "name": "Wires and world",    "quota": 16 },
+    { "id": "ireland",  "name": "Ireland",            "quota": 10 },
+    { "id": "uk",       "name": "United Kingdom",     "quota": 6  },
+    { "id": "us",       "name": "United States",      "quota": 6  },
+    { "id": "carbon",   "name": "Climate and carbon", "quota": 8  },
+    { "id": "rugby",    "name": "Rugby",              "quota": 8  },
+    { "id": "sport",    "name": "Other sport",        "quota": 4  },
+    { "id": "culture",  "name": "Film and books",     "quota": 6  },
+    { "id": "longform", "name": "The long-form shelf","quota": 3  }
+  ],
+
+  "feeds": [
+    { "id": "bbc-world",   "name": "BBC World",        "section": "world",   "url": "https://feeds.bbci.co.uk/news/world/rss.xml",              "weight": 1.0 },
+    { "id": "aljazeera",   "name": "Al Jazeera",       "section": "world",   "url": "https://www.aljazeera.com/xml/rss/all.xml",                "weight": 0.9 },
+    { "id": "france24",    "name": "France 24",        "section": "world",   "url": "https://www.france24.com/en/rss",                          "weight": 0.9 },
+    { "id": "dw",          "name": "DW",               "section": "world",   "url": "https://rss.dw.com/rdf/rss-en-world",                      "weight": 0.9 },
+    { "id": "csmonitor",   "name": "CS Monitor",       "section": "world",   "url": "https://rss.csmonitor.com/feeds/all",                      "weight": 0.8 },
+
+    { "id": "rte",         "name": "RTÉ",              "section": "ireland", "url": "https://www.rte.ie/feeds/rss/?index=/news/&format=xml",    "weight": 1.0 },
+    { "id": "irishtimes",  "name": "Irish Times",      "section": "ireland", "url": "https://www.irishtimes.com/cmlink/news-1.1319192",         "weight": 1.1 },
+    { "id": "journal",     "name": "TheJournal.ie",    "section": "ireland", "url": "https://www.thejournal.ie/feed/",                          "weight": 0.7 },
+
+    { "id": "bbc-uk",      "name": "BBC UK",           "section": "uk",      "url": "https://feeds.bbci.co.uk/news/uk/rss.xml",                 "weight": 1.0 },
+
+    { "id": "npr",         "name": "NPR",              "section": "us",      "url": "https://feeds.npr.org/1001/rss.xml",                       "weight": 0.9 },
+    { "id": "pbs",         "name": "PBS NewsHour",     "section": "us",      "url": "https://www.pbs.org/newshour/feeds/rss/headlines",         "weight": 0.9 },
+
+    { "id": "carbonbrief", "name": "Carbon Brief",     "section": "carbon",  "url": "https://www.carbonbrief.org/feed/",                        "weight": 1.3 },
+    { "id": "marginal",    "name": "Marginal Carbon",  "section": "carbon",  "url": "https://marginalcarbon.substack.com/feed",                 "weight": 1.3 },
+    { "id": "icn",         "name": "Inside Climate",   "section": "carbon",  "url": "https://insideclimatenews.org/feed/",                      "weight": 0.8 },
+    { "id": "carbonherald","name": "Carbon Herald",    "section": "carbon",  "url": "https://www.carbonherald.com/feed/",                       "weight": 0.9, "unverified": true },
+
+    { "id": "the42",       "name": "The 42",           "section": "rugby",   "url": "https://www.the42.ie/feed/",                               "weight": 1.4,
+      "urlMustContain": ["/rugby/"],
+      "spillover": { "section": "sport", "quota": 4 } },
+    { "id": "rugbyunity",  "name": "Rugby Unity",      "section": "rugby",   "url": "https://rugbyunitypod.substack.com/feed",                  "weight": 1.3 },
+    { "id": "bbc-rugby",   "name": "BBC Rugby Union",  "section": "rugby",   "url": "https://feeds.bbci.co.uk/sport/rugby-union/rss.xml",       "weight": 1.0 },
+    { "id": "rugbypass",   "name": "RugbyPass",        "section": "rugby",   "url": "https://www.rugbypass.com/feeds/rss/",                     "weight": 0.9 },
+
+    { "id": "ebert",       "name": "RogerEbert.com",   "section": "culture", "url": "https://www.rogerebert.com/feed",                          "weight": 1.1 },
+    { "id": "indiewire",   "name": "IndieWire",        "section": "culture", "url": "https://www.indiewire.com/feed/",                          "weight": 0.8 },
+    { "id": "lithub",      "name": "Literary Hub",     "section": "culture", "url": "https://lithub.com/feed/",                                 "weight": 1.0 },
+
+    { "id": "longreads",   "name": "Longreads",        "section": "longform","url": "https://longreads.com/feed/",                              "weight": 1.3 },
+    { "id": "propublica",  "name": "ProPublica",       "section": "longform","url": "https://www.propublica.org/feeds/propublica/main",         "weight": 1.2 },
+    { "id": "aeon",        "name": "Aeon",             "section": "longform","url": "https://aeon.co/feed.rss",                                 "weight": 0.9 },
+    { "id": "atlantic",    "name": "The Atlantic",     "section": "longform","url": "https://www.theatlantic.com/feed/all/",                    "weight": 0.9 }
+  ],
+
+  "_scoring_comment": "Promote and demote are matched against title plus summary, case-insensitively. Weight is added to (promote) or subtracted from (demote) the item score. Tune these freely; they are the closest thing this paper has to an editor.",
+
+  "promote": [
+    { "terms": ["ireland", "irish", "dublin", "cork", "belfast", "dáil", "oireachtas", "taoiseach"], "weight": 1.2 },
+    { "terms": ["colombia", "colombian", "bogotá", "bogota", "medellín", "medellin", "antioquia", "huila"], "weight": 1.6 },
+    { "terms": ["biochar", "carbon removal", "carbon dioxide removal", "cdr", "durable removal", "carbon credit", "carbon market", "voluntary carbon", "icvcm", "corsia", "article 6", "puro.earth", "isometric"], "weight": 2.0 },
+    { "terms": ["eu ets", "cbam", "carbon price", "carbon tax", "offset"], "weight": 1.2 },
+    { "terms": ["coffee", "arabica", "commodity", "commodities"], "weight": 0.9 },
+    { "terms": ["central bank", "ecb", "federal reserve", "bond market", "sovereign debt", "credit spread", "rate cut", "rate rise", "yield curve", "inflation"], "weight": 1.0 },
+    { "terms": ["italy", "italian", "rome", "milan"], "weight": 0.7 },
+    { "terms": ["six nations", "leinster", "munster", "connacht", "ulster", "urc", "champions cup", "british and irish lions", "ireland rugby"], "weight": 1.4 },
+    { "terms": ["fraud", "investigation", "whistleblower", "indicted", "sec charges", "accounting", "collapse of", "inside story"], "weight": 1.1 },
+    { "terms": ["m&a", "acquisition", "takeover", "private equity", "venture capital", "seed round"], "weight": 0.8 }
+  ],
+
+  "_block_comment": "Blocked items are dropped before clustering and never reach the edition at any score. A term in 'unless' reprieves the item, which is how genuinely political stories survive a personality-based block.",
+
+  "block": [
+    {
+      "_why": "Royal-family personality coverage. Constitutional, fiscal, or criminal stories are reprieved by the unless list.",
+      "terms": [
+        "prince harry", "meghan", "duchess of sussex", "duke of sussex", "the sussexes",
+        "prince william", "kate middleton", "princess of wales", "royal family", "the royals",
+        "buckingham palace", "kensington palace", "clarence house", "balmoral", "sandringham",
+        "king charles", "queen camilla", "prince andrew", "princess anne", "prince edward",
+        "royal source", "royal expert", "royal biographer", "royal correspondent", "royal tour"
+      ],
+      "unless": [
+        "succession to the crown", "constitutional", "head of state", "republic referendum",
+        "abolish the monarchy", "sovereign grant", "civil list", "duchy of cornwall",
+        "duchy of lancaster", "commonwealth realm", "tax", "inquiry", "police investigation",
+        "court ruling", "legislation", "parliament", "prorogation", "royal assent", "extradition"
+      ]
+    }
+  ],
+
+  "demote": [
+    { "terms": ["horoscope", "zodiac", "quiz", "listicle", "you won't believe", "here's what", "goes viral", "slams", "blasts", "hits out"], "weight": 2.0 },
+    { "terms": ["kardashian", "love island", "reality tv", "red carpet", "instagram post"], "weight": 2.5 },
+    { "terms": ["recipe", "best deals", "black friday", "discount code", "shopping"], "weight": 2.0 },
+    { "terms": ["opinion:", "comment:", "editorial:", "letters to the editor", "our view", "the observer view", "we should all"], "weight": 3.0 },
+    { "terms": ["analysis:", "explainer:"], "weight": 1.5, "exceptFeeds": ["carbonbrief", "marginal", "the42", "rugbyunity"] }
+  ],
+
+  "weights": {
+    "corroboration": 1.4,
+    "recencyHalfLifeHours": 14,
+    "recencyMax": 2.0,
+    "sourceWeight": 1.0
+  }
+}

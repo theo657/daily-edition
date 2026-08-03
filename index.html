@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en-IE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Edition">
+<meta name="theme-color" content="#faf8f4" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#14140f" media="(prefers-color-scheme: dark)">
+<title>The Daily Edition</title>
+<style>
+  :root {
+    --bg: #faf8f4;
+    --surface: #fffefb;
+    --ink: #1b1a16;
+    --ink-soft: #5c5950;
+    --ink-faint: #8d8a80;
+    --rule: #e0dcd2;
+    --accent: #7a2e1e;
+    --accent-soft: #f0e6e2;
+    --read: #a8a49a;
+    --shelf: #2f4739;
+    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Helvetica, Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14140f;
+      --surface: #1c1c16;
+      --ink: #ece8dd;
+      --ink-soft: #a8a397;
+      --ink-faint: #74705f;
+      --rule: #2e2e25;
+      --accent: #d98b6f;
+      --accent-soft: #2a1f1a;
+      --read: #56534a;
+      --shelf: #8fb69c;
+    }
+  }
+
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--serif);
+    font-size: 17px;
+    line-height: 1.45;
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+  }
+  .wrap { max-width: 46rem; margin: 0 auto; padding: 1.5rem 1.25rem 6rem; }
+
+  /* ---------- masthead ---------- */
+  header.masthead {
+    border-bottom: 2px solid var(--ink);
+    padding-bottom: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+  h1 {
+    font-size: clamp(2rem, 7vw, 2.9rem);
+    letter-spacing: -0.02em;
+    margin: 0 0 0.25rem;
+    font-weight: 700;
+  }
+  .dateline {
+    font-family: var(--sans);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.11em;
+    color: var(--ink-soft);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+    align-items: baseline;
+  }
+  .progress-wrap { margin: 0.9rem 0 0; }
+  .progress-track { height: 3px; background: var(--rule); border-radius: 2px; overflow: hidden; }
+  .progress-bar { height: 100%; width: 0%; background: var(--accent); transition: width 0.35s ease; }
+  .progress-label {
+    font-family: var(--sans); font-size: 0.72rem; letter-spacing: 0.06em;
+    color: var(--ink-faint); margin-top: 0.4rem;
+  }
+
+  /* ---------- controls ---------- */
+  .controls {
+    display: flex; flex-wrap: wrap; gap: 0.4rem;
+    margin: 1.25rem 0 0.5rem;
+    font-family: var(--sans);
+  }
+  button.ctl {
+    font-family: var(--sans); font-size: 0.72rem; letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background: transparent; color: var(--ink-soft);
+    border: 1px solid var(--rule); border-radius: 999px;
+    padding: 0.38rem 0.75rem; cursor: pointer;
+    min-height: 32px;
+  }
+  button.ctl:hover { border-color: var(--ink-faint); color: var(--ink); }
+  button.ctl[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+
+  /* ---------- sections ---------- */
+  section { margin-top: 2.4rem; scroll-margin-top: 1rem; }
+  h2 {
+    font-family: var(--sans);
+    font-size: 0.73rem; text-transform: uppercase; letter-spacing: 0.16em;
+    color: var(--accent); font-weight: 600;
+    margin: 0 0 0.85rem;
+    padding-bottom: 0.4rem; border-bottom: 1px solid var(--rule);
+    display: flex; justify-content: space-between; align-items: baseline; gap: 1rem;
+  }
+  h2 .count { color: var(--ink-faint); font-weight: 400; letter-spacing: 0.08em; }
+
+  article {
+    padding: 0.85rem 0;
+    border-bottom: 1px solid var(--rule);
+    display: grid;
+    grid-template-columns: 1.4rem 1fr;
+    gap: 0.1rem 0.6rem;
+    align-items: start;
+  }
+  article:last-child { border-bottom: none; }
+
+  .tick {
+    appearance: none; -webkit-appearance: none;
+    width: 1.05rem; height: 1.05rem; margin: 0.28rem 0 0;
+    border: 1px solid var(--ink-faint); border-radius: 50%;
+    background: transparent; cursor: pointer; flex: none; position: relative;
+  }
+  .tick:checked { background: var(--ink-faint); border-color: var(--ink-faint); }
+  .tick:checked::after {
+    content: ""; position: absolute; left: 0.3rem; top: 0.12rem;
+    width: 0.24rem; height: 0.48rem;
+    border: solid var(--bg); border-width: 0 1.5px 1.5px 0; transform: rotate(45deg);
+  }
+
+  .headline { grid-column: 2; margin: 0; font-size: 1.12rem; line-height: 1.3; font-weight: 600; letter-spacing: -0.005em; }
+  .headline a { color: inherit; text-decoration: none; }
+  .headline a:hover { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+  .standfirst { grid-column: 2; margin: 0.3rem 0 0; color: var(--ink-soft); font-size: 0.94rem; line-height: 1.4; }
+  .meta {
+    grid-column: 2; margin-top: 0.42rem;
+    font-family: var(--sans); font-size: 0.71rem; letter-spacing: 0.03em;
+    color: var(--ink-faint);
+    display: flex; flex-wrap: wrap; gap: 0.35rem; align-items: center;
+  }
+  .meta a { color: var(--ink-faint); text-decoration: none; border-bottom: 1px dotted var(--rule); }
+  .meta a:hover { color: var(--ink); }
+  .sep { opacity: 0.45; }
+  .corroborated { color: var(--accent); font-weight: 600; }
+
+  article.read .headline a, article.read .standfirst { color: var(--read); }
+  article.read .standfirst { display: none; }
+  body.hide-read article.read { display: none; }
+
+  /* ---------- long-form shelf ---------- */
+  section.shelf { background: var(--surface); border: 1px solid var(--rule); border-radius: 4px; padding: 1.1rem 1.15rem 0.5rem; }
+  section.shelf h2 { color: var(--shelf); border-bottom-color: var(--rule); }
+  .shelf-note {
+    font-family: var(--sans); font-size: 0.72rem; color: var(--ink-faint);
+    margin: -0.35rem 0 0.85rem; line-height: 1.5;
+  }
+  .shelf-full {
+    font-family: var(--sans); font-size: 0.72rem; color: var(--shelf);
+    border-top: 1px solid var(--rule); padding: 0.7rem 0 0.9rem; margin-top: 0.2rem;
+  }
+
+  /* ---------- end of edition ---------- */
+  .finis {
+    margin-top: 3rem; padding-top: 1.75rem; border-top: 2px solid var(--ink);
+    text-align: center;
+  }
+  .finis .mark { font-size: 1.5rem; letter-spacing: 0.4em; color: var(--ink-faint); }
+  .finis p { font-family: var(--sans); font-size: 0.78rem; color: var(--ink-soft); margin: 0.6rem 0 0; line-height: 1.6; }
+  .finis.done .mark { color: var(--accent); }
+
+  .failures {
+    margin-top: 1.5rem; font-family: var(--sans); font-size: 0.72rem;
+    color: var(--ink-faint); background: var(--accent-soft);
+    border-radius: 4px; padding: 0.7rem 0.85rem; line-height: 1.6;
+  }
+  .loading, .error { font-family: var(--sans); color: var(--ink-soft); padding: 3rem 0; text-align: center; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="masthead">
+    <h1>The Daily Edition</h1>
+    <div class="dateline">
+      <span id="dateline-date">Loading</span>
+      <span id="dateline-stats"></span>
+    </div>
+    <div class="progress-wrap">
+      <div class="progress-track"><div class="progress-bar" id="progress"></div></div>
+      <div class="progress-label" id="progress-label"></div>
+    </div>
+  </header>
+
+  <div class="controls">
+    <button class="ctl" id="toggle-read" aria-pressed="false">Hide read</button>
+    <button class="ctl" id="mark-all">Mark all read</button>
+    <button class="ctl" id="reset">Reset today</button>
+  </div>
+
+  <main id="edition"><p class="loading">Fetching this morning's edition…</p></main>
+
+  <div class="finis" id="finis" hidden>
+    <div class="mark">· · ·</div>
+    <p id="finis-text"></p>
+  </div>
+
+  <div class="failures" id="failures" hidden></div>
+</div>
+
+<script>
+(() => {
+  "use strict";
+
+  const STORE_READ  = "de.read";      // { "<editionDate>": [linkHash, ...] }
+  const STORE_SHELF = "de.shelf";     // [{ link, title, source, addedOn }]
+  const STORE_PREFS = "de.prefs";     // { hideRead: bool }
+
+  const $ = (id) => document.getElementById(id);
+
+  // localStorage can be unavailable (private mode, storage full). The paper
+  // must still render; only the memory of what you've read is lost.
+  const store = {
+    get(key, fallback) {
+      try { const v = localStorage.getItem(key); return v ? JSON.parse(v) : fallback; }
+      catch { return fallback; }
+    },
+    set(key, value) {
+      try { localStorage.setItem(key, JSON.stringify(value)); } catch { /* ignore */ }
+    },
+  };
+
+  const hash = (s) => {
+    let h = 5381;
+    for (let i = 0; i < s.length; i++) h = ((h << 5) + h + s.charCodeAt(i)) | 0;
+    return String(h);
+  };
+
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) =>
+    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+  const fmtDate = (iso, tz) => {
+    try {
+      return new Intl.DateTimeFormat("en-GB", {
+        weekday: "long", day: "numeric", month: "long", year: "numeric", timeZone: tz,
+      }).format(new Date(iso + "T12:00:00Z"));
+    } catch { return iso; }
+  };
+
+  const relTime = (iso) => {
+    if (!iso) return "";
+    const mins = Math.round((Date.now() - new Date(iso).getTime()) / 60000);
+    if (!Number.isFinite(mins)) return "";
+    if (mins < 60) return mins <= 1 ? "just now" : mins + " min ago";
+    const hrs = Math.round(mins / 60);
+    if (hrs < 24) return hrs + (hrs === 1 ? " hour ago" : " hours ago");
+    const days = Math.round(hrs / 24);
+    return days + (days === 1 ? " day ago" : " days ago");
+  };
+
+  let edition = null;
+  let readSet = new Set();
+  let prefs = store.get(STORE_PREFS, { hideRead: false });
+
+  // -------------------------------------------------------------------------
+  // The long-form shelf. Three slots, and a fourth is refused until one is
+  // cleared. This is the whole point: an unbounded reading list is a way of
+  // feeling virtuous without reading anything.
+  // -------------------------------------------------------------------------
+  const shelf = {
+    all: () => store.get(STORE_SHELF, []),
+    has: (link) => shelf.all().some((x) => x.link === link),
+    isFull: () => shelf.all().length >= (edition?.longformShelfSize ?? 3),
+    add(item) {
+      const list = shelf.all();
+      if (list.some((x) => x.link === item.link)) return true;
+      if (list.length >= (edition?.longformShelfSize ?? 3)) return false;
+      list.push({ link: item.link, title: item.title, source: item.sources?.[0]?.name || "", addedOn: edition.editionDate });
+      store.set(STORE_SHELF, list);
+      return true;
+    },
+    remove(link) {
+      store.set(STORE_SHELF, shelf.all().filter((x) => x.link !== link));
+    },
+  };
+
+  function loadRead() {
+    const all = store.get(STORE_READ, {});
+    readSet = new Set(all[edition.editionDate] || []);
+  }
+  function saveRead() {
+    const all = store.get(STORE_READ, {});
+    all[edition.editionDate] = [...readSet];
+    // Keep a week of history so yesterday's ticks survive a late read.
+    const keys = Object.keys(all).sort().slice(-7);
+    const trimmed = {};
+    for (const k of keys) trimmed[k] = all[k];
+    store.set(STORE_READ, trimmed);
+  }
+
+  // -------------------------------------------------------------------------
+  // Rendering
+  // -------------------------------------------------------------------------
+  function renderItem(item, opts = {}) {
+    const id = hash(item.link);
+    const isRead = readSet.has(id);
+    const others = (item.sources || []).slice(1);
+
+    const metaBits = [];
+    if (item.published) metaBits.push(esc(relTime(item.published)));
+    if (item.outlets > 1) {
+      metaBits.push('<span class="corroborated">' + item.outlets + " outlets</span>");
+      metaBits.push(others.map((s) =>
+        '<a href="' + esc(s.link) + '" target="_blank" rel="noopener">' + esc(s.name) + "</a>").join(" "));
+    } else if (item.sources?.[0]) {
+      metaBits.push(esc(item.sources[0].name));
+    }
+    if (item.outlets > 1 && item.sources?.[0]) metaBits.unshift(esc(item.sources[0].name));
+
+    let shelfCtl = "";
+    if (opts.shelfControls) {
+      const onShelf = shelf.has(item.link);
+      const full = shelf.isFull() && !onShelf;
+      shelfCtl = '<button class="ctl shelf-btn" data-link="' + esc(item.link) + '"' +
+        (full ? " disabled" : "") + ' aria-pressed="' + onShelf + '">' +
+        (onShelf ? "On the shelf" : full ? "Shelf full" : "Put on the shelf") + "</button>";
+    }
+
+    return (
+      '<article class="' + (isRead ? "read" : "") + '" data-id="' + id + '">' +
+        '<input class="tick" type="checkbox" ' + (isRead ? "checked" : "") +
+          ' aria-label="Mark as read: ' + esc(item.title) + '">' +
+        '<h3 class="headline"><a href="' + esc(item.link) + '" target="_blank" rel="noopener">' +
+          esc(item.title) + "</a></h3>" +
+        (item.summary ? '<p class="standfirst">' + esc(item.summary.slice(0, 220)) + "</p>" : "") +
+        '<div class="meta">' + metaBits.filter(Boolean).join('<span class="sep">·</span>') +
+          (shelfCtl ? '<span class="sep">·</span>' + shelfCtl : "") + "</div>" +
+      "</article>"
+    );
+  }
+
+  function render() {
+    $("dateline-date").textContent = fmtDate(edition.editionDate, edition.timezone);
+    const s = edition.stats;
+    $("dateline-stats").textContent =
+      s.itemsInWindow + " filed · " + s.clusters + " stories · " + s.shown + " selected";
+
+    const html = edition.sections
+      .filter((sec) => sec.items.length)
+      .map((sec) => {
+        const isShelf = sec.id === "longform";
+        const body = sec.items.map((i) => renderItem(i, { shelfControls: isShelf })).join("");
+
+        let shelfBlock = "";
+        if (isShelf) {
+          const list = shelf.all();
+          shelfBlock =
+            '<p class="shelf-note">Three slots. A fourth piece is refused until you clear one, ' +
+            "which is the difference between a reading list and a graveyard of good intentions.</p>";
+          if (list.length) {
+            shelfBlock += '<div class="shelf-full"><strong>On the shelf:</strong> ' +
+              list.map((x) =>
+                '<a href="' + esc(x.link) + '" target="_blank" rel="noopener">' + esc(x.title) + "</a>" +
+                ' <button class="ctl shelf-clear" data-link="' + esc(x.link) + '">Clear</button>'
+              ).join(" · ") + "</div>";
+          }
+        }
+
+        return '<section class="' + (isShelf ? "shelf" : "") + '" id="sec-' + esc(sec.id) + '">' +
+          "<h2>" + esc(sec.name) +
+            '<span class="count">' + sec.items.length +
+              (sec.dropped ? " of " + sec.total : "") + "</span></h2>" +
+          (isShelf ? shelfBlock : "") + body +
+        "</section>";
+      })
+      .join("");
+
+    $("edition").innerHTML = html || '<p class="loading">Nothing filed in the window. Check the feed status below.</p>';
+
+    if (edition.failures?.length) {
+      $("failures").hidden = false;
+      $("failures").innerHTML = "<strong>Feeds down this morning:</strong> " +
+        edition.failures.map((f) => esc(f.name) + " (" + esc(f.error) + ")").join(", ") +
+        ". Fix by editing <code>feeds.json</code> in the repo.";
+    }
+
+    document.body.classList.toggle("hide-read", !!prefs.hideRead);
+    $("toggle-read").setAttribute("aria-pressed", String(!!prefs.hideRead));
+    $("toggle-read").textContent = prefs.hideRead ? "Show read" : "Hide read";
+
+    updateProgress();
+  }
+
+  function updateProgress() {
+    const total = edition.sections.reduce((n, s) => n + s.items.length, 0);
+    const done = [...document.querySelectorAll("article")].filter((a) => a.classList.contains("read")).length;
+    const pct = total ? Math.round((done / total) * 100) : 0;
+    $("progress").style.width = pct + "%";
+    $("progress-label").textContent = done + " of " + total + " read";
+
+    const finis = $("finis");
+    if (total && done === total) {
+      finis.hidden = false;
+      finis.classList.add("done");
+      $("finis-text").textContent =
+        "That's the edition. Nothing more until " +
+        (edition.timezone === "Europe/Rome" ? "06:30 tomorrow" : "tomorrow morning") + ". Go and do something else.";
+    } else {
+      finis.hidden = false;
+      finis.classList.remove("done");
+      $("finis-text").textContent = "End of the edition. " + (total - done) + " left unread.";
+    }
+  }
+
+  // -------------------------------------------------------------------------
+  // Events (delegated, so re-rendering never orphans a listener)
+  // -------------------------------------------------------------------------
+  document.addEventListener("change", (e) => {
+    if (!e.target.classList.contains("tick")) return;
+    const article = e.target.closest("article");
+    const id = article.dataset.id;
+    if (e.target.checked) { readSet.add(id); article.classList.add("read"); }
+    else { readSet.delete(id); article.classList.remove("read"); }
+    saveRead();
+    updateProgress();
+  });
+
+  /**
+   * Opening a story is the act of reading it, so the page records that itself.
+   * The manual tick stays for the other case: seen the headline, no need to
+   * open it. Nothing here calls preventDefault, so the link opens as normal.
+   */
+  function markReadOnOpen(article) {
+    if (!article || article.classList.contains("read")) return;
+    readSet.add(article.dataset.id);
+    article.classList.add("read");
+    const tick = article.querySelector(".tick");
+    if (tick) tick.checked = true;
+    saveRead();
+    // Deliberately not re-rendering: if Hide read is on, a story vanishing
+    // from under the cursor as you click it is disorienting. It goes on the
+    // next build or the next reload.
+    updateProgress();
+  }
+
+  document.addEventListener("click", (e) => {
+    const link = e.target.closest("article a[href]");
+    if (link) markReadOnOpen(link.closest("article"));
+
+    // Middle-click and cmd-click open in a background tab without firing a
+    // normal click in some browsers, so catch the auxiliary case too.
+    const addBtn = e.target.closest(".shelf-btn");
+    if (addBtn && !addBtn.disabled) {
+      const link = addBtn.dataset.link;
+      const item = edition.sections.flatMap((s) => s.items).find((i) => i.link === link);
+      if (item) { shelf.has(link) ? shelf.remove(link) : shelf.add(item); render(); }
+      return;
+    }
+    const clearBtn = e.target.closest(".shelf-clear");
+    if (clearBtn) { shelf.remove(clearBtn.dataset.link); render(); }
+  });
+
+  document.addEventListener("auxclick", (e) => {
+    if (e.button !== 1) return;
+    const link = e.target.closest("article a[href]");
+    if (link) markReadOnOpen(link.closest("article"));
+  });
+
+  $("toggle-read").addEventListener("click", () => {
+    prefs.hideRead = !prefs.hideRead;
+    store.set(STORE_PREFS, prefs);
+    render();
+  });
+
+  $("mark-all").addEventListener("click", () => {
+    document.querySelectorAll("article").forEach((a) => readSet.add(a.dataset.id));
+    saveRead(); render();
+  });
+
+  $("reset").addEventListener("click", () => {
+    readSet.clear(); saveRead(); render();
+  });
+
+  // -------------------------------------------------------------------------
+  // Boot. Cache-bust so a stale service worker or CDN copy never shows you
+  // yesterday's paper.
+  // -------------------------------------------------------------------------
+  fetch("edition.json?t=" + Date.now(), { cache: "no-store" })
+    .then((r) => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+    .then((data) => {
+      edition = data;
+      document.title = edition.title + " · " + edition.editionDate;
+      loadRead();
+      render();
+    })
+    .catch((err) => {
+      $("edition").innerHTML = '<p class="error">Could not load the edition (' + esc(err.message) +
+        "). If this persists, check the latest Actions run in the repo.</p>";
+    });
+})();
+</script>
+</body>
+</html>

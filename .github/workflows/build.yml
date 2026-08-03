@@ -1,0 +1,70 @@
+name: Build the edition
+
+on:
+  schedule:
+    - cron: '30 4 * * *'
+    - cron: '30 5 * * *'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Rebuild even if today already has an edition'
+        type: boolean
+        default: true
+
+concurrency:
+  group: edition
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Build
+        run: node build.mjs ${{ (github.event_name == 'workflow_dispatch' && inputs.force) && '--force' || '' }}
+
+      - name: Report feed health
+        if: always()
+        run: |
+          if [ -f edition.json ]; then
+            node -e '
+              const e = require("./edition.json");
+              const s = e.stats;
+              console.log(`### Edition ${e.editionDate}`);
+              console.log(`${s.itemsFetched} items fetched, ${s.merged} merged across outlets, ${s.clusters} stories, ${s.shown} selected.`);
+              if (e.failures.length) {
+                console.log("");
+                console.log("| Feed down | Reason |");
+                console.log("|---|---|");
+                for (const f of e.failures) console.log(`| ${f.name} | ${f.error} |`);
+              } else {
+                console.log("");
+                console.log("All feeds responded.");
+              }
+            ' >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Commit the edition
+        run: |
+          git config user.name  "edition-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- edition.json; then
+            echo "No change to edition.json."
+            date -u +"%Y-%m-%dT%H:%M:%SZ" > .last-run
+            git add .last-run
+            git commit -m "chore: heartbeat $(date -u +%F)" || exit 0
+          else
+            git add edition.json
+            git commit -m "Edition $(date -u +%F)"
+          fi
+          git push

@@ -1,19 +1,19 @@
 {
   "title": "The Daily Edition",
-  "editionDate": "2026-08-06",
-  "builtAt": "2026-08-06T07:17:28.408Z",
+  "editionDate": "2026-08-07",
+  "builtAt": "2026-08-07T05:56:17.056Z",
   "timezone": "Europe/Rome",
   "longformShelfSize": 3,
   "stats": {
     "feedsConfigured": 26,
-    "feedsOk": 22,
-    "itemsFetched": 554,
-    "itemsInWindow": 382,
+    "feedsOk": 23,
+    "itemsFetched": 578,
+    "itemsInWindow": 388,
     "blocked": 0,
-    "clusters": 362,
-    "merged": 13,
-    "sameOutletDuplicates": 7,
-    "shown": 59
+    "clusters": 372,
+    "merged": 11,
+    "sameOutletDuplicates": 5,
+    "shown": 63
   },
   "failures": [
     {
@@ -27,11 +27,6 @@
       "error": "HTTP 403"
     },
     {
-      "name": "Carbon Herald",
-      "id": "carbonherald",
-      "error": "no items in response"
-    },
-    {
       "name": "Rugby Unity",
       "id": "rugbyunity",
       "error": "HTTP 403"
@@ -41,126 +36,53 @@
     {
       "id": "world",
       "name": "Wires and world",
-      "total": 90,
+      "total": 100,
       "items": [
         {
-          "title": "Colombia minister warns of ‘terrorism’ threat at presidential inauguration",
-          "link": "https://www.aljazeera.com/news/2026/8/6/colombia-minister-warns-of-terrorism-threat-at-presidential-inauguration?traffic_source=rss",
-          "summary": "Presidents of Argentina, Paraguay, Chile and Ecuador, along with Spain’s King Felipe VI, are expected to attend.",
-          "published": "2026-08-06T02:06:03.000Z",
+          "title": "Trump again tries to limit US birthright citizenship with new executive orders",
+          "link": "https://www.bbc.co.uk/news/articles/cj63966j95yo?at_medium=RSS&at_campaign=rss",
+          "summary": "The executive orders ban birth tourism and expand the existing definition of people whose children are not eligible for US birthright citizenship.",
+          "published": "2026-08-07T00:34:14.000Z",
           "section": "world",
-          "score": 5.45,
-          "outlets": 1,
+          "score": 5.33,
+          "outlets": 3,
           "reasons": {
-            "corroboration": 1.4,
-            "source": 0.9,
-            "recency": 1.55,
-            "promoted": [
-              "colombia"
-            ],
+            "corroboration": 2.8,
+            "source": 1,
+            "recency": 1.53,
+            "promoted": [],
             "demoted": []
           },
           "sources": [
             {
-              "name": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/8/6/colombia-minister-warns-of-terrorism-threat-at-presidential-inauguration?traffic_source=rss",
-              "title": "Colombia minister warns of ‘terrorism’ threat at presidential inauguration"
-            }
-          ]
-        },
-        {
-          "title": "FAA says Trump’s Marine One briefly flew too close to passenger jet",
-          "link": "https://www.aljazeera.com/news/2026/8/6/faa-says-trumps-marine-one-briefly-flew-too-close-to-passenger-jet?traffic_source=rss",
-          "summary": "Air traffic controllers had failed to pause commercial flights during Marine One’s departure, sources say.",
-          "published": "2026-08-06T00:31:07.000Z",
-          "section": "world",
-          "score": 5.13,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 0.9,
-            "recency": 1.43,
-            "promoted": [
-              "urc"
-            ],
-            "demoted": []
-          },
-          "sources": [
+              "name": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cj63966j95yo?at_medium=RSS&at_campaign=rss",
+              "title": "Trump again tries to limit US birthright citizenship with new executive orders"
+            },
             {
               "name": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/8/6/faa-says-trumps-marine-one-briefly-flew-too-close-to-passenger-jet?traffic_source=rss",
-              "title": "FAA says Trump’s Marine One briefly flew too close to passenger jet"
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/8/6/trump-signs-executive-orders-banning-so-called-birth?traffic_source=rss",
+              "title": "Trump signs executive orders banning so-called ‘birth tourism’"
+            },
+            {
+              "name": "France 24",
+              "link": "https://www.france24.com/en/americas/20260806-trump-signs-order-new-bid-curb-birthright-citizenship",
+              "title": "Trump targets 'birth tourism' in new bid to curb birthright citizenship"
             }
           ]
         },
         {
-          "title": "Iran says Hormuz deal with Oman in final stage as Trump signals breakthrough",
-          "link": "https://www.france24.com/en/middle-east/20260806-iran-says-hormuz-deal-with-oman-in-final-stage-as-trump-signals-breakthrough",
-          "summary": "Iran on Wednesday said an agreement with Oman over the Strait of Hormuz was in its final stages as US President Donald Trump suggested a deal could be announced within days, raising hopes for the easing of a blockade that has disrupted global shipping and fuelled months of conflict.",
-          "published": "2026-08-06T02:55:47.000Z",
+          "title": "Rights groups say Israeli attack that killed Lebanese journalist an apparent war crime",
+          "link": "https://www.bbc.co.uk/news/articles/cx2md67y3nlo?at_medium=RSS&at_campaign=rss",
+          "summary": "Amal Khalil was killed and her colleague Zeinab Faraj wounded in an Israeli attack in April; Israel denied targeting the journalists.",
+          "published": "2026-08-06T14:20:15.000Z",
           "section": "world",
-          "score": 4.83,
+          "score": 5.24,
           "outlets": 2,
           "reasons": {
             "corroboration": 2.22,
             "source": 1,
-            "recency": 1.61,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "France 24",
-              "link": "https://www.france24.com/en/middle-east/20260806-iran-says-hormuz-deal-with-oman-in-final-stage-as-trump-signals-breakthrough",
-              "title": "Iran says Hormuz deal with Oman in final stage as Trump signals breakthrough"
-            },
-            {
-              "name": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss",
-              "title": "Iran says deal with Oman on Strait of Hormuz is in final stages"
-            }
-          ]
-        },
-        {
-          "title": "Explosive-laden drone found at German airport hosting Ukrainian fleet",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/8/6/explosive-laden-drone-found-at-german-airport-hosting-ukrainian-fleet?traffic_source=rss",
-          "summary": "German authorities are investigating how a drone packed with explosives reached Leipzig/Halle Airport.",
-          "published": "2026-08-06T02:28:56.000Z",
-          "section": "world",
-          "score": 4.7,
-          "outlets": 2,
-          "reasons": {
-            "corroboration": 2.22,
-            "source": 0.9,
-            "recency": 1.58,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/8/6/explosive-laden-drone-found-at-german-airport-hosting-ukrainian-fleet?traffic_source=rss",
-              "title": "Explosive-laden drone found at German airport hosting Ukrainian fleet"
-            },
-            {
-              "name": "France 24",
-              "link": "https://www.france24.com/en/europe/20260805-alarm-at-german-airport-after-drone-found-near-ukrainian-plane-mid-air-incident",
-              "title": "Drone with explosive device found near Ukrainian cargo plane at German airport"
-            }
-          ]
-        },
-        {
-          "title": "Blanche, DOJ become a focus of New Mexico Epstein investigations",
-          "link": "https://www.csmonitor.com/USA/Society/2026/0805/jeffrey-epstein-victims-new-mexico-zorro-ranch?icid=rss",
-          "summary": "The New Mexico Survivors’ Truth Commission says released information on Jeffrey Epstein’s Zorro Ranch. Relatedly, the state sued the U.S. Department of Justice over records requests.",
-          "published": "2026-08-05T22:16:50.000Z",
-          "section": "world",
-          "score": 4.58,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 0.8,
-            "recency": 1.28,
+            "recency": 0.92,
             "promoted": [
               "investigation"
             ],
@@ -168,187 +90,29 @@
           },
           "sources": [
             {
-              "name": "CS Monitor",
-              "link": "https://www.csmonitor.com/USA/Society/2026/0805/jeffrey-epstein-victims-new-mexico-zorro-ranch?icid=rss",
-              "title": "Blanche, DOJ become a focus of New Mexico Epstein investigations"
-            }
-          ]
-        },
-        {
-          "title": "'My grandmother subjected my baby to female genital mutilation behind my back'",
-          "link": "https://www.bbc.co.uk/news/articles/c3r0vp7n0pro?at_medium=RSS&at_campaign=rss",
-          "summary": "In Colombia, where FGM is still practised by some members of an indigenous group, a landmark bill banning the practice has been enacted.",
-          "published": "2026-08-04T23:13:01.000Z",
-          "section": "world",
-          "score": 4.41,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1,
-            "recency": 0.41,
-            "promoted": [
-              "colombia"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
               "name": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c3r0vp7n0pro?at_medium=RSS&at_campaign=rss",
-              "title": "'My grandmother subjected my baby to female genital mutilation behind my back'"
-            }
-          ]
-        },
-        {
-          "title": "Outrage as Ugandan football captain murdered in street gang attack",
-          "link": "https://www.bbc.co.uk/news/articles/cm2g0038yr8o?at_medium=RSS&at_campaign=rss",
-          "summary": "The 27-year-old was beaten to death by suspected robbers after resisting an attempt to steal his belongings, police say.",
-          "published": "2026-08-06T06:04:28.000Z",
-          "section": "world",
-          "score": 4.28,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1,
-            "recency": 1.88,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cm2g0038yr8o?at_medium=RSS&at_campaign=rss",
-              "title": "Outrage as Ugandan football captain murdered in street gang attack"
-            }
-          ]
-        },
-        {
-          "title": "Indian journalist Tarun Tejpal convicted in rape case",
-          "link": "https://www.bbc.co.uk/news/articles/cx2v551w9v8o?at_medium=RSS&at_campaign=rss",
-          "summary": "The Goa bench of the Bombay High Court overturned a 2021 trial court verdict clearing Tejpal of all charges.",
-          "published": "2026-08-06T06:00:27.000Z",
-          "section": "world",
-          "score": 4.28,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1,
-            "recency": 1.88,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cx2v551w9v8o?at_medium=RSS&at_campaign=rss",
-              "title": "Indian journalist Tarun Tejpal convicted in rape case"
-            }
-          ]
-        },
-        {
-          "title": "Meta says AI model accessed the internet and hacked another firm",
-          "link": "https://www.bbc.co.uk/news/articles/cx2kgdnyk2po?at_medium=RSS&at_campaign=rss",
-          "summary": "Meta is the latest company to disclose an AI agent breach, raising cyber-security concerns.",
-          "published": "2026-08-06T05:53:58.000Z",
-          "section": "world",
-          "score": 4.27,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1,
-            "recency": 1.87,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cx2kgdnyk2po?at_medium=RSS&at_campaign=rss",
-              "title": "Meta says AI model accessed the internet and hacked another firm"
-            }
-          ]
-        },
-        {
-          "title": "Russian strikes target Ukraine's Kharkiv and Sumy regions, killing at least six",
-          "link": "https://www.france24.com/en/europe/20260806-at-least-six-killed-russian-strikes-ukraine-officials-say",
-          "summary": "At least six people were killed in Russian strikes on Ukraine overnight into Thursday, including three in the city ​of ‌Balakliia in the Kharkiv region and another three in the northern region of Sumy, local authorities said. A Russian ​attack also damaged ​a foreign-flagged ship loaded with wheat in Ukraine's Black ​Sea area late on Wednesday, according to Odesa's regional governor.",
-          "published": "2026-08-06T06:14:50.000Z",
-          "section": "world",
-          "score": 4.2,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 0.9,
-            "recency": 1.9,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
+              "link": "https://www.bbc.co.uk/news/articles/cx2md67y3nlo?at_medium=RSS&at_campaign=rss",
+              "title": "Rights groups say Israeli attack that killed Lebanese journalist an apparent war crime"
+            },
             {
               "name": "France 24",
-              "link": "https://www.france24.com/en/europe/20260806-at-least-six-killed-russian-strikes-ukraine-officials-say",
-              "title": "Russian strikes target Ukraine's Kharkiv and Sumy regions, killing at least six"
+              "link": "https://www.france24.com/en/lebanese-journalist-deliberately-targeted-by-israeli-attack-probe-reveals",
+              "title": "Lebanese journalist deliberately targeted by Israeli attack, probe reveals"
             }
           ]
         },
         {
-          "title": "US military families face deportation after immigration protection ends",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/8/6/us-military-families-face-deportation-after-immigration-protection-ends?traffic_source=rss",
-          "summary": "The spouses and parents of US service members have been reportedly detained or deported.",
-          "published": "2026-08-06T06:09:50.000Z",
+          "title": "Middle East live: Saudi Arabia, Pakistan and Turkey set to sign defence pact in Jeddah",
+          "link": "https://www.france24.com/en/middle-east/20260807-middle-east-live-saudi-arabia-pakistan-turkey-to-sign-defence-pact",
+          "summary": "Saudi Arabia, Pakistan and Turkey are set to sign a joint defence agreement on Friday in Jeddah, according to Saudi military and government sources. Saudi Crown Prince Mohammed bin Salman, Turkish President Recep Tayyip Erdogan and Pakistani Prime Minister Shehbaz Sharif will meet in the Saudi port city as regional powers seek to strengthen security ties amid the Iran war. Follow our liveblog for ",
+          "published": "2026-08-07T00:02:57.000Z",
           "section": "world",
-          "score": 4.19,
+          "score": 5.19,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.9,
-            "recency": 1.89,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/8/6/us-military-families-face-deportation-after-immigration-protection-ends?traffic_source=rss",
-              "title": "US military families face deportation after immigration protection ends"
-            }
-          ]
-        },
-        {
-          "title": "In Odesa, no-one is safe from Russia's new Black Sea strikes",
-          "link": "https://www.bbc.co.uk/news/articles/cy8ev4y172yo?at_medium=RSS&at_campaign=rss",
-          "summary": "Blackened ships and smashed docks mark Russia's recent surge of attacks on Ukraine's coastline.",
-          "published": "2026-08-06T05:00:54.000Z",
-          "section": "world",
-          "score": 4.19,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1,
-            "recency": 1.79,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cy8ev4y172yo?at_medium=RSS&at_campaign=rss",
-              "title": "In Odesa, no-one is safe from Russia's new Black Sea strikes"
-            }
-          ]
-        },
-        {
-          "title": "'I feel like I dug my own grave': The workers caught in the AI transition",
-          "link": "https://www.bbc.co.uk/news/articles/cgr7nxve05go?at_medium=RSS&at_campaign=rss",
-          "summary": "AI is reshaping the Philippines' outsourcing industry, raising questions over the future of the industry.",
-          "published": "2026-08-04T22:10:00.000Z",
-          "section": "world",
-          "score": 4.19,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1,
-            "recency": 0.39,
+            "recency": 1.49,
             "promoted": [
               "urc"
             ],
@@ -356,138 +120,342 @@
           },
           "sources": [
             {
-              "name": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cgr7nxve05go?at_medium=RSS&at_campaign=rss",
-              "title": "'I feel like I dug my own grave': The workers caught in the AI transition"
+              "name": "France 24",
+              "link": "https://www.france24.com/en/middle-east/20260807-middle-east-live-saudi-arabia-pakistan-turkey-to-sign-defence-pact",
+              "title": "Middle East live: Saudi Arabia, Pakistan and Turkey set to sign defence pact in Jeddah"
             }
           ]
         },
         {
-          "title": "Moment first rare tiger in 70 years released in Kazakhstan",
-          "link": "https://www.bbc.co.uk/news/videos/cd7l4zrr2qlo?at_medium=RSS&at_campaign=rss",
-          "summary": "Umit, a female Amur tiger, has been released as part of a programme to restore the animal's population, which was wiped out in central Asia a century ago.",
-          "published": "2026-08-06T04:59:30.000Z",
+          "title": "Houthi rebels kill dozens of Saudi-backed Yemeni government forces",
+          "link": "https://www.france24.com/en/middle-east/20260806-houthi-rebels-kill-dozens-of-saudi-backed-yemeni-government-forces",
+          "summary": "At least 38 members of the Yemeni government forces were killed Thursday in drone and missile attacks carried out by Houthi rebels, according to medical sources. The Iran-backed Houthis claimed the attacks were in retaliation for what they described as a recent military buildup supported by Saudi Arabia.",
+          "published": "2026-08-06T19:58:27.000Z",
           "section": "world",
-          "score": 4.18,
+          "score": 4.92,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
-            "source": 1,
-            "recency": 1.78,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "BBC World",
-              "link": "https://www.bbc.co.uk/news/videos/cd7l4zrr2qlo?at_medium=RSS&at_campaign=rss",
-              "title": "Moment first rare tiger in 70 years released in Kazakhstan"
-            }
-          ]
-        },
-        {
-          "title": "Rihanna is 'in the studio', says partner A$AP Rocky",
-          "link": "https://www.bbc.co.uk/news/articles/c4gwvvw9k1xo?at_medium=RSS&at_campaign=rss",
-          "summary": "The singer, who last released a full album in 2016, is in the studio and \"cooking\", her partner said.",
-          "published": "2026-08-06T04:44:22.000Z",
-          "section": "world",
-          "score": 4.16,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1,
-            "recency": 1.76,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c4gwvvw9k1xo?at_medium=RSS&at_campaign=rss",
-              "title": "Rihanna is 'in the studio', says partner A$AP Rocky"
-            }
-          ]
-        },
-        {
-          "title": "Nigerian security forces rescue more than 300 abductees",
-          "link": "https://www.bbc.co.uk/news/articles/cn4ndd8nr8lo?at_medium=RSS&at_campaign=rss",
-          "summary": "The government says the rescue is the country's largest single-day operation by joint security forces.",
-          "published": "2026-08-06T04:35:33.000Z",
-          "section": "world",
-          "score": 4.15,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1,
-            "recency": 1.75,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cn4ndd8nr8lo?at_medium=RSS&at_campaign=rss",
-              "title": "Nigerian security forces rescue more than 300 abductees"
-            }
-          ]
-        }
-      ],
-      "dropped": 74
-    },
-    {
-      "id": "ireland",
-      "name": "Ireland",
-      "total": 105,
-      "items": [
-        {
-          "title": "Simon finds no HAP properties available to rent outside Dublin or Kildare in June",
-          "link": "https://www.irishtimes.com/ireland/housing-planning/2026/08/06/simon-finds-no-hap-properties-available-to-rent-outside-dublin-or-kildare-in-june/",
-          "summary": "Housing charity says just 20 properties were available to rent under scheme limits in 16 areas they surveyed",
-          "published": "2026-08-06T05:53:54.000Z",
-          "section": "ireland",
-          "score": 6.97,
-          "outlets": 3,
-          "reasons": {
-            "corroboration": 2.8,
-            "source": 1.1,
-            "recency": 1.87,
+            "source": 0.9,
+            "recency": 1.22,
             "promoted": [
-              "dublin"
+              "urc"
             ],
             "demoted": []
           },
           "sources": [
             {
-              "name": "Irish Times",
-              "link": "https://www.irishtimes.com/ireland/housing-planning/2026/08/06/simon-finds-no-hap-properties-available-to-rent-outside-dublin-or-kildare-in-june/",
-              "title": "Simon finds no HAP properties available to rent outside Dublin or Kildare in June"
-            },
-            {
-              "name": "TheJournal.ie",
-              "link": "https://www.thejournal.ie/hap-to-rent-homes-dublin-kildare-simon-report-7122366-Aug2026/",
-              "title": "Outside Dublin, only one county had homes to rent within HAP limits in June"
-            },
-            {
-              "name": "RTÉ",
-              "link": "https://www.rte.ie/news/2026/0806/1586645-properties-hap-scheme/",
-              "title": "No HAP properties to rent outside Dublin, Kildare in June"
+              "name": "France 24",
+              "link": "https://www.france24.com/en/middle-east/20260806-houthi-rebels-kill-dozens-of-saudi-backed-yemeni-government-forces",
+              "title": "Houthi rebels kill dozens of Saudi-backed Yemeni government forces"
             }
           ]
         },
         {
-          "title": "Funeral of Oscar-winning actress Brenda Fricker to be held in Dublin this morning",
+          "title": "Toronto police arrest two in US Consulate shooting investigation",
+          "link": "https://www.aljazeera.com/news/2026/8/6/toronto-police-arrest-two-in-us-consulate-shooting-investigation?traffic_source=rss",
+          "summary": "Suspects recruited via encrypted app and offered money for violent acts, Toronto police reveal after arrests.",
+          "published": "2026-08-06T21:11:36.000Z",
+          "section": "world",
+          "score": 4.7,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.9,
+            "recency": 1.3,
+            "promoted": [
+              "investigation"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/8/6/toronto-police-arrest-two-in-us-consulate-shooting-investigation?traffic_source=rss",
+              "title": "Toronto police arrest two in US Consulate shooting investigation"
+            }
+          ]
+        },
+        {
+          "title": "Oman nature reserve threatened by oil spill",
+          "link": "https://www.france24.com/en/video/20260806-oman-nature-reserve-threatened-by-oil-spill-1",
+          "summary": "A #nature reserve off the coast of #Oman is under threat after #oil from a suspected Russian ghost ship spilled into the sea. The source of the #explosions that caused the leak remains unknown.",
+          "published": "2026-08-06T15:24:36.000Z",
+          "section": "world",
+          "score": 4.67,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.9,
+            "recency": 0.97,
+            "promoted": [
+              "urc"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "France 24",
+              "link": "https://www.france24.com/en/video/20260806-oman-nature-reserve-threatened-by-oil-spill-1",
+              "title": "Oman nature reserve threatened by oil spill"
+            }
+          ]
+        },
+        {
+          "title": "Australian aviation crew carries out daring midwinter Antarctica rescue",
+          "link": "https://www.bbc.co.uk/news/articles/c89nqlz5p4qo?at_medium=RSS&at_campaign=rss",
+          "summary": "Team evacuated a patient from McMurdo Station after landing plane in total darkness and temperature of -43°C.",
+          "published": "2026-08-07T05:44:29.000Z",
+          "section": "world",
+          "score": 4.38,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1,
+            "recency": 1.98,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c89nqlz5p4qo?at_medium=RSS&at_campaign=rss",
+              "title": "Australian aviation crew carries out daring midwinter Antarctica rescue"
+            }
+          ]
+        },
+        {
+          "title": "Why was Taiwan’s president evacuated in the middle of the night?",
+          "link": "https://www.bbc.co.uk/news/videos/cly83vm923go?at_medium=RSS&at_campaign=rss",
+          "summary": "President William Lai took part in an emergency evacuation drill as part of Taiwan military exercises preparing for a potential Chinese invasion.",
+          "published": "2026-08-07T04:52:19.000Z",
+          "section": "world",
+          "score": 4.3,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1,
+            "recency": 1.9,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "BBC World",
+              "link": "https://www.bbc.co.uk/news/videos/cly83vm923go?at_medium=RSS&at_campaign=rss",
+              "title": "Why was Taiwan’s president evacuated in the middle of the night?"
+            }
+          ]
+        },
+        {
+          "title": "Bodies of climbers killed in avalanche retrieved from Broad Peak",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/8/7/bodies-of-climbers-killed-in-avalanche-retrieved-from-broad-peak?traffic_source=rss",
+          "summary": "A search team has retrieved the remains of renowned climber Nirmal Purja and several members of his team.",
+          "published": "2026-08-07T05:49:22.000Z",
+          "section": "world",
+          "score": 4.29,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.9,
+            "recency": 1.99,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/8/7/bodies-of-climbers-killed-in-avalanche-retrieved-from-broad-peak?traffic_source=rss",
+              "title": "Bodies of climbers killed in avalanche retrieved from Broad Peak"
+            }
+          ]
+        },
+        {
+          "title": "Mexico deploys troops to secure avocado region after US halts imports",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/8/7/mexico-deploys-troops-to-secure-avocado-region-after-us-halts-imports?traffic_source=rss",
+          "summary": "Mexico deployed more than 1,500 troops to its main avocado-producing state after the US suspended export inspections.",
+          "published": "2026-08-07T05:25:56.000Z",
+          "section": "world",
+          "score": 4.25,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.9,
+            "recency": 1.95,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/8/7/mexico-deploys-troops-to-secure-avocado-region-after-us-halts-imports?traffic_source=rss",
+              "title": "Mexico deploys troops to secure avocado region after US halts imports"
+            }
+          ]
+        },
+        {
+          "title": "Yan Diomandé makes history with Real Madrid move",
+          "link": "https://www.france24.com/en/tv-shows/sports/20260807-yan-diomand%C3%A9-makes-history-with-real-madrid-move",
+          "summary": "Real Madrid have officially announced the signing of Yan Diomandé from RB Leipzig on a deal running until 2033. The transfer, worth €125 million plus €15 million in add-ons, becomes the most expensive in the Spanish club’s history. At just 19 years old, the Ivory Coast international also becomes the most expensive African player of all time.",
+          "published": "2026-08-07T05:25:50.000Z",
+          "section": "world",
+          "score": 4.25,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.9,
+            "recency": 1.95,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "France 24",
+              "link": "https://www.france24.com/en/tv-shows/sports/20260807-yan-diomand%C3%A9-makes-history-with-real-madrid-move",
+              "title": "Yan Diomandé makes history with Real Madrid move"
+            }
+          ]
+        },
+        {
+          "title": "EasyJet agrees to £5.7bn takeover by US firm",
+          "link": "https://www.bbc.co.uk/news/articles/cjejzjpy98wo?at_medium=RSS&at_campaign=rss",
+          "summary": "The no-frills carrier agrees to be bought by US firm Apollo after a rival suitor drops out.",
+          "published": "2026-08-06T16:35:32.000Z",
+          "section": "world",
+          "score": 4.23,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1,
+            "recency": 1.03,
+            "promoted": [
+              "takeover"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cjejzjpy98wo?at_medium=RSS&at_campaign=rss",
+              "title": "EasyJet agrees to £5.7bn takeover by US firm"
+            }
+          ]
+        },
+        {
+          "title": "Record-high heat soars through South Korea",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/8/7/record-high-heat-soars-through-south-korea?traffic_source=rss",
+          "summary": "A record-high heatwave is sweeping through the Korean Peninsula, sending temperatures skyrocketing, reaching 42.5C.",
+          "published": "2026-08-07T05:00:48.000Z",
+          "section": "world",
+          "score": 4.21,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.9,
+            "recency": 1.91,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/8/7/record-high-heat-soars-through-south-korea?traffic_source=rss",
+              "title": "Record-high heat soars through South Korea"
+            }
+          ]
+        },
+        {
+          "title": "Turkiye’s Erdogan visits Saudi Arabia: What to expect",
+          "link": "https://www.aljazeera.com/news/2026/8/7/turkiyes-erdogan-to-visit-saudi-arabia-what-to-expect?traffic_source=rss",
+          "summary": "Erdogan will meet with Saudi Crown Prince Mohammed bin Salman and Pakistani PM Shehbaz Sharif, his office says.",
+          "published": "2026-08-07T04:43:43.000Z",
+          "section": "world",
+          "score": 4.18,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.9,
+            "recency": 1.88,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/8/7/turkiyes-erdogan-to-visit-saudi-arabia-what-to-expect?traffic_source=rss",
+              "title": "Turkiye’s Erdogan visits Saudi Arabia: What to expect"
+            }
+          ]
+        },
+        {
+          "title": "One killed, four injured in Thailand school shooting, officials say",
+          "link": "https://www.aljazeera.com/news/2026/8/7/one-killed-four-injured-in-thailand-school-shooting-officials-say?traffic_source=rss",
+          "summary": "Authorities say the gunman, a student, killed a teacher before taking his own life at a school northwest of Bangkok.",
+          "published": "2026-08-07T04:23:52.000Z",
+          "section": "world",
+          "score": 4.15,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.9,
+            "recency": 1.85,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/8/7/one-killed-four-injured-in-thailand-school-shooting-officials-say?traffic_source=rss",
+              "title": "One killed, four injured in Thailand school shooting, officials say"
+            }
+          ]
+        },
+        {
+          "title": "Anti-Muslim US Congressman Andy Ogles loses Republican primary",
+          "link": "https://www.aljazeera.com/news/2026/8/7/anti-muslim-us-congressman-andy-ogles-loses-congressional-primary?traffic_source=rss",
+          "summary": "Trump's endorsement fails to save Tennessee legislator who recently said 'Muslims don't belong in American society'.",
+          "published": "2026-08-07T04:04:45.000Z",
+          "section": "world",
+          "score": 4.12,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.9,
+            "recency": 1.82,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/8/7/anti-muslim-us-congressman-andy-ogles-loses-congressional-primary?traffic_source=rss",
+              "title": "Anti-Muslim US Congressman Andy Ogles loses Republican primary"
+            }
+          ]
+        }
+      ],
+      "dropped": 84
+    },
+    {
+      "id": "ireland",
+      "name": "Ireland",
+      "total": 108,
+      "items": [
+        {
+          "title": "'The curtain has fallen on this life, but what a performance it was': Dublin says goodbye to Brenda Fricker",
           "link": "https://www.thejournal.ie/funeral-of-oscar-winning-actress-brenda-fricker-to-be-held-in-dublin-7122631-Aug2026/",
-          "summary": "The Oscar-winning actress died in Our Lady’s Hospice in Dublin’s Harold’s Cross on July 16 after a period of ill-health.",
-          "published": "2026-08-06T05:42:23.000Z",
+          "summary": "The Oscar-winning actress’s funeral heard she was a “true legend” who was full of laughter and mischief and lived a life “full to the brim”.",
+          "published": "2026-08-06T14:00:00.000Z",
           "section": "ireland",
-          "score": 6.27,
+          "score": 6.73,
           "outlets": 2,
           "reasons": {
             "corroboration": 2.22,
             "source": 1,
-            "recency": 1.85,
+            "recency": 0.91,
             "promoted": [
-              "irish"
+              "dublin",
+              "urc"
             ],
             "demoted": []
           },
@@ -495,27 +463,187 @@
             {
               "name": "TheJournal.ie",
               "link": "https://www.thejournal.ie/funeral-of-oscar-winning-actress-brenda-fricker-to-be-held-in-dublin-7122631-Aug2026/",
-              "title": "Funeral of Oscar-winning actress Brenda Fricker to be held in Dublin this morning"
+              "title": "'The curtain has fallen on this life, but what a performance it was': Dublin says goodbye to Brenda Fricker"
             },
             {
               "name": "RTÉ",
-              "link": "https://www.rte.ie/news/ireland/2026/0806/1586659-brenda-fricker-funeral/",
-              "title": "Funeral of actress Brenda Fricker to take place in Dublin"
+              "link": "https://www.rte.ie/entertainment/2026/0806/1586719-in-pictures-mourners-gather-to-honour-brenda-fricker/",
+              "title": "In pictures: Mourners gather to honour Brenda Fricker"
             }
           ]
         },
         {
-          "title": "Man, 75, extradited to NI on indecent assault charges",
-          "link": "https://www.rte.ie/news/2026/0806/1586687-australia-extradition-belfast/",
-          "summary": "A 75-year-old man has been extradited from Australia to Northern Ireland to stand trial for 14 offences of indecent assault on a female, and three offences of committing an act of gross indecency with a child.",
-          "published": "2026-08-05T23:46:44.000Z",
+          "title": "Firefighters to remain at scrapyard blaze 'for the foreseeable future'",
+          "link": "https://www.thejournal.ie/fire-north-dublin-ballyboughal-7123537-Aug2026/",
+          "summary": "The fire brigade has advised people affected by the smoke to close all their windows and doors.",
+          "published": "2026-08-06T20:36:00.000Z",
           "section": "ireland",
-          "score": 5.9,
+          "score": 5.78,
           "outlets": 2,
           "reasons": {
             "corroboration": 2.22,
             "source": 1.1,
-            "recency": 1.38,
+            "recency": 1.26,
+            "promoted": [
+              "dublin"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "TheJournal.ie",
+              "link": "https://www.thejournal.ie/fire-north-dublin-ballyboughal-7123537-Aug2026/",
+              "title": "Firefighters to remain at scrapyard blaze 'for the foreseeable future'"
+            },
+            {
+              "name": "Irish Times",
+              "link": "https://www.irishtimes.com/ireland/2026/08/06/fire-service-battles-large-blaze-in-dublin-as-residents-advised-to-close-doors-and-windows/",
+              "title": "Fire service battles large blaze in Dublin as residents advised to close doors and windows"
+            }
+          ]
+        },
+        {
+          "title": "Belfast’s homeless out of sync with success of Fleadh Cheoil na hÉireann 2026",
+          "link": "https://www.irishtimes.com/ireland/social-affairs/2026/08/07/belfasts-homeless-out-of-sync-with-success-of-fleadh-cheoil-na-heireann-2026/",
+          "summary": "‘Where a lot of the events are taking place, there’s rough sleepers who call the streets their home’",
+          "published": "2026-08-07T05:00:00.000Z",
+          "section": "ireland",
+          "score": 5.61,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1.1,
+            "recency": 1.91,
+            "promoted": [
+              "belfast"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "Irish Times",
+              "link": "https://www.irishtimes.com/ireland/social-affairs/2026/08/07/belfasts-homeless-out-of-sync-with-success-of-fleadh-cheoil-na-heireann-2026/",
+              "title": "Belfast’s homeless out of sync with success of Fleadh Cheoil na hÉireann 2026"
+            }
+          ]
+        },
+        {
+          "title": "‘It’s like looking at Everest. It gives me goosebumps’: Surfers seek the ultimate wave on Ireland’s west coast",
+          "link": "https://www.irishtimes.com/ireland/2026/08/07/its-like-looking-at-everest-it-gives-me-goosebumps-surfers-seek-the-ultimate-wave-on-irelands-west-coast/",
+          "summary": "A surf culture has grown up along the Donegal and Sligo coast where newcomers and seasoned wave riders alike find friendship, thrills and healing",
+          "published": "2026-08-07T05:00:00.000Z",
+          "section": "ireland",
+          "score": 5.61,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1.1,
+            "recency": 1.91,
+            "promoted": [
+              "ireland"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "Irish Times",
+              "link": "https://www.irishtimes.com/ireland/2026/08/07/its-like-looking-at-everest-it-gives-me-goosebumps-surfers-seek-the-ultimate-wave-on-irelands-west-coast/",
+              "title": "‘It’s like looking at Everest. It gives me goosebumps’: Surfers seek the ultimate wave on Ireland’s west coast"
+            }
+          ]
+        },
+        {
+          "title": "Rough sleepers ‘moved’ from Belfast city centre during Fleadh festival",
+          "link": "https://www.irishtimes.com/ireland/social-affairs/2026/08/07/belfast-homeless-charity-says-rough-sleepers-moved-out-of-city-for-fleadh-festival/",
+          "summary": "Belfast homeless charity says rough sleepers threatened with arrest near festival",
+          "published": "2026-08-07T05:00:00.000Z",
+          "section": "ireland",
+          "score": 5.61,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1.1,
+            "recency": 1.91,
+            "promoted": [
+              "belfast"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "Irish Times",
+              "link": "https://www.irishtimes.com/ireland/social-affairs/2026/08/07/belfast-homeless-charity-says-rough-sleepers-moved-out-of-city-for-fleadh-festival/",
+              "title": "Rough sleepers ‘moved’ from Belfast city centre during Fleadh festival"
+            }
+          ]
+        },
+        {
+          "title": "Jack Charlton's family face a tax bill of up to €233k to keep his 1966 World Cup medal",
+          "link": "https://www.thejournal.ie/jack-charlton-world-cup-medal-inheritance-tax-7123844-Aug2026/",
+          "summary": "Jack’s son has said that the family has no intention of selling the medal, despite the inheritance tax liability.",
+          "published": "2026-08-06T19:17:33.000Z",
+          "section": "ireland",
+          "score": 5.6,
+          "outlets": 2,
+          "reasons": {
+            "corroboration": 2.22,
+            "source": 1,
+            "recency": 1.18,
+            "promoted": [
+              "ireland"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "TheJournal.ie",
+              "link": "https://www.thejournal.ie/jack-charlton-world-cup-medal-inheritance-tax-7123844-Aug2026/",
+              "title": "Jack Charlton's family face a tax bill of up to €233k to keep his 1966 World Cup medal"
+            },
+            {
+              "name": "RTÉ",
+              "link": "https://www.rte.ie/sport/soccer/2026/0806/1586731-charlton-family-face-233k-tax-for-jacks-world-cup-medal/",
+              "title": "Charlton family could face tax bill for World Cup medal"
+            }
+          ]
+        },
+        {
+          "title": "58 Yemeni govt forces killed in Houthi missile attacks",
+          "link": "https://www.rte.ie/news/middle-east/2026/0807/1586873-middle-east/",
+          "summary": "Yemen's Iran-backed Houthis killed at least 58 government troops in missile and drone attacks yesterday, a military source said, in one of the deadliest days of the country's civil war in four years.",
+          "published": "2026-08-07T03:34:15.000Z",
+          "section": "ireland",
+          "score": 5.58,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1,
+            "recency": 1.78,
+            "promoted": [
+              "urc"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "RTÉ",
+              "link": "https://www.rte.ie/news/middle-east/2026/0807/1586873-middle-east/",
+              "title": "58 Yemeni govt forces killed in Houthi missile attacks"
+            }
+          ]
+        },
+        {
+          "title": "'So proud of them' - Cork club primed to cheer on heroes",
+          "link": "https://www.rte.ie/news/2026/0807/1586819-camogie-final-cork/",
+          "summary": "This Sunday, the Rebels and Tribeswomen meet in a third successive All-Ireland Camogie Final at Croke Park, with 2024 champions Cork bidding for a record-extending 31st title and Galway aiming to retain the O'Duffy Cup.",
+          "published": "2026-08-07T05:38:10.000Z",
+          "section": "ireland",
+          "score": 5.57,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1,
+            "recency": 1.97,
             "promoted": [
               "ireland"
             ],
@@ -524,84 +652,53 @@
           "sources": [
             {
               "name": "RTÉ",
-              "link": "https://www.rte.ie/news/2026/0806/1586687-australia-extradition-belfast/",
-              "title": "Man, 75, extradited to NI on indecent assault charges"
-            },
-            {
-              "name": "Irish Times",
-              "link": "https://www.irishtimes.com/crime-law/2026/08/05/man-75-extradited-from-australia-to-northern-ireland-on-historical-sex-charges/",
-              "title": "Man (75) extradited from Australia to Northern Ireland on historical sex charges"
+              "link": "https://www.rte.ie/news/2026/0807/1586819-camogie-final-cork/",
+              "title": "'So proud of them' - Cork club primed to cheer on heroes"
             }
           ]
         },
         {
-          "title": "The digital church door: Why 3.4 million a month turn to RIP.ie to pay their respects",
-          "link": "https://www.thejournal.ie/rip-ie-7120864-Aug2026/",
-          "summary": "Thousands of condolences for musician Glen Hansard show how RIP.ie has become Ireland’s top place to pay tribute.",
-          "published": "2026-08-05T19:00:14.000Z",
+          "title": "Rare indictment as Israeli settler charged over killing of Palestinian activist Awdah Hathaleen",
+          "link": "https://www.thejournal.ie/awdah-hathaleen-man-charged-killing-west-bank-israel-settler-7123640-Aug2026/",
+          "summary": "Rights groups say it is the first time an Israeli settler has been indicted over the killing of a Palestinian in the occupied West Bank since October 2023.",
+          "published": "2026-08-06T16:49:04.000Z",
           "section": "ireland",
-          "score": 5.79,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 0.7,
-            "recency": 1.09,
-            "promoted": [
-              "ireland",
-              "urc"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "TheJournal.ie",
-              "link": "https://www.thejournal.ie/rip-ie-7120864-Aug2026/",
-              "title": "The digital church door: Why 3.4 million a month turn to RIP.ie to pay their respects"
-            }
-          ]
-        },
-        {
-          "title": "Man who claims RTÉ bugged his phone appears in court for allegedly breaching order",
-          "link": "https://www.thejournal.ie/rte-court-man-court-order-7122550-Aug2026/",
-          "summary": "When Matthews appeared before the court on 29 July he was charged with engaging in threatening behaviour.",
-          "published": "2026-08-05T21:02:13.000Z",
-          "section": "ireland",
-          "score": 5.72,
+          "score": 5.36,
           "outlets": 2,
           "reasons": {
             "corroboration": 2.22,
-            "source": 1.1,
-            "recency": 1.2,
+            "source": 1,
+            "recency": 1.04,
             "promoted": [
-              "cork"
+              "indicted"
             ],
             "demoted": []
           },
           "sources": [
             {
               "name": "TheJournal.ie",
-              "link": "https://www.thejournal.ie/rte-court-man-court-order-7122550-Aug2026/",
-              "title": "Man who claims RTÉ bugged his phone appears in court for allegedly breaching order"
+              "link": "https://www.thejournal.ie/awdah-hathaleen-man-charged-killing-west-bank-israel-settler-7123640-Aug2026/",
+              "title": "Rare indictment as Israeli settler charged over killing of Palestinian activist Awdah Hathaleen"
             },
             {
-              "name": "Irish Times",
-              "link": "https://www.irishtimes.com/crime-law/courts/2026/08/05/man-banned-from-rte-cork-allegedly-breaches-order/",
-              "title": "Man banned from RTÉ Cork allegedly breaches order"
+              "name": "RTÉ",
+              "link": "https://www.rte.ie/news/middle-east/2026/0806/1586816-west-bank-israel/",
+              "title": "Israel charges settler in killing of Palestinian activist"
             }
           ]
         },
         {
-          "title": "Sexual assaults of women and children on trains among incidents reported to Irish Rail",
-          "link": "https://www.irishtimes.com/ireland/2026/08/06/sexual-assaults-of-women-and-children-on-trains-among-incidents-reported-to-irish-rail/",
-          "summary": "Department of Transport said it was ‘actively progressing’ work to establish a transport security force",
-          "published": "2026-08-06T06:47:51.000Z",
+          "title": "Family of Irish fashion designer who died on yacht in New York launch $50m lawsuit",
+          "link": "https://www.thejournal.ie/martha-nolan-oslatarra-new-york-7122867-Aug2026/",
+          "summary": "Martha Nolan-O’Slatarra died on a yacht in Montauk a year ago this week.",
+          "published": "2026-08-06T11:46:10.000Z",
           "section": "ireland",
-          "score": 5.65,
-          "outlets": 1,
+          "score": 5.23,
+          "outlets": 2,
           "reasons": {
-            "corroboration": 1.4,
-            "source": 1.1,
-            "recency": 1.95,
+            "corroboration": 2.22,
+            "source": 1,
+            "recency": 0.81,
             "promoted": [
               "irish"
             ],
@@ -609,276 +706,235 @@
           },
           "sources": [
             {
-              "name": "Irish Times",
-              "link": "https://www.irishtimes.com/ireland/2026/08/06/sexual-assaults-of-women-and-children-on-trains-among-incidents-reported-to-irish-rail/",
-              "title": "Sexual assaults of women and children on trains among incidents reported to Irish Rail"
-            }
-          ]
-        },
-        {
-          "title": "Man detained in NI allegedly convicted of Dublin rape",
-          "link": "https://www.rte.ie/news/courts/2026/0805/1586652-belfast-high-court/",
-          "summary": "A man detained in Belfast following an international police hunt was allegedly convicted of rape in Dublin under a different name, the High Court heard today.",
-          "published": "2026-08-05T17:44:20.000Z",
-          "section": "ireland",
-          "score": 5.54,
-          "outlets": 2,
-          "reasons": {
-            "corroboration": 2.22,
-            "source": 1.1,
-            "recency": 1.02,
-            "promoted": [
-              "dublin"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "RTÉ",
-              "link": "https://www.rte.ie/news/courts/2026/0805/1586652-belfast-high-court/",
-              "title": "Man detained in NI allegedly convicted of Dublin rape"
+              "name": "TheJournal.ie",
+              "link": "https://www.thejournal.ie/martha-nolan-oslatarra-new-york-7122867-Aug2026/",
+              "title": "Family of Irish fashion designer who died on yacht in New York launch $50m lawsuit"
             },
             {
-              "name": "Irish Times",
-              "link": "https://www.irishtimes.com/crime-law/courts/2026/08/05/man-detained-in-belfast-allegedly-convicted-of-rape-in-dublin-under-different-name/",
-              "title": "Man detained in Belfast allegedly convicted of rape in Dublin under different name"
-            }
-          ]
-        },
-        {
-          "title": "Daniel Kinahan expected to be extradited to Ireland within days",
-          "link": "https://www.irishtimes.com/crime-law/2026/08/06/daniel-kinahans-extradition-from-dubai-expected-in-coming-days-after-decade-of-living-openly-in-uae/",
-          "summary": "Major security operation being finalised for return of Kinahan cartel boss to Dublin",
-          "published": "2026-08-06T05:00:01.000Z",
-          "section": "ireland",
-          "score": 5.49,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1.1,
-            "recency": 1.79,
-            "promoted": [
-              "ireland"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "Irish Times",
-              "link": "https://www.irishtimes.com/crime-law/2026/08/06/daniel-kinahans-extradition-from-dubai-expected-in-coming-days-after-decade-of-living-openly-in-uae/",
-              "title": "Daniel Kinahan expected to be extradited to Ireland within days"
-            }
-          ]
-        },
-        {
-          "title": "Dirty old town and talking rubbish",
-          "link": "https://www.irishtimes.com/ireland/2026/08/06/dirty-old-town-and-talking-rubbish/",
-          "summary": "Dublin City Council is ignoring the problem that blights our streets",
-          "published": "2026-08-06T05:00:01.000Z",
-          "section": "ireland",
-          "score": 5.49,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1.1,
-            "recency": 1.79,
-            "promoted": [
-              "dublin"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "Irish Times",
-              "link": "https://www.irishtimes.com/ireland/2026/08/06/dirty-old-town-and-talking-rubbish/",
-              "title": "Dirty old town and talking rubbish"
-            }
-          ]
-        },
-        {
-          "title": "‘We rented houses at first but then said: Let’s just buy a caravan’",
-          "link": "https://www.irishtimes.com/ireland/2026/08/06/we-rented-houses-at-first-but-then-said-lets-just-buy-a-caravan/",
-          "summary": "Ireland’s coastline: Achill is a hot spot for mobile home and caravan holidaymakers, but the growth of wild campers has raised problems",
-          "published": "2026-08-06T05:00:00.000Z",
-          "section": "ireland",
-          "score": 5.49,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1.1,
-            "recency": 1.79,
-            "promoted": [
-              "ireland"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "Irish Times",
-              "link": "https://www.irishtimes.com/ireland/2026/08/06/we-rented-houses-at-first-but-then-said-lets-just-buy-a-caravan/",
-              "title": "‘We rented houses at first but then said: Let’s just buy a caravan’"
+              "name": "RTÉ",
+              "link": "https://www.rte.ie/news/2026/0806/1586739-50m-legal-action-launched-over-irish-womans-death-in-ny/",
+              "title": "Family launch legal action over Irish woman's death in NY"
             }
           ]
         }
       ],
-      "dropped": 95
+      "dropped": 98
     },
     {
       "id": "uk",
       "name": "United Kingdom",
-      "total": 22,
+      "total": 30,
       "items": [
         {
-          "title": "Cambridge professor at centre of plagiarism row resigns",
-          "link": "https://www.bbc.co.uk/news/articles/c1e146jw618o?at_medium=RSS&at_campaign=rss",
-          "summary": "Prof Jason Arday said he had \"concluded that the only way to bring this chapter to an end is to step away\".",
-          "published": "2026-08-06T06:28:03.000Z",
+          "title": "Officer who led PC Harper investigation 'appalled' killers could be released early",
+          "link": "https://www.bbc.co.uk/news/articles/c9q9erpz953o?at_medium=RSS&at_campaign=rss",
+          "summary": "Former Det Sup Stuart Blaik, who led the investigation into the police officer's death, has publicly shared his views on the case for the first time.",
+          "published": "2026-08-07T05:00:23.000Z",
           "section": "uk",
-          "score": 4.32,
+          "score": 5.41,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 1,
-            "recency": 1.92,
-            "promoted": [],
+            "recency": 1.91,
+            "promoted": [
+              "investigation"
+            ],
             "demoted": []
           },
           "sources": [
             {
               "name": "BBC UK",
-              "link": "https://www.bbc.co.uk/news/articles/c1e146jw618o?at_medium=RSS&at_campaign=rss",
-              "title": "Cambridge professor at centre of plagiarism row resigns"
+              "link": "https://www.bbc.co.uk/news/articles/c9q9erpz953o?at_medium=RSS&at_campaign=rss",
+              "title": "Officer who led PC Harper investigation 'appalled' killers could be released early"
             }
           ]
         },
         {
-          "title": "Whole lotta shock as Led Zep star plays teen at chess",
-          "link": "https://www.bbc.co.uk/news/articles/cly914w625xo?at_medium=RSS&at_campaign=rss",
-          "summary": "Robert Plant surprises competitors at a children's tournament in Bewdley to play \"some casual chess\".",
-          "published": "2026-08-06T05:15:02.000Z",
+          "title": "Fleadh to exceed projected £53m economic boost to Belfast",
+          "link": "https://www.bbc.co.uk/news/articles/cj031plqrvqo?at_medium=RSS&at_campaign=rss",
+          "summary": "Fleadh Cheoil na hÉireann, hosted this year in Belfast for the first time, runs from 2 to 9 August.",
+          "published": "2026-08-06T23:00:10.000Z",
           "section": "uk",
-          "score": 4.21,
+          "score": 5.02,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 1,
-            "recency": 1.81,
-            "promoted": [],
+            "recency": 1.42,
+            "promoted": [
+              "belfast"
+            ],
             "demoted": []
           },
           "sources": [
             {
               "name": "BBC UK",
-              "link": "https://www.bbc.co.uk/news/articles/cly914w625xo?at_medium=RSS&at_campaign=rss",
-              "title": "Whole lotta shock as Led Zep star plays teen at chess"
+              "link": "https://www.bbc.co.uk/news/articles/cj031plqrvqo?at_medium=RSS&at_campaign=rss",
+              "title": "Fleadh to exceed projected £53m economic boost to Belfast"
             }
           ]
         },
         {
-          "title": "Michelin-star restaurant regains top hygiene rating after previous one-star inspection",
-          "link": "https://www.bbc.co.uk/news/articles/c934wqk1w1vo?at_medium=RSS&at_campaign=rss",
-          "summary": "Ynyshir got a one-star food hygiene rating from inspectors but has since been restored to five stars.",
-          "published": "2026-08-06T05:11:29.000Z",
+          "title": "How a diary entry solved the murder of a missing man",
+          "link": "https://www.bbc.co.uk/news/articles/c62vzv2xyq9o?at_medium=RSS&at_campaign=rss",
+          "summary": "A detective shares how a six-year long investigation brought answers to a family in turmoil.",
+          "published": "2026-08-06T23:13:11.000Z",
           "section": "uk",
-          "score": 4.2,
+          "score": 4.93,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 1,
-            "recency": 1.8,
-            "promoted": [],
+            "recency": 1.43,
+            "promoted": [
+              "investigation"
+            ],
             "demoted": []
           },
           "sources": [
             {
               "name": "BBC UK",
-              "link": "https://www.bbc.co.uk/news/articles/c934wqk1w1vo?at_medium=RSS&at_campaign=rss",
-              "title": "Michelin-star restaurant regains top hygiene rating after previous one-star inspection"
+              "link": "https://www.bbc.co.uk/news/articles/c62vzv2xyq9o?at_medium=RSS&at_campaign=rss",
+              "title": "How a diary entry solved the murder of a missing man"
             }
           ]
         },
         {
-          "title": "Our daughter's death at 18 left us shattered - but she saved two lives",
-          "link": "https://www.bbc.co.uk/news/articles/c07r5k49230o?at_medium=RSS&at_campaign=rss",
-          "summary": "Menna's heart and lungs were donated after she collapsed at the family's home and died in hospital.",
-          "published": "2026-08-06T05:07:42.000Z",
+          "title": "Judge allows Lockerbie suspect's alleged confession to be used at US trial",
+          "link": "https://www.bbc.co.uk/news/articles/c3r075jpyx1o?at_medium=RSS&at_campaign=rss",
+          "summary": "Abu Agila Mas'ud Kheir Al-Marimi has been accused of building the bomb that brought down Pan Am 103 in 1988, killing 270 people.",
+          "published": "2026-08-07T05:39:41.000Z",
           "section": "uk",
-          "score": 4.2,
+          "score": 4.37,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 1,
-            "recency": 1.8,
+            "recency": 1.97,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
               "name": "BBC UK",
-              "link": "https://www.bbc.co.uk/news/articles/c07r5k49230o?at_medium=RSS&at_campaign=rss",
-              "title": "Our daughter's death at 18 left us shattered - but she saved two lives"
+              "link": "https://www.bbc.co.uk/news/articles/c3r075jpyx1o?at_medium=RSS&at_campaign=rss",
+              "title": "Judge allows Lockerbie suspect's alleged confession to be used at US trial"
             }
           ]
         },
         {
-          "title": "PC Harper widow 'won't give up' early release fight",
-          "link": "https://www.bbc.co.uk/news/articles/cy0j7lee3y8o?at_medium=RSS&at_campaign=rss",
-          "summary": "Two men convicted of PC Andrew Harper's manslaughter could still be released from prison next year.",
-          "published": "2026-08-06T05:06:44.000Z",
+          "title": "Family shocked after review of 'bloodbath' sibling deaths finds no new evidence",
+          "link": "https://www.bbc.co.uk/news/articles/c235e5x9r4do?at_medium=RSS&at_campaign=rss",
+          "summary": "The bodies of Griff and Martha “Patti” Thomas were found at the isolated farmhouse where they lived in 1976.",
+          "published": "2026-08-07T05:14:39.000Z",
           "section": "uk",
-          "score": 4.2,
+          "score": 4.33,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 1,
-            "recency": 1.8,
+            "recency": 1.93,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
               "name": "BBC UK",
-              "link": "https://www.bbc.co.uk/news/articles/cy0j7lee3y8o?at_medium=RSS&at_campaign=rss",
-              "title": "PC Harper widow 'won't give up' early release fight"
+              "link": "https://www.bbc.co.uk/news/articles/c235e5x9r4do?at_medium=RSS&at_campaign=rss",
+              "title": "Family shocked after review of 'bloodbath' sibling deaths finds no new evidence"
             }
           ]
         },
         {
-          "title": "Car washes and vape shops can still sponsor skilled foreign workers despite visa changes",
-          "link": "https://www.bbc.co.uk/news/articles/cj639rx147eo?at_medium=RSS&at_campaign=rss",
-          "summary": "The rules were tightened in July 2025 to restrict the scheme mostly to graduate-level employees who would be earning at least £41,700.",
-          "published": "2026-08-06T05:00:13.000Z",
+          "title": "UK papers: 'Tories to end social housing for foreigners' and 'Bottoms down'",
+          "link": "https://www.bbc.co.uk/news/articles/cyvlgv8m382o?at_medium=RSS&at_campaign=rss",
+          "summary": "The Conservatives' social housing plans and Westminster City Council's pub proposals lead Friday's papers.",
+          "published": "2026-08-07T04:42:48.000Z",
           "section": "uk",
-          "score": 4.19,
+          "score": 4.28,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 1,
-            "recency": 1.79,
+            "recency": 1.88,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
               "name": "BBC UK",
-              "link": "https://www.bbc.co.uk/news/articles/cj639rx147eo?at_medium=RSS&at_campaign=rss",
-              "title": "Car washes and vape shops can still sponsor skilled foreign workers despite visa changes"
+              "link": "https://www.bbc.co.uk/news/articles/cyvlgv8m382o?at_medium=RSS&at_campaign=rss",
+              "title": "UK papers: 'Tories to end social housing for foreigners' and 'Bottoms down'"
             }
           ]
         }
       ],
-      "dropped": 16
+      "dropped": 24
     },
     {
       "id": "us",
       "name": "United States",
-      "total": 30,
+      "total": 29,
       "items": [
         {
-          "title": "WATCH LIVE: Sen. Paul holds contempt vote after Fauci invokes 5th Amendment",
-          "link": "https://www.pbs.org/newshour/politics/watch-live-sen-paul-holds-contempt-vote-after-fauci-invokes-5th-amendment",
-          "summary": "A contempt finding could open the door to an investigation into whether Dr. Anthony Fauci had a valid constitutional right against self-incrimination when he refused to answer dozens of questions from lawmakers at a committee hearing last week focused on his handling of the COVID-19 pandemic.",
-          "published": "2026-08-05T23:45:23.000Z",
+          "title": "News Wrap: Senate committee votes to hold Fauci in contempt of Congress",
+          "link": "https://www.pbs.org/newshour/show/news-wrap-senate-committee-votes-to-hold-fauci-in-contempt-of-congress",
+          "summary": "In our news wrap Thursday, a GOP-led Senate committee voted to hold Dr. Anthony Fauci in contempt of Congress after he declined to answer questions during a contentious hearing, the mRNA technology that made the COVID-19 vaccine possible will soon be used in flu vaccines for older Americans and health officials are investigating a salmonella outbreak linked to jalapeno peppers sourced from Mexico.",
+          "published": "2026-08-06T22:50:41.000Z",
+          "section": "us",
+          "score": 5.11,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.9,
+            "recency": 1.41,
+            "promoted": [
+              "urc"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "link": "https://www.pbs.org/newshour/show/news-wrap-senate-committee-votes-to-hold-fauci-in-contempt-of-congress",
+              "title": "News Wrap: Senate committee votes to hold Fauci in contempt of Congress"
+            }
+          ]
+        },
+        {
+          "title": "Court orders Instagram and Facebook's Meta to pay $567M to address kids' mental health online",
+          "link": "https://www.npr.org/2026/08/07/nx-s1-5924581/court-orders-instagram-and-facebooks-meta-to-pay-567m-to-address-kids-mental-health-online",
+          "summary": "Judge Bryan Biedscheid said in a ruling late Thursday that the bulk of the money will be used for treatment services for young people.<br><br>",
+          "published": "2026-08-07T05:26:31.000Z",
+          "section": "us",
+          "score": 5.07,
+          "outlets": 2,
+          "reasons": {
+            "corroboration": 2.22,
+            "source": 0.9,
+            "recency": 1.95,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "NPR",
+              "link": "https://www.npr.org/2026/08/07/nx-s1-5924581/court-orders-instagram-and-facebooks-meta-to-pay-567m-to-address-kids-mental-health-online",
+              "title": "Court orders Instagram and Facebook's Meta to pay $567M to address kids' mental health online"
+            },
+            {
+              "name": "PBS NewsHour",
+              "link": "https://www.pbs.org/newshour/nation/new-mexico-court-orders-meta-to-pay-567-million-over-mental-health-harms-to-kids-online",
+              "title": "New Mexico court orders Meta to pay $567 million over mental health harms to kids online"
+            }
+          ]
+        },
+        {
+          "title": "Group pushes for ban on using campaign funds for legal fees in misconduct cases",
+          "link": "https://www.pbs.org/newshour/show/group-pushes-for-ban-on-using-campaign-funds-for-legal-fees-in-misconduct-cases",
+          "summary": "After Graham Platner ended his Senate campaign, activists launched an effort to claw back donations so the money wouldn't be used on legal fees related to Platner's alleged misconduct. The group behind the effort, Reckoning Action, is working with lawmakers to create a ban on using campaign cash for legal fees in sexual misconduct investigations. Liz Landers discussed more with Cheyenne Hunt.",
+          "published": "2026-08-06T22:30:05.000Z",
           "section": "us",
           "score": 4.78,
           "outlets": 1,
@@ -894,23 +950,23 @@
           "sources": [
             {
               "name": "PBS NewsHour",
-              "link": "https://www.pbs.org/newshour/politics/watch-live-sen-paul-holds-contempt-vote-after-fauci-invokes-5th-amendment",
-              "title": "WATCH LIVE: Sen. Paul holds contempt vote after Fauci invokes 5th Amendment"
+              "link": "https://www.pbs.org/newshour/show/group-pushes-for-ban-on-using-campaign-funds-for-legal-fees-in-misconduct-cases",
+              "title": "Group pushes for ban on using campaign funds for legal fees in misconduct cases"
             }
           ]
         },
         {
-          "title": "AP Report: Trump's immigration crackdown has detained more than 50 military spouses and parents",
-          "link": "https://www.pbs.org/newshour/nation/ap-report-trumps-immigration-crackdown-has-detained-more-than-50-military-spouses-and-parents",
-          "summary": "President Donald Trump's administration has detained dozens of parents and spouses of active-duty U.S. troops as it rolls back immigration protections for military families to pursue its mass deportation agenda, an Associated Press investigation found.",
-          "published": "2026-08-05T21:55:35.000Z",
+          "title": "GOP Rep. Max Miller resists pressure to drop reelection bid as party anxiety grows over abuse claims",
+          "link": "https://www.pbs.org/newshour/politics/gop-rep-max-miller-resists-pressure-to-drop-reelection-bid-as-party-anxiety-grows-over-abuse-claims",
+          "summary": "Miller is facing a congressional ethics investigation related to domestic abuse allegations leveled against him by his ex-wife but is insisting he won't withdraw.",
+          "published": "2026-08-06T18:23:04.000Z",
           "section": "us",
-          "score": 4.66,
+          "score": 4.53,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.9,
-            "recency": 1.26,
+            "recency": 1.13,
             "promoted": [
               "investigation"
             ],
@@ -919,48 +975,23 @@
           "sources": [
             {
               "name": "PBS NewsHour",
-              "link": "https://www.pbs.org/newshour/nation/ap-report-trumps-immigration-crackdown-has-detained-more-than-50-military-spouses-and-parents",
-              "title": "AP Report: Trump's immigration crackdown has detained more than 50 military spouses and parents"
+              "link": "https://www.pbs.org/newshour/politics/gop-rep-max-miller-resists-pressure-to-drop-reelection-bid-as-party-anxiety-grows-over-abuse-claims",
+              "title": "GOP Rep. Max Miller resists pressure to drop reelection bid as party anxiety grows over abuse claims"
             }
           ]
         },
         {
-          "title": "France is banning unsolicited telemarketing calls starting next week",
-          "link": "https://www.pbs.org/newshour/world/france-is-banning-unsolicited-telemarketing-calls-starting-next-week",
-          "summary": "France next week will ban unsolicited telemarketing calls under a new law aimed at protecting consumers from intrusive sales pitches and shielding vulnerable people from fraudulent commercial practices.",
-          "published": "2026-08-05T20:52:25.000Z",
+          "title": "Iran war renews concerns about lasting toll of traumatic brain injuries to American troops",
+          "link": "https://www.pbs.org/newshour/health/iran-war-renews-concerns-about-lasting-toll-of-traumatic-brain-injuries-to-american-troops",
+          "summary": "Democratic lawmakers are calling for an investigation into the care wounded troops received following an Iranian drone strike in Kuwait that killed six soldiers early in the Iran war.",
+          "published": "2026-08-06T18:17:06.000Z",
           "section": "us",
-          "score": 4.59,
+          "score": 4.52,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.9,
-            "recency": 1.19,
-            "promoted": [
-              "fraud"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "PBS NewsHour",
-              "link": "https://www.pbs.org/newshour/world/france-is-banning-unsolicited-telemarketing-calls-starting-next-week",
-              "title": "France is banning unsolicited telemarketing calls starting next week"
-            }
-          ]
-        },
-        {
-          "title": "How Trump made an estimated $2.2 billion during the first year of his second term",
-          "link": "https://www.npr.org/2026/08/05/nx-s1-5919997/how-trump-made-an-estimated-2-2-billion-during-the-first-year-of-his-second-term",
-          "summary": "<em>New York Times</em> reporter Eric Lipton discusses his Pulitzer Prize-winning investigations into Trump's conflicts of interest and whether he's exploiting the power of the presidency for self-enrichment.",
-          "published": "2026-08-05T17:41:17.000Z",
-          "section": "us",
-          "score": 4.42,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 0.9,
-            "recency": 1.02,
+            "recency": 1.12,
             "promoted": [
               "investigation"
             ],
@@ -968,259 +999,337 @@
           },
           "sources": [
             {
-              "name": "NPR",
-              "link": "https://www.npr.org/2026/08/05/nx-s1-5919997/how-trump-made-an-estimated-2-2-billion-during-the-first-year-of-his-second-term",
-              "title": "How Trump made an estimated $2.2 billion during the first year of his second term"
-            }
-          ]
-        },
-        {
-          "title": "Drone with explosives found at German airport, official sees 'new quality' of threat",
-          "link": "https://www.npr.org/2026/08/06/g-s1-137571/germany-drone-explosives-airport",
-          "summary": "Regional police and prosecutors said an airport employee discovered a drone near the airport's south runway with \"an unknown explosive device,\" and the object was examined by police",
-          "published": "2026-08-06T05:23:08.000Z",
-          "section": "us",
-          "score": 4.12,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 0.9,
-            "recency": 1.82,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "NPR",
-              "link": "https://www.npr.org/2026/08/06/g-s1-137571/germany-drone-explosives-airport",
-              "title": "Drone with explosives found at German airport, official sees 'new quality' of threat"
-            }
-          ]
-        },
-        {
-          "title": "What El-Sayed's primary win means for Democrats in November",
-          "link": "https://www.pbs.org/newshour/show/what-el-sayeds-primary-win-means-for-democrats-in-november",
-          "summary": "A progressive who has never held elected office defeated an establishment-backed congresswoman in Michigan's Democratic Senate primary. Abdul El-Sayed defeated Haley Stevens in a race that exposed divisions within the party. He will face Republican Mike Rogers in November's general election. Geoff Bennett discussed the results and more with Democratic strategist Lis Smith.",
-          "published": "2026-08-05T22:55:28.000Z",
-          "section": "us",
-          "score": 3.62,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 0.9,
-            "recency": 1.32,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
               "name": "PBS NewsHour",
-              "link": "https://www.pbs.org/newshour/show/what-el-sayeds-primary-win-means-for-democrats-in-november",
-              "title": "What El-Sayed's primary win means for Democrats in November"
+              "link": "https://www.pbs.org/newshour/health/iran-war-renews-concerns-about-lasting-toll-of-traumatic-brain-injuries-to-american-troops",
+              "title": "Iran war renews concerns about lasting toll of traumatic brain injuries to American troops"
+            }
+          ]
+        },
+        {
+          "title": "Student shoots multiple people at a high school in Thailand, authorities say",
+          "link": "https://www.npr.org/2026/08/07/nx-s1-5924583/student-shoots-multiple-people-at-a-high-school-in-thailand-authorities-say",
+          "summary": "The shooter was a student and deaths and injuries were reported.<br><br>",
+          "published": "2026-08-07T05:34:15.000Z",
+          "section": "us",
+          "score": 4.26,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.9,
+            "recency": 1.96,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "NPR",
+              "link": "https://www.npr.org/2026/08/07/nx-s1-5924583/student-shoots-multiple-people-at-a-high-school-in-thailand-authorities-say",
+              "title": "Student shoots multiple people at a high school in Thailand, authorities say"
             }
           ]
         }
       ],
-      "dropped": 24
+      "dropped": 23
     },
     {
       "id": "carbon",
       "name": "Climate and carbon",
-      "total": 0,
-      "items": [],
+      "total": 4,
+      "items": [
+        {
+          "title": "Econetix Gains Rwanda Authorization To Market For CORSIA-Eligible Carbon Credits",
+          "link": "https://carbonherald.com/econetix-gains-rwanda-authorization-to-market-for-corsia-eligible-carbon-credits/?utm_source=rss&utm_medium=rss&utm_campaign=econetix-gains-rwanda-authorization-to-market-for-corsia-eligible-carbon-credits",
+          "summary": "Econetix has secured a Letter of Authorization from Rwanda’s government for a carbon credit project that will supply… The post Econetix Gains Rwanda Authorization To Market For CORSIA-Eligible Carbon Credits appeared first on Carbon Herald .",
+          "published": "2026-08-06T15:01:50.000Z",
+          "section": "carbon",
+          "score": 5.26,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.9,
+            "recency": 0.96,
+            "promoted": [
+              "carbon credit"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "Carbon Herald",
+              "link": "https://carbonherald.com/econetix-gains-rwanda-authorization-to-market-for-corsia-eligible-carbon-credits/?utm_source=rss&utm_medium=rss&utm_campaign=econetix-gains-rwanda-authorization-to-market-for-corsia-eligible-carbon-credits",
+              "title": "Econetix Gains Rwanda Authorization To Market For CORSIA-Eligible Carbon Credits"
+            }
+          ]
+        },
+        {
+          "title": "Tokio Marine Backs Kita To Scale Carbon Market Insurance",
+          "link": "https://carbonherald.com/tokio-marine-backs-kita-to-scale-carbon-market-insurance/?utm_source=rss&utm_medium=rss&utm_campaign=tokio-marine-backs-kita-to-scale-carbon-market-insurance",
+          "summary": "Specialist carbon insurer and Lloyd’s of London coverholder Kita has secured a strategic investment from Tokio Marine Group,… The post Tokio Marine Backs Kita To Scale Carbon Market Insurance appeared first on Carbon Herald .",
+          "published": "2026-08-06T09:35:56.000Z",
+          "section": "carbon",
+          "score": 5.03,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.9,
+            "recency": 0.73,
+            "promoted": [
+              "carbon market"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "Carbon Herald",
+              "link": "https://carbonherald.com/tokio-marine-backs-kita-to-scale-carbon-market-insurance/?utm_source=rss&utm_medium=rss&utm_campaign=tokio-marine-backs-kita-to-scale-carbon-market-insurance",
+              "title": "Tokio Marine Backs Kita To Scale Carbon Market Insurance"
+            }
+          ]
+        },
+        {
+          "title": "Q&A: What is in China’s new five-year plan for climate change?",
+          "link": "https://www.carbonbrief.org/qa-what-is-in-chinas-new-five-year-plan-for-climate-change",
+          "summary": "China has released a five-year plan dedicated to addressing climate change. The 15th five-year plan for a national response to… The post Q&A: What is in China’s new five-year plan for climate change? appeared first on Carbon Brief .",
+          "published": "2026-08-06T14:48:40.000Z",
+          "section": "carbon",
+          "score": 3.65,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1.3,
+            "recency": 0.95,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "Carbon Brief",
+              "link": "https://www.carbonbrief.org/qa-what-is-in-chinas-new-five-year-plan-for-climate-change",
+              "title": "Q&A: What is in China’s new five-year plan for climate change?"
+            }
+          ]
+        },
+        {
+          "title": "Convertus Secures $96M For Flagship Biofuel And Food-Grade CO2 Facility",
+          "link": "https://carbonherald.com/convertus-secures-96m-for-flagship-biofuel-and-food-grade-co2-facility/?utm_source=rss&utm_medium=rss&utm_campaign=convertus-secures-96m-for-flagship-biofuel-and-food-grade-co2-facility",
+          "summary": "Canadian waste-to-energy developer Convertus Group has secured CA$135 million ($96.2 million) in project financing for its flagship biofuel… The post Convertus Secures $96M For Flagship Biofuel And Food-Grade CO2 Facility appeared first on Carbon Herald .",
+          "published": "2026-08-06T10:03:52.000Z",
+          "section": "carbon",
+          "score": 3.05,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.9,
+            "recency": 0.75,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "Carbon Herald",
+              "link": "https://carbonherald.com/convertus-secures-96m-for-flagship-biofuel-and-food-grade-co2-facility/?utm_source=rss&utm_medium=rss&utm_campaign=convertus-secures-96m-for-flagship-biofuel-and-food-grade-co2-facility",
+              "title": "Convertus Secures $96M For Flagship Biofuel And Food-Grade CO2 Facility"
+            }
+          ]
+        }
+      ],
       "dropped": 0
     },
     {
       "id": "rugby",
       "name": "Rugby",
-      "total": 40,
+      "total": 31,
       "items": [
         {
-          "title": "Mike Catt swaps Sydney for Fiji to join evolving Drua coaching ticket",
-          "link": "https://www.rugbypass.com/news/mike-catt-swaps-sydney-for-fiji-to-join-evolving-drua-coaching-ticket/",
-          "summary": "The Fijian Drua's new coaching staff is continuing to come together, with 2003 Rugby World Cup winner Mike Catt joining newly appointed head coach Brad Mooar's ticket in Nadi.",
-          "published": "2026-08-06T07:00:23.000Z",
+          "title": "'Sharks Rugby Club' - URC outfit reveal new logo and branding",
+          "link": "https://www.rugbypass.com/news/sharks-rugby-club-urc-outfit-reveal-new-logo-and-branding/",
+          "summary": "The Sharks have unveiled a new logo and wider brand identity as part of what the Durban-based franchise describes as a long-term transformation programme extending beyond rugby operations.",
+          "published": "2026-08-06T12:53:34.000Z",
           "section": "rugby",
-          "score": 4.27,
+          "score": 4.56,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.9,
-            "recency": 1.97,
-            "promoted": [],
+            "recency": 0.86,
+            "promoted": [
+              "urc"
+            ],
             "demoted": []
           },
           "sources": [
             {
               "name": "RugbyPass",
-              "link": "https://www.rugbypass.com/news/mike-catt-swaps-sydney-for-fiji-to-join-evolving-drua-coaching-ticket/",
-              "title": "Mike Catt swaps Sydney for Fiji to join evolving Drua coaching ticket"
+              "link": "https://www.rugbypass.com/news/sharks-rugby-club-urc-outfit-reveal-new-logo-and-branding/",
+              "title": "'Sharks Rugby Club' - URC outfit reveal new logo and branding"
             }
           ]
         },
         {
-          "title": "SVNS Watch: The sevens stars making their mark in Currie Cup, NPC and more",
-          "link": "https://www.rugbypass.com/news/svns-watch-the-sevens-stars-making-their-mark-in-currie-cup-npc/",
-          "summary": "RugbyPass dives into the weekend’s rugby action, and where you can catch the biggest stars of the SVNS Series.",
-          "published": "2026-08-06T05:56:40.000Z",
+          "title": "No promises: Kiss puts cards on table with first Wallabies team",
+          "link": "https://www.rugbypass.com/news/no-promises-kiss-puts-cards-on-table-with-first-wallabies-team/",
+          "summary": "Les Kiss has made two points very clear at the beginning of his tenure as Wallabies coach: he wants his team to go forward and win collisions, and he wants a competitive environment for positions at all times.",
+          "published": "2026-08-07T04:27:55.000Z",
           "section": "rugby",
-          "score": 4.17,
+          "score": 4.16,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.9,
-            "recency": 1.87,
+            "recency": 1.86,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
               "name": "RugbyPass",
-              "link": "https://www.rugbypass.com/news/svns-watch-the-sevens-stars-making-their-mark-in-currie-cup-npc/",
-              "title": "SVNS Watch: The sevens stars making their mark in Currie Cup, NPC and more"
+              "link": "https://www.rugbypass.com/news/no-promises-kiss-puts-cards-on-table-with-first-wallabies-team/",
+              "title": "No promises: Kiss puts cards on table with first Wallabies team"
             }
           ]
         },
         {
-          "title": "Maddison Levi, Tristan Leyds among marquee Ultimate Sevens stars",
-          "link": "https://www.rugbypass.com/news/maddison-levi-tristan-leyds-among-marquee-ultimate-sevens-draftees/",
-          "summary": "The picks will work across five rounds this week, the clubs selecting two players each for their male and female squads.",
-          "published": "2026-08-06T05:24:21.000Z",
+          "title": "‘Do the jersey proud’: Ex-All Black looks ahead to first Wallabies start",
+          "link": "https://www.rugbypass.com/news/former-all-black-looks-ahead-to-first-start-in-wallaby-gold/",
+          "summary": "The first Wallabies team under new coach Les Kiss was announced on Thursday, with Ross named in the starting side at loosehead prop.",
+          "published": "2026-08-07T04:24:10.000Z",
           "section": "rugby",
-          "score": 4.12,
+          "score": 4.15,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.9,
-            "recency": 1.82,
+            "recency": 1.85,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
               "name": "RugbyPass",
-              "link": "https://www.rugbypass.com/news/maddison-levi-tristan-leyds-among-marquee-ultimate-sevens-draftees/",
-              "title": "Maddison Levi, Tristan Leyds among marquee Ultimate Sevens stars"
+              "link": "https://www.rugbypass.com/news/former-all-black-looks-ahead-to-first-start-in-wallaby-gold/",
+              "title": "‘Do the jersey proud’: Ex-All Black looks ahead to first Wallabies start"
             }
           ]
         },
         {
-          "title": "Beauden Barrett wary of 'controlling those emotions' in All Blacks return",
-          "link": "https://www.rugbypass.com/news/beauden-barrett-wary-of-controlling-those-emotions-in-all-blacks-return/",
-          "summary": "Beauden Barrett has had to be patient waiting for his All Blacks opportunity in 2026, and now that it has arrived, he's cautious not to let the moment overcome him or pass him by.",
-          "published": "2026-08-06T05:17:57.000Z",
+          "title": "Du’Plessis Kirifi on shock centre switch and All Blacks omission",
+          "link": "https://www.rugbypass.com/news/duplessis-kirifi-opens-up-on-shock-position-switch-and-all-blacks-omission/",
+          "summary": "Wellington sprung a selection shock this week by naming flanker Du’Plessis Kirifi at inside centre ahead of a clash with Auckland.",
+          "published": "2026-08-07T03:43:35.000Z",
           "section": "rugby",
-          "score": 4.11,
+          "score": 4.09,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.9,
-            "recency": 1.81,
+            "recency": 1.79,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
               "name": "RugbyPass",
-              "link": "https://www.rugbypass.com/news/beauden-barrett-wary-of-controlling-those-emotions-in-all-blacks-return/",
-              "title": "Beauden Barrett wary of 'controlling those emotions' in All Blacks return"
+              "link": "https://www.rugbypass.com/news/duplessis-kirifi-opens-up-on-shock-position-switch-and-all-blacks-omission/",
+              "title": "Du’Plessis Kirifi on shock centre switch and All Blacks omission"
             }
           ]
         },
         {
-          "title": "Wallaby No. 999 awaits, ex-All Black also set for first start in gold",
-          "link": "https://www.rugbypass.com/news/wallaby-no-999-awaits-ex-all-black-set-for-maiden-start-in-gold/",
-          "summary": "Queensland Reds utility Isaac Henry is in line to become Wallaby number 999 after being named on the bench for Australia’s clash with Japan.",
-          "published": "2026-08-06T05:14:32.000Z",
+          "title": "'Rugby can be humbling': The rise of breakout Magpies star Hunter Morrison",
+          "link": "https://www.rugbypass.com/news/rugby-can-be-humbling-the-rise-of-breakout-magpies-star-hunter-morrison/",
+          "summary": "Hunter Morrison has packed a lifetime into a few years. He represented New Zealand at the Barbarians, Under 19, and Under 20 levels following instrumental spells in the First XVs at Whanganui Collegiate and Palmerston North Boys’ High School.",
+          "published": "2026-08-07T02:29:30.000Z",
           "section": "rugby",
-          "score": 4.11,
+          "score": 3.99,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.9,
-            "recency": 1.81,
+            "recency": 1.69,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
               "name": "RugbyPass",
-              "link": "https://www.rugbypass.com/news/wallaby-no-999-awaits-ex-all-black-set-for-maiden-start-in-gold/",
-              "title": "Wallaby No. 999 awaits, ex-All Black also set for first start in gold"
+              "link": "https://www.rugbypass.com/news/rugby-can-be-humbling-the-rise-of-breakout-magpies-star-hunter-morrison/",
+              "title": "'Rugby can be humbling': The rise of breakout Magpies star Hunter Morrison"
             }
           ]
         },
         {
-          "title": "Ranfurly Shield not only thing at stake for Corey Kellow against Otago",
-          "link": "https://www.rugbypass.com/news/ranfurly-shield-not-only-thing-at-stake-for-corey-kellow-against-otago/",
-          "summary": "Corey Kellow isn’t a player who seeks the limelight. The dogged openside flanker, however, has scored a try in his last five NPC games, which places him in rarefied air for champions Canterbury.",
-          "published": "2026-08-06T03:14:27.000Z",
+          "title": "Italy on the hunt for new head coach and WXV training squad named",
+          "link": "https://www.rugbypass.com/news/italy-on-the-hunt-for-new-head-coach-and-wxv-training-squad-named/",
+          "summary": "Italy have confirmed the departure of Fabio Roselli as their head coach upon the announcement of a WXV Global Series training squad.",
+          "published": "2026-08-06T14:09:34.000Z",
           "section": "rugby",
-          "score": 3.94,
+          "score": 3.92,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.9,
-            "recency": 1.64,
-            "promoted": [],
+            "recency": 0.92,
+            "promoted": [
+              "italy"
+            ],
             "demoted": []
           },
           "sources": [
             {
               "name": "RugbyPass",
-              "link": "https://www.rugbypass.com/news/ranfurly-shield-not-only-thing-at-stake-for-corey-kellow-against-otago/",
-              "title": "Ranfurly Shield not only thing at stake for Corey Kellow against Otago"
+              "link": "https://www.rugbypass.com/news/italy-on-the-hunt-for-new-head-coach-and-wxv-training-squad-named/",
+              "title": "Italy on the hunt for new head coach and WXV training squad named"
             }
           ]
         },
         {
-          "title": "'Biggest name throughout Super Rugby': Ex-All Black left puzzled by left wing selection",
-          "link": "https://www.rugbypass.com/news/biggest-name-throughout-super-rugby-ex-all-black-left-puzzled-by-left-wing-selection/",
-          "summary": "Ex-All Black Israel Dagg has been left surprised by the omission of Hurricanes star Fehi Fineanganofo ahead of the tour match against the Stormers.",
-          "published": "2026-08-06T02:44:44.000Z",
+          "title": "Brayden Iose on Hurricanes' 'perfect storm', Aaron Smith and Manawatu royalty",
+          "link": "https://www.rugbypass.com/news/brayden-iose-on-hurricanes-perfect-storm-aaron-smith-and-manawatu-royalty/",
+          "summary": "On August 28, Manawatu officially marks its 140th Anniversary with a special dinner at Central Energy Trust Arena in Palmerston North.",
+          "published": "2026-08-07T01:13:39.000Z",
           "section": "rugby",
-          "score": 3.9,
+          "score": 3.88,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.9,
-            "recency": 1.6,
+            "recency": 1.58,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
               "name": "RugbyPass",
-              "link": "https://www.rugbypass.com/news/biggest-name-throughout-super-rugby-ex-all-black-left-puzzled-by-left-wing-selection/",
-              "title": "'Biggest name throughout Super Rugby': Ex-All Black left puzzled by left wing selection"
+              "link": "https://www.rugbypass.com/news/brayden-iose-on-hurricanes-perfect-storm-aaron-smith-and-manawatu-royalty/",
+              "title": "Brayden Iose on Hurricanes' 'perfect storm', Aaron Smith and Manawatu royalty"
             }
           ]
         },
         {
-          "title": "Title-winning halves Bernard Foley and Nick Phipps return to Waratahs",
-          "link": "https://www.rugbypass.com/news/title-winning-halves-bernard-foley-and-nick-phipps-return-to-waratahs/",
-          "summary": "Title-winning halves Bernard Foley and Nick Phipps are returning to the NSW Waratahs for the 2027 Super Rugby Pacific season.",
-          "published": "2026-08-06T02:00:05.000Z",
+          "title": "Blues lure another rising talent north from Highlanders",
+          "link": "https://www.rugbypass.com/news/blues-lure-another-rising-talent-north-from-highlanders/",
+          "summary": "The youngster ended his rookie Super Rugby Pacific campaign with three starts, including a try on debut, after replacing the injured Dylan Pledger during pre-season.",
+          "published": "2026-08-07T00:45:40.000Z",
           "section": "rugby",
-          "score": 3.84,
+          "score": 3.85,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.9,
-            "recency": 1.54,
+            "recency": 1.55,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
               "name": "RugbyPass",
-              "link": "https://www.rugbypass.com/news/title-winning-halves-bernard-foley-and-nick-phipps-return-to-waratahs/",
-              "title": "Title-winning halves Bernard Foley and Nick Phipps return to Waratahs"
+              "link": "https://www.rugbypass.com/news/blues-lure-another-rising-talent-north-from-highlanders/",
+              "title": "Blues lure another rising talent north from Highlanders"
             }
           ]
         }
       ],
-      "dropped": 32
+      "dropped": 23
     },
     {
       "id": "sport",
@@ -1228,92 +1337,17 @@
       "total": 25,
       "items": [
         {
-          "title": "'I was an amateur with a professional mindset' - O'Gorman giving back as LOI academy director",
-          "link": "https://www.the42.ie/aine-ogorman-bray-wanderers-loi-academy-director-7112541-Aug2026/",
-          "summary": "The 42 sits down with Áine O’Gorman as the Irish legend continues her trailblazing ways with Bray Wanderers.",
-          "published": "2026-08-06T06:00:00.000Z",
+          "title": "Ashling Thompson: Cork have embraced input from fresh faces to 'evolve massively' this year",
+          "link": "https://www.the42.ie/ashling-thompson-4-7123695-Aug2026/",
+          "summary": "The Milford woman is set to feature in Sunday’s All-Ireland decider against Galway after an injury-plagued year.",
+          "published": "2026-08-07T05:30:32.000Z",
           "section": "sport",
-          "score": 5.88,
+          "score": 5.96,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 1.4,
-            "recency": 1.88,
-            "promoted": [
-              "irish"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "The 42",
-              "link": "https://www.the42.ie/aine-ogorman-bray-wanderers-loi-academy-director-7112541-Aug2026/",
-              "title": "'I was an amateur with a professional mindset' - O'Gorman giving back as LOI academy director"
-            }
-          ]
-        },
-        {
-          "title": "Shelbourne close gap with Cork City win as Irish youngster makes Hearts history",
-          "link": "https://www.the42.ie/shelbourne-cork-city-3-7122509-Aug2026/",
-          "summary": "Bella Flocchini marked her return to the Women’s Premier Division with a superb strike.",
-          "published": "2026-08-05T21:25:14.000Z",
-          "section": "sport",
-          "score": 5.23,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1.4,
-            "recency": 1.23,
-            "promoted": [
-              "irish"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "The 42",
-              "link": "https://www.the42.ie/shelbourne-cork-city-3-7122509-Aug2026/",
-              "title": "Shelbourne close gap with Cork City win as Irish youngster makes Hearts history"
-            }
-          ]
-        },
-        {
-          "title": "In pics: Arsenal fall to friendly defeat to Real Betis at sold-out Aviva Stadium",
-          "link": "https://www.the42.ie/arsenal-real-betis-aviva-7122516-Aug2026/",
-          "summary": "Premier League champions beaten 3-1 in Dublin pre-season friendly.",
-          "published": "2026-08-05T21:19:19.000Z",
-          "section": "sport",
-          "score": 5.22,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1.4,
-            "recency": 1.22,
-            "promoted": [
-              "dublin"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "The 42",
-              "link": "https://www.the42.ie/arsenal-real-betis-aviva-7122516-Aug2026/",
-              "title": "In pics: Arsenal fall to friendly defeat to Real Betis at sold-out Aviva Stadium"
-            }
-          ]
-        },
-        {
-          "title": "Mayo GAA wish Kobe McDonald well as All-Ireland winner departs for AFL",
-          "link": "https://www.the42.ie/kobe-mcdonald-7122469-Aug2026/",
-          "summary": "‘It has been some few months. Thanks, Kobe.’",
-          "published": "2026-08-05T19:18:18.000Z",
-          "section": "sport",
-          "score": 5.1,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1.4,
-            "recency": 1.1,
+            "recency": 1.96,
             "promoted": [
               "ireland"
             ],
@@ -1322,8 +1356,83 @@
           "sources": [
             {
               "name": "The 42",
-              "link": "https://www.the42.ie/kobe-mcdonald-7122469-Aug2026/",
-              "title": "Mayo GAA wish Kobe McDonald well as All-Ireland winner departs for AFL"
+              "link": "https://www.the42.ie/ashling-thompson-4-7123695-Aug2026/",
+              "title": "Ashling Thompson: Cork have embraced input from fresh faces to 'evolve massively' this year"
+            }
+          ]
+        },
+        {
+          "title": "Rangers lose to Jagiellonia Bialystok, Hearts endure Benfica rout, Irish duo fire Hibs to victory",
+          "link": "https://www.the42.ie/rangers-jagiellonia-bialystok-europa-league-7123799-Aug2026/",
+          "summary": "The sides will play the return fixture at Ibrox next week.",
+          "published": "2026-08-06T21:38:00.000Z",
+          "section": "sport",
+          "score": 5.33,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1.4,
+            "recency": 1.33,
+            "promoted": [
+              "irish"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "The 42",
+              "link": "https://www.the42.ie/rangers-jagiellonia-bialystok-europa-league-7123799-Aug2026/",
+              "title": "Rangers lose to Jagiellonia Bialystok, Hearts endure Benfica rout, Irish duo fire Hibs to victory"
+            }
+          ]
+        },
+        {
+          "title": "Ryan O'Donoghue: 'There wasn't a week that went by where it didn't enter my head, and I'd get angry'",
+          "link": "https://www.the42.ie/ryan-o-donoghue-mayo-7123173-Aug2026/",
+          "summary": "Mayo star Ryan O’Donoghue opens up on his penalty miss in the 2021 All-Ireland final.",
+          "published": "2026-08-06T14:02:19.000Z",
+          "section": "sport",
+          "score": 4.91,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1.4,
+            "recency": 0.91,
+            "promoted": [
+              "ireland"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "The 42",
+              "link": "https://www.the42.ie/ryan-o-donoghue-mayo-7123173-Aug2026/",
+              "title": "Ryan O'Donoghue: 'There wasn't a week that went by where it didn't enter my head, and I'd get angry'"
+            }
+          ]
+        },
+        {
+          "title": "Seven for Cork and six for Tyrone in GAA minor football team of the year",
+          "link": "https://www.the42.ie/cork-tyrone-minor-football-team-of-the-year-7123017-Aug2026/",
+          "summary": "Cork captain Joe Miskella has won the player of the year honour.",
+          "published": "2026-08-06T12:10:37.000Z",
+          "section": "sport",
+          "score": 4.83,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1.4,
+            "recency": 0.83,
+            "promoted": [
+              "cork"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "The 42",
+              "link": "https://www.the42.ie/cork-tyrone-minor-football-team-of-the-year-7123017-Aug2026/",
+              "title": "Seven for Cork and six for Tyrone in GAA minor football team of the year"
             }
           ]
         }
@@ -1333,36 +1442,13 @@
     {
       "id": "culture",
       "name": "Film and books",
-      "total": 26,
+      "total": 25,
       "items": [
         {
-          "title": "Some of TV’s Top Stars Have Yet to Win an Emmy",
-          "link": "https://www.indiewire.com/awards/consider-this/tv-stars-who-have-yet-to-win-an-emmy-1235209046/",
-          "summary": "As Emmy voters prepare to make a final decision on who should win each category, IndieWire highlights several nominated actors who have made TV history, but have so far left empty-handed.",
-          "published": "2026-08-05T23:30:00.000Z",
-          "section": "culture",
-          "score": 3.56,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 0.8,
-            "recency": 1.36,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "IndieWire",
-              "link": "https://www.indiewire.com/awards/consider-this/tv-stars-who-have-yet-to-win-an-emmy-1235209046/",
-              "title": "Some of TV’s Top Stars Have Yet to Win an Emmy"
-            }
-          ]
-        },
-        {
-          "title": "‘One Night Only’ Review: Fascism Gets Off Easy in This Flirty Humiliation Ritual for Will Gluck Fans",
-          "link": "https://www.indiewire.com/criticism/movies/one-night-only-review-will-gluck-1235208629/",
-          "summary": "Monica Barbaro still shines opposite a lackluster Callum Turner in this woefully misguided rom-com.",
-          "published": "2026-08-05T20:50:13.000Z",
+          "title": "For Emmy Nominee Betty Gilpin, ‘Widow’s Bay’ Is ‘the Ultimate F**k You to Safe, Algorithm-Friendly, ChatGPT’ TV",
+          "link": "https://www.indiewire.com/awards/consider-this/betty-gilpin-on-widows-bay-best-line-readings-interview-1235208776/",
+          "summary": "The four-time Emmy nominee tells IndieWire how the smash hit series gave her not just the joy of \"mugging in a hoop skirt,\" but being part of the kind of collective experience the world needs much more of.",
+          "published": "2026-08-06T19:30:00.000Z",
           "section": "culture",
           "score": 3.39,
           "outlets": 1,
@@ -1376,184 +1462,207 @@
           "sources": [
             {
               "name": "IndieWire",
-              "link": "https://www.indiewire.com/criticism/movies/one-night-only-review-will-gluck-1235208629/",
-              "title": "‘One Night Only’ Review: Fascism Gets Off Easy in This Flirty Humiliation Ritual for Will Gluck Fans"
+              "link": "https://www.indiewire.com/awards/consider-this/betty-gilpin-on-widows-bay-best-line-readings-interview-1235208776/",
+              "title": "For Emmy Nominee Betty Gilpin, ‘Widow’s Bay’ Is ‘the Ultimate F**k You to Safe, Algorithm-Friendly, ChatGPT’ TV"
             }
           ]
         },
         {
-          "title": "‘Sterling Point’ Review: Megan Park’s Teen Drama Is a Delightful Summer Escape — and Honest Where It Counts",
-          "link": "https://www.indiewire.com/criticism/shows/sterling-point-review-megan-park-amazon-series-ella-rubin-1235208696/",
-          "summary": "The writer and director behind \"My Old Ass\" sticks close to home for her first TV series, about a 17-year-old New Yorker who inherits an island in Canada — where her secret sister awaits.",
-          "published": "2026-08-05T20:30:00.000Z",
-          "section": "culture",
-          "score": 3.37,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 0.8,
-            "recency": 1.17,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "IndieWire",
-              "link": "https://www.indiewire.com/criticism/shows/sterling-point-review-megan-park-amazon-series-ella-rubin-1235208696/",
-              "title": "‘Sterling Point’ Review: Megan Park’s Teen Drama Is a Delightful Summer Escape — and Honest Where It Counts"
-            }
-          ]
-        },
-        {
-          "title": "‘Super Troopers 3’ Review: A Cult Comedy Franchise Takes a Mustache Ride Toward Mediocrity",
-          "link": "https://www.indiewire.com/criticism/movies/super-troopers-3-review-1235208571/",
-          "summary": "Driven by little more than heavy-handed comedy about cultural differences between American and Indian families, this threequel is for the diehard fans only.",
-          "published": "2026-08-05T20:20:00.000Z",
+          "title": "Book Excerpt: The Otherworld: The Mythic Dimensions of Christophe Gans by Scout Tafoya",
+          "link": "https://www.rogerebert.com/books/book-excerpt-the-otherworld-the-mythic-dimensions-of-christophe-gans-by-scout-tafoya",
+          "summary": "An excerpt from Scout Tafoya's new book about the world of Christophe Gans.",
+          "published": "2026-08-06T13:00:00.000Z",
           "section": "culture",
           "score": 3.36,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
+            "source": 1.1,
+            "recency": 0.86,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "RogerEbert.com",
+              "link": "https://www.rogerebert.com/books/book-excerpt-the-otherworld-the-mythic-dimensions-of-christophe-gans-by-scout-tafoya",
+              "title": "Book Excerpt: The Otherworld: The Mythic Dimensions of Christophe Gans by Scout Tafoya"
+            }
+          ]
+        },
+        {
+          "title": "All is Well in Our World: On Todd Haynes’ “Safe”",
+          "link": "https://www.rogerebert.com/dvd-blu-ray/safe-criterion-reappreciation",
+          "summary": "An appreciation of Todd Haynes' \"Safe\" on the week of its Criterion 4K release.",
+          "published": "2026-08-06T13:00:00.000Z",
+          "section": "culture",
+          "score": 3.36,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1.1,
+            "recency": 0.86,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "RogerEbert.com",
+              "link": "https://www.rogerebert.com/dvd-blu-ray/safe-criterion-reappreciation",
+              "title": "All is Well in Our World: On Todd Haynes’ “Safe”"
+            }
+          ]
+        },
+        {
+          "title": "It’s Libidinal: Hannah Einbinder and Jane Schoenbrun on “Teenage Sex and Death at Camp Miasma”",
+          "link": "https://www.rogerebert.com/interviews/its-libidinal-hannah-einbinder-and-jane-schoenbrun-on-teenage-sex-and-death-at-camp-miasma",
+          "summary": "An interview with the star and director of one of the year’s best movies.",
+          "published": "2026-08-06T13:00:00.000Z",
+          "section": "culture",
+          "score": 3.36,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1.1,
+            "recency": 0.86,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "RogerEbert.com",
+              "link": "https://www.rogerebert.com/interviews/its-libidinal-hannah-einbinder-and-jane-schoenbrun-on-teenage-sex-and-death-at-camp-miasma",
+              "title": "It’s Libidinal: Hannah Einbinder and Jane Schoenbrun on “Teenage Sex and Death at Camp Miasma”"
+            }
+          ]
+        },
+        {
+          "title": "Happy Birthday Tibetan Buddhist Scholar and Professor Robert Thurman (1941-2026)",
+          "link": "https://www.rogerebert.com/chazs-blog/happy-birthday-tibetan-buddhist-scholar-and-professor-robert-thurman-1941-2026",
+          "summary": "On August 3th, 2026, as I was writing to wish Professor Robert Thurman a happy birthday, I was saddened to learn that he passed away in Woodstock on June 16th of this year. Now I am wondering whether he will appear in my dreams. Let me explain. As I slept on August 3rd, 2018, I […]",
+          "published": "2026-08-06T13:00:00.000Z",
+          "section": "culture",
+          "score": 3.36,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1.1,
+            "recency": 0.86,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "RogerEbert.com",
+              "link": "https://www.rogerebert.com/chazs-blog/happy-birthday-tibetan-buddhist-scholar-and-professor-robert-thurman-1941-2026",
+              "title": "Happy Birthday Tibetan Buddhist Scholar and Professor Robert Thurman (1941-2026)"
+            }
+          ]
+        },
+        {
+          "title": "How Faithful Is ‘Tony’ to Anthony Bourdain’s Life?",
+          "link": "https://www.indiewire.com/features/interviews/tony-real-vs-fiction-a24-anthony-bourdain-biopic-1235209198/",
+          "summary": "Director Matt Johnson on Bourdain’s self-mythologizing in “Kitchen Confindential” and where he took poetic license in telling the story his Provincetown kitchen days.",
+          "published": "2026-08-06T18:30:00.000Z",
+          "section": "culture",
+          "score": 3.34,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
             "source": 0.8,
-            "recency": 1.16,
+            "recency": 1.14,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
               "name": "IndieWire",
-              "link": "https://www.indiewire.com/criticism/movies/super-troopers-3-review-1235208571/",
-              "title": "‘Super Troopers 3’ Review: A Cult Comedy Franchise Takes a Mustache Ride Toward Mediocrity"
-            }
-          ]
-        },
-        {
-          "title": "Apple TV+’s “Ted Lasso” Gets Back on the Pitch For a Welcome Season 4",
-          "link": "https://www.rogerebert.com/streaming/ted-lasso-season-4-jason-sudeikis-apple-tv-review-2026",
-          "summary": "“Ted Lasso” continues to make the case for empathy, not as hopelessly naive ideals, but as everyday choices and life goals.",
-          "published": "2026-08-05T13:00:00.000Z",
-          "section": "culture",
-          "score": 3.31,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1.1,
-            "recency": 0.81,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "RogerEbert.com",
-              "link": "https://www.rogerebert.com/streaming/ted-lasso-season-4-jason-sudeikis-apple-tv-review-2026",
-              "title": "Apple TV+’s “Ted Lasso” Gets Back on the Pitch For a Welcome Season 4"
-            }
-          ]
-        },
-        {
-          "title": "“Star Wars: Visions Presents – The Ninth Jedi” Expands the Animated Potential of a Galaxy Far, Far Away",
-          "link": "https://www.rogerebert.com/streaming/star-wars-visions-presents-the-ninth-jedi-disney-plus-tv-review-2026",
-          "summary": "A moving, action-packed spectacle brought to life with astonishing animation.",
-          "published": "2026-08-05T13:00:00.000Z",
-          "section": "culture",
-          "score": 3.31,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1.1,
-            "recency": 0.81,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "RogerEbert.com",
-              "link": "https://www.rogerebert.com/streaming/star-wars-visions-presents-the-ninth-jedi-disney-plus-tv-review-2026",
-              "title": "“Star Wars: Visions Presents – The Ninth Jedi” Expands the Animated Potential of a Galaxy Far, Far Away"
+              "link": "https://www.indiewire.com/features/interviews/tony-real-vs-fiction-a24-anthony-bourdain-biopic-1235209198/",
+              "title": "How Faithful Is ‘Tony’ to Anthony Bourdain’s Life?"
             }
           ]
         }
       ],
-      "dropped": 20
+      "dropped": 19
     },
     {
       "id": "longform",
       "name": "The long-form shelf",
-      "total": 24,
+      "total": 20,
       "items": [
         {
-          "title": "James Talarico Accused Ken Paxton of Voter Fraud. His Own Voter Registration Is Raising Questions.",
-          "link": "https://www.propublica.org/article/james-talarico-texas-election-law-ken-paxton",
-          "summary": "The post James Talarico Accused Ken Paxton of Voter Fraud. His Own Voter Registration Is Raising Questions. appeared first on ProPublica .",
-          "published": "2026-08-05T10:00:00.000Z",
+          "title": "Trump Is Asking the Private Sector to Save Him",
+          "link": "https://www.theatlantic.com/newsletters/2026/08/trump-economy-private-sector-oil-inflation/688212/?utm_source=feed",
+          "summary": "Piecemeal price cuts won’t solve the Iran war’s effects on inflation.",
+          "published": "2026-08-06T22:51:00.000Z",
           "section": "longform",
-          "score": 4.4,
+          "score": 4.71,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
-            "source": 1.2,
-            "recency": 0.7,
+            "source": 0.9,
+            "recency": 1.41,
             "promoted": [
-              "fraud"
+              "inflation"
             ],
             "demoted": []
           },
           "sources": [
             {
-              "name": "ProPublica",
-              "link": "https://www.propublica.org/article/james-talarico-texas-election-law-ken-paxton",
-              "title": "James Talarico Accused Ken Paxton of Voter Fraud. His Own Voter Registration Is Raising Questions."
+              "name": "The Atlantic",
+              "link": "https://www.theatlantic.com/newsletters/2026/08/trump-economy-private-sector-oil-inflation/688212/?utm_source=feed",
+              "title": "Trump Is Asking the Private Sector to Save Him"
             }
           ]
         },
         {
-          "title": "Six Teenagers, a Brutal Murder and the Story They Couldn’t Take Back",
-          "link": "https://longreads.com/2026/08/05/winston-salem-five-murder/",
-          "summary": "\"In 2002, a group of friends from North Carolina told a story that ruined all their lives. What if it wasn’t true?\"",
-          "published": "2026-08-05T16:17:12.000Z",
+          "title": "How War Has Redefined Marriage in Gaza",
+          "link": "https://longreads.com/2026/08/06/gaza-israel-war-marriage/",
+          "summary": "\"Celebrating the bond between two lives is a declaration that life itself, however diminished, is still worth living.\"",
+          "published": "2026-08-06T16:42:27.000Z",
           "section": "longform",
-          "score": 3.65,
+          "score": 3.74,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 1.3,
-            "recency": 0.95,
+            "recency": 1.04,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
               "name": "Longreads",
-              "link": "https://longreads.com/2026/08/05/winston-salem-five-murder/",
-              "title": "Six Teenagers, a Brutal Murder and the Story They Couldn’t Take Back"
+              "link": "https://longreads.com/2026/08/06/gaza-israel-war-marriage/",
+              "title": "How War Has Redefined Marriage in Gaza"
             }
           ]
         },
         {
-          "title": "What El-Sayed Does Next Matters",
-          "link": "https://www.theatlantic.com/politics/2026/08/el-sayed-michigan-rogers-senate/688195/?utm_source=feed",
-          "summary": "Abdul El-Sayed called out Democrats. Now he needs to bring them together.",
-          "published": "2026-08-05T21:23:18.000Z",
+          "title": "Icarus in the Faculty Lounge",
+          "link": "https://www.theatlantic.com/books/2026/08/jason-arday-cambridge-academic-memoir-resignation/688206/?utm_source=feed",
+          "summary": "The Cambridge professor Jason Arday’s unlikely ascent has come to a tragic end.",
+          "published": "2026-08-06T20:27:45.000Z",
           "section": "longform",
-          "score": 3.52,
+          "score": 3.55,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.9,
-            "recency": 1.22,
+            "recency": 1.25,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
               "name": "The Atlantic",
-              "link": "https://www.theatlantic.com/politics/2026/08/el-sayed-michigan-rogers-senate/688195/?utm_source=feed",
-              "title": "What El-Sayed Does Next Matters"
+              "link": "https://www.theatlantic.com/books/2026/08/jason-arday-cambridge-academic-memoir-resignation/688206/?utm_source=feed",
+              "title": "Icarus in the Faculty Lounge"
             }
           ]
         }
       ],
-      "dropped": 21
+      "dropped": 17
     }
   ]
 }

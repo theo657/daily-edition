@@ -1,21 +1,26 @@
 {
   "title": "The Daily Edition",
-  "editionDate": "2026-08-12",
-  "builtAt": "2026-08-12T06:03:06.046Z",
+  "editionDate": "2026-08-13",
+  "builtAt": "2026-08-13T05:59:14.575Z",
   "timezone": "Europe/Rome",
   "longformShelfSize": 3,
   "stats": {
     "feedsConfigured": 26,
-    "feedsOk": 22,
-    "itemsFetched": 553,
-    "itemsInWindow": 368,
+    "feedsOk": 21,
+    "itemsFetched": 534,
+    "itemsInWindow": 334,
     "blocked": 0,
-    "clusters": 351,
-    "merged": 11,
-    "sameOutletDuplicates": 6,
-    "shown": 59
+    "clusters": 318,
+    "merged": 7,
+    "sameOutletDuplicates": 9,
+    "shown": 60
   },
   "failures": [
+    {
+      "name": "France 24",
+      "id": "france24",
+      "error": "no items in response"
+    },
     {
       "name": "Marginal Carbon",
       "id": "marginal",
@@ -41,20 +46,20 @@
     {
       "id": "world",
       "name": "Wires and world",
-      "total": 89,
+      "total": 73,
       "items": [
         {
-          "title": "On the ground in Cali, Colombia’s worst-hit city after the quake",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/8/12/on-the-ground-in-cali-colombias-worst-hit-city-after-the-quake?traffic_source=rss",
-          "summary": "Reporting from the rubble of an apartment building, Al Jazeera’s Latin America Editor Lucia Newman describes the scene.",
-          "published": "2026-08-12T01:40:33.000Z",
+          "title": "Search efforts in Colombia enter ‘final phase’ as quake toll reaches 265",
+          "link": "https://www.aljazeera.com/news/2026/8/13/search-efforts-in-colombia-enter-final-phase-as-quake-toll-reaches-265?traffic_source=rss",
+          "summary": "President de La Espriella promises to set up an emergency fund to help rebuild destroyed hospitals and schools.",
+          "published": "2026-08-13T04:26:46.000Z",
           "section": "world",
-          "score": 5.51,
+          "score": 5.75,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.9,
-            "recency": 1.61,
+            "recency": 1.85,
             "promoted": [
               "colombia"
             ],
@@ -63,47 +68,72 @@
           "sources": [
             {
               "name": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/8/12/on-the-ground-in-cali-colombias-worst-hit-city-after-the-quake?traffic_source=rss",
-              "title": "On the ground in Cali, Colombia’s worst-hit city after the quake"
+              "link": "https://www.aljazeera.com/news/2026/8/13/search-efforts-in-colombia-enter-final-phase-as-quake-toll-reaches-265?traffic_source=rss",
+              "title": "Search efforts in Colombia enter ‘final phase’ as quake toll reaches 265"
             }
           ]
         },
         {
-          "title": "Colombia scrambles to find survivors after deadly earthquake",
-          "link": "https://www.aljazeera.com/features/longform/2026/8/11/colombia-scrambles-to-find-survivors-after-deadly-earthquake?traffic_source=rss",
-          "summary": "At least 254 deaths have been reported so far, as rescue workers continue to sift through collapsed buildings.",
-          "published": "2026-08-11T23:39:05.000Z",
+          "title": "Woman pulled alive from rubble 36 hours after Colombia quake",
+          "link": "https://www.bbc.co.uk/news/articles/cz7d2e5wlgno?at_medium=RSS&at_campaign=rss",
+          "summary": "Following a 10-hour rescue operation, emergency workers pulled the 32-year-old from beneath slabs of concrete.",
+          "published": "2026-08-12T22:41:46.000Z",
           "section": "world",
-          "score": 5.36,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 0.9,
-            "recency": 1.46,
-            "promoted": [
-              "colombia"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "Al Jazeera",
-              "link": "https://www.aljazeera.com/features/longform/2026/8/11/colombia-scrambles-to-find-survivors-after-deadly-earthquake?traffic_source=rss",
-              "title": "Colombia scrambles to find survivors after deadly earthquake"
-            }
-          ]
-        },
-        {
-          "title": "Anguish of Colombian brother at rubble of building being searched for earthquake survivors",
-          "link": "https://www.bbc.co.uk/news/articles/czxerlglgw5o?at_medium=RSS&at_campaign=rss",
-          "summary": "BBC Mundo has gone to the site of Torres del Limonar, a collapsed building in Cali where rescue workers fight to free survivors.",
-          "published": "2026-08-11T21:34:55.000Z",
-          "section": "world",
-          "score": 5.31,
+          "score": 5.39,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 1,
+            "recency": 1.39,
+            "promoted": [
+              "colombia"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cz7d2e5wlgno?at_medium=RSS&at_campaign=rss",
+              "title": "Woman pulled alive from rubble 36 hours after Colombia quake"
+            }
+          ]
+        },
+        {
+          "title": "Hegseth cautions that ICC may investigate US boat strikes in Latin America",
+          "link": "https://www.aljazeera.com/news/2026/8/12/hegseth-cautions-that-icc-may-investigate-us-boat-strikes-in-latin-america?traffic_source=rss",
+          "summary": "US defence chief vows to continue campaign against drug cartels, says Colombia has joined regional military coalition.",
+          "published": "2026-08-12T21:52:18.000Z",
+          "section": "world",
+          "score": 5.24,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.9,
+            "recency": 1.34,
+            "promoted": [
+              "colombia"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/8/12/hegseth-cautions-that-icc-may-investigate-us-boat-strikes-in-latin-america?traffic_source=rss",
+              "title": "Hegseth cautions that ICC may investigate US boat strikes in Latin America"
+            }
+          ]
+        },
+        {
+          "title": "Thousands missing after Colombia quake as rescue continues",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/8/12/thousands-missing-after-colombia-quake-as-rescue-continues?traffic_source=rss",
+          "summary": "Thousands missing after Colombia quake as rescue continues",
+          "published": "2026-08-12T21:25:08.000Z",
+          "section": "world",
+          "score": 5.21,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.9,
             "recency": 1.31,
             "promoted": [
               "colombia"
@@ -112,49 +142,178 @@
           },
           "sources": [
             {
-              "name": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/czxerlglgw5o?at_medium=RSS&at_campaign=rss",
-              "title": "Anguish of Colombian brother at rubble of building being searched for earthquake survivors"
+              "name": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/8/12/thousands-missing-after-colombia-quake-as-rescue-continues?traffic_source=rss",
+              "title": "Thousands missing after Colombia quake as rescue continues"
             }
           ]
         },
         {
-          "title": "Trump's dramatic plane swap hints at personal stakes of Iran war",
-          "link": "https://www.bbc.co.uk/news/articles/cly8jexn1z9o?at_medium=RSS&at_campaign=rss",
-          "summary": "It marks another striking episode in the turbulent history of his relationship with Iran, writes the BBC's Anthony Zurcher.",
-          "published": "2026-08-12T00:14:42.000Z",
-          "section": "world",
-          "score": 5.3,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1,
-            "recency": 1.5,
-            "promoted": [
-              "urc"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cly8jexn1z9o?at_medium=RSS&at_campaign=rss",
-              "title": "Trump's dramatic plane swap hints at personal stakes of Iran war"
-            }
-          ]
-        },
-        {
-          "title": "Rescuers scramble for survivors with 180 dead in Colombia earthquake",
-          "link": "https://www.bbc.co.uk/news/articles/c20dqd9qwq4o?at_medium=RSS&at_campaign=rss",
-          "summary": "Colombia experienced a number of aftershocks on Tuesday, as efforts continued to free survivors trapped in rubble and buildings.",
-          "published": "2026-08-11T19:09:52.000Z",
+          "title": "Australian army whistleblower released on parole after more than two years in jail",
+          "link": "https://www.bbc.co.uk/news/articles/c5yw7vdwjxyo?at_medium=RSS&at_campaign=rss",
+          "summary": "David McBride was jailed after pleading guilty to leaking military secrets about Afghanistan.",
+          "published": "2026-08-13T02:23:39.000Z",
           "section": "world",
           "score": 5.17,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 1,
-            "recency": 1.17,
+            "recency": 1.67,
+            "promoted": [
+              "whistleblower"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c5yw7vdwjxyo?at_medium=RSS&at_campaign=rss",
+              "title": "Australian army whistleblower released on parole after more than two years in jail"
+            }
+          ]
+        },
+        {
+          "title": "Leavitt to leave as White House press secretary",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/8/13/leavitt-to-leave-as-white-house-press-secretary?traffic_source=rss",
+          "summary": "Karoline Leavitt has announced that she will be stepping down from her position as White House press secretary.",
+          "published": "2026-08-13T04:58:49.000Z",
+          "section": "world",
+          "score": 5.12,
+          "outlets": 2,
+          "reasons": {
+            "corroboration": 2.22,
+            "source": 1,
+            "recency": 1.9,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/8/13/leavitt-to-leave-as-white-house-press-secretary?traffic_source=rss",
+              "title": "Leavitt to leave as White House press secretary"
+            },
+            {
+              "name": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cvglzrvyrz3o?at_medium=RSS&at_campaign=rss",
+              "title": "Trump says White House press secretary Karoline Leavitt to leave post"
+            }
+          ]
+        },
+        {
+          "title": "Three Palestinian families besieged in their homes by Israeli settlers",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/8/13/three-palestinian-families-besieged-in-their-homes-by-israeli-settlers?traffic_source=rss",
+          "summary": "Three Palestinian families in Qusra, occupied West Bank, are being besieged inside their homes.",
+          "published": "2026-08-13T04:34:46.000Z",
+          "section": "world",
+          "score": 5.08,
+          "outlets": 2,
+          "reasons": {
+            "corroboration": 2.22,
+            "source": 1,
+            "recency": 1.87,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/8/13/three-palestinian-families-besieged-in-their-homes-by-israeli-settlers?traffic_source=rss",
+              "title": "Three Palestinian families besieged in their homes by Israeli settlers"
+            },
+            {
+              "name": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cn0npjkqrleo?at_medium=RSS&at_campaign=rss",
+              "title": "Israeli settlers besieging Palestinian families in West Bank village"
+            }
+          ]
+        },
+        {
+          "title": "Trump administration arrests Southern Poverty Law Center expert for fraud",
+          "link": "https://www.aljazeera.com/news/2026/8/12/trump-administration-arrests-southern-poverty-law-center-expert-for-fraud?traffic_source=rss",
+          "summary": "Heidi Beirich, an expert on far-right groups, has been charged over alleged misuse of donor funds to pay informants.",
+          "published": "2026-08-12T23:23:14.000Z",
+          "section": "world",
+          "score": 4.84,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.9,
+            "recency": 1.44,
+            "promoted": [
+              "fraud"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/8/12/trump-administration-arrests-southern-poverty-law-center-expert-for-fraud?traffic_source=rss",
+              "title": "Trump administration arrests Southern Poverty Law Center expert for fraud"
+            }
+          ]
+        },
+        {
+          "title": "AI is making daily life more expensive, at least for now. Here’s why.",
+          "link": "https://www.csmonitor.com/Business/2026/0812/inflation-prices-costs-federal-reserve?icid=rss",
+          "summary": "The AI boom is driving up prices for energy, chips, and software, boosting inflation and complicating the Federal Reserve’s targets.",
+          "published": "2026-08-12T20:51:14.000Z",
+          "section": "world",
+          "score": 4.47,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.8,
+            "recency": 1.27,
+            "promoted": [
+              "federal reserve"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "CS Monitor",
+              "link": "https://www.csmonitor.com/Business/2026/0812/inflation-prices-costs-federal-reserve?icid=rss",
+              "title": "AI is making daily life more expensive, at least for now. Here’s why."
+            }
+          ]
+        },
+        {
+          "title": "Japan protests against Putin visit to disputed islands",
+          "link": "https://www.bbc.co.uk/news/articles/cqx7ple0nxxo?at_medium=RSS&at_campaign=rss",
+          "summary": "The Russian leader visited the Kuril islands for the first time, according to state media.",
+          "published": "2026-08-13T05:34:04.000Z",
+          "section": "world",
+          "score": 4.36,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1,
+            "recency": 1.96,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cqx7ple0nxxo?at_medium=RSS&at_campaign=rss",
+              "title": "Japan protests against Putin visit to disputed islands"
+            }
+          ]
+        },
+        {
+          "title": "In shattered Cali, residents search for loved ones and signs of hope",
+          "link": "https://www.bbc.co.uk/news/videos/ckge0e0g95no?at_medium=RSS&at_campaign=rss",
+          "summary": "Most deaths from the magnitude-7.4 quake were reported in Cali, Colombia’s third-most populous city, as crews search collapsed buildings for those still trapped.",
+          "published": "2026-08-11T19:15:48.000Z",
+          "section": "world",
+          "score": 4.36,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1,
+            "recency": 0.36,
             "promoted": [
               "colombia"
             ],
@@ -163,169 +322,39 @@
           "sources": [
             {
               "name": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c20dqd9qwq4o?at_medium=RSS&at_campaign=rss",
-              "title": "Rescuers scramble for survivors with 180 dead in Colombia earthquake"
+              "link": "https://www.bbc.co.uk/news/videos/ckge0e0g95no?at_medium=RSS&at_campaign=rss",
+              "title": "In shattered Cali, residents search for loved ones and signs of hope"
             }
           ]
         },
         {
-          "title": "Zambia to vote as economic hardship tests government reforms",
-          "link": "https://www.aljazeera.com/news/2026/8/12/zambia-to-vote-as-economic-hardship-tests-government-reforms?traffic_source=rss",
-          "summary": "Debt restructuring, inflation and copper revenues are emerging as key issues in the vote.",
-          "published": "2026-08-12T01:18:29.000Z",
+          "title": "Putin can no longer claim victory in Ukraine, Nobel Peace Prize winner tells BBC",
+          "link": "https://www.bbc.co.uk/news/articles/c74grmy2v7ko?at_medium=RSS&at_campaign=rss",
+          "summary": "In an exclusive interview with the BBC’s Steve Rosenberg, Dmitry Muratov says the Kremlin leader can only \"destroy Ukraine, not conquer it\", with the war now in its fifth year.",
+          "published": "2026-08-13T04:55:58.000Z",
           "section": "world",
-          "score": 4.88,
+          "score": 4.3,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
-            "source": 0.9,
-            "recency": 1.58,
-            "promoted": [
-              "inflation"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/8/12/zambia-to-vote-as-economic-hardship-tests-government-reforms?traffic_source=rss",
-              "title": "Zambia to vote as economic hardship tests government reforms"
-            }
-          ]
-        },
-        {
-          "title": "Colombia: Thousands missing after deadly earthquake",
-          "link": "https://www.france24.com/en/video/20260811-colombia-thousands-missing-after-deadly-earthquake",
-          "summary": "At least 224 people have been killed in Colombia following a 7.4 magnitude earthquake which struck the western part of the country. With thousands of people still missing, authorities are warning the number of casualties could continue to climb.",
-          "published": "2026-08-11T14:32:29.000Z",
-          "section": "world",
-          "score": 4.83,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 0.9,
-            "recency": 0.93,
-            "promoted": [
-              "colombia"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "France 24",
-              "link": "https://www.france24.com/en/video/20260811-colombia-thousands-missing-after-deadly-earthquake",
-              "title": "Colombia: Thousands missing after deadly earthquake"
-            }
-          ]
-        },
-        {
-          "title": "Death toll from Colombia earthquake continues to rise",
-          "link": "https://www.france24.com/en/death-toll-from-colombia-earthquake-continues-to-rise",
-          "summary": "The death toll from a devastating earthquake that flattened dozens of buildings in western Colombia jumped to 224, local authorities said on Tuesday (August 11) as emergency workers dug through the wreckage for survivors. FRANCE 24's Maria Clara Calle Aguirre tells us more.",
-          "published": "2026-08-11T14:30:35.000Z",
-          "section": "world",
-          "score": 4.83,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 0.9,
-            "recency": 0.93,
-            "promoted": [
-              "colombia"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "France 24",
-              "link": "https://www.france24.com/en/death-toll-from-colombia-earthquake-continues-to-rise",
-              "title": "Death toll from Colombia earthquake continues to rise"
-            }
-          ]
-        },
-        {
-          "title": "North Korea conducts second ballistic missile test in less than a week",
-          "link": "https://www.france24.com/en/asia-pacific/20260812-north-korea-conducts-second-ballistic-missile-test-in-less-than-a-week",
-          "summary": "North Korea fired a ballistic missile Wednesday, its second test in less than a week, as Seoul and Washington prepare to begin annual military drills next week. The launches appear to signal Pyongyang’s opposition to the exercises, which it views as a rehearsal for an invasion.",
-          "published": "2026-08-12T02:18:24.000Z",
-          "section": "world",
-          "score": 4.78,
-          "outlets": 2,
-          "reasons": {
-            "corroboration": 2.22,
-            "source": 0.9,
-            "recency": 1.66,
+            "source": 1,
+            "recency": 1.9,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
-              "name": "France 24",
-              "link": "https://www.france24.com/en/asia-pacific/20260812-north-korea-conducts-second-ballistic-missile-test-in-less-than-a-week",
-              "title": "North Korea conducts second ballistic missile test in less than a week"
-            },
-            {
-              "name": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/8/12/n-korea-launches-ballistic-missile-as-s-korea-us-plan-military-drills?traffic_source=rss",
-              "title": "N Korea launches ballistic missile as S Korea, US plan military drills"
+              "name": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c74grmy2v7ko?at_medium=RSS&at_campaign=rss",
+              "title": "Putin can no longer claim victory in Ukraine, Nobel Peace Prize winner tells BBC"
             }
           ]
         },
         {
-          "title": "Colombia rescuers race against the clock to search for earthquake survivors",
-          "link": "https://www.france24.com/en/colombia-rescuers-race-against-the-clock-to-search-for-earthquake-survivors",
-          "summary": "Colombian volunteers and rescuers cleared rubble with their bare hands and buckets to search for survivors early Tuesday (August 11) after the country's strongest earthquake in a decade killed at least 132 people and smashed dozens of buildings.",
-          "published": "2026-08-11T12:30:26.000Z",
-          "section": "world",
-          "score": 4.74,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 0.9,
-            "recency": 0.84,
-            "promoted": [
-              "colombia"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "France 24",
-              "link": "https://www.france24.com/en/colombia-rescuers-race-against-the-clock-to-search-for-earthquake-survivors",
-              "title": "Colombia rescuers race against the clock to search for earthquake survivors"
-            }
-          ]
-        },
-        {
-          "title": "As US small colleges close, towns can struggle. In Vermont, one turned the page.",
-          "link": "https://www.csmonitor.com/USA/Education/2026/0811/small-college-closing-vermont-education?icid=rss",
-          "summary": "Small, private colleges in the U.S. are closing more often, depriving communities of resources and people. One Vermont town has a solution that could work for others.",
-          "published": "2026-08-11T15:38:15.000Z",
-          "section": "world",
-          "score": 4.58,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 0.8,
-            "recency": 0.98,
-            "promoted": [
-              "urc"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "CS Monitor",
-              "link": "https://www.csmonitor.com/USA/Education/2026/0811/small-college-closing-vermont-education?icid=rss",
-              "title": "As US small colleges close, towns can struggle. In Vermont, one turned the page."
-            }
-          ]
-        },
-        {
-          "title": "Why have several nations raised red flags over Indian farm exports?",
-          "link": "https://www.aljazeera.com/news/2026/8/12/why-have-several-nations-raised-red-flags-over-indian-farm-exports?traffic_source=rss",
-          "summary": "As Tokyo turns back mangoes, Beijing blocks rice, and European inspectors flag spices, Indian growers ask what's wrong.",
-          "published": "2026-08-12T05:34:14.000Z",
+          "title": "Russian strike sparks fire at Ukraine port; Zelenskyy seeks interceptors",
+          "link": "https://www.aljazeera.com/news/2026/8/13/russian-strike-sparks-fire-at-ukraine-port-zelenskyy-seeks-interceptors?traffic_source=rss",
+          "summary": "Ukraine has reported an acute shortage of Patriot interceptors since the US went to war with Iran in February.",
+          "published": "2026-08-13T05:26:05.000Z",
           "section": "world",
           "score": 4.25,
           "outlets": 1,
@@ -339,157 +368,103 @@
           "sources": [
             {
               "name": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/8/12/why-have-several-nations-raised-red-flags-over-indian-farm-exports?traffic_source=rss",
-              "title": "Why have several nations raised red flags over Indian farm exports?"
+              "link": "https://www.aljazeera.com/news/2026/8/13/russian-strike-sparks-fire-at-ukraine-port-zelenskyy-seeks-interceptors?traffic_source=rss",
+              "title": "Russian strike sparks fire at Ukraine port; Zelenskyy seeks interceptors"
             }
           ]
         },
         {
-          "title": "Cristiano Ronaldo marries long-time partner Georgina Rodríguez",
-          "link": "https://www.bbc.co.uk/news/articles/clyj0325z3ko?at_medium=RSS&at_campaign=rss",
-          "summary": "The Portuguese superstar has posted an image of two hands - presumed to be his on top of his wife's - both wearing wedding rings.",
-          "published": "2026-08-12T04:29:02.000Z",
+          "title": "BTS star V reveals hearing loss battle during livestream",
+          "link": "https://www.bbc.co.uk/news/articles/cx2v1893n3eo?at_medium=RSS&at_campaign=rss",
+          "summary": "The K-pop star says he has suffered hearing issues for over two years before revealing it publicly this week.",
+          "published": "2026-08-13T04:09:12.000Z",
           "section": "world",
-          "score": 4.25,
+          "score": 4.23,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 1,
-            "recency": 1.85,
+            "recency": 1.83,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
               "name": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/clyj0325z3ko?at_medium=RSS&at_campaign=rss",
-              "title": "Cristiano Ronaldo marries long-time partner Georgina Rodríguez"
+              "link": "https://www.bbc.co.uk/news/articles/cx2v1893n3eo?at_medium=RSS&at_campaign=rss",
+              "title": "BTS star V reveals hearing loss battle during livestream"
             }
           ]
         },
         {
-          "title": "Colombia earthquake: Death toll rises to over 100",
-          "link": "https://www.dw.com/en/colombia-earthquake-death-toll-rises-to-over-100/a-78307841?maca=en-rss-en-world-4025-rdf",
-          "summary": "A powerful earthquake, measured at magnitude 7.4, has struck Colombia, killing dozens of people and trapping many under rubble. Cities including Cali, Pereira and Manizales were among the hardest-hit.",
-          "published": "2026-08-10T18:58:00.000Z",
+          "title": "Why tariffs are not the right tool to bolster US production",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/8/13/aje-onl-nf_tariffs-not-the-right-tool-to-bolster-us-production-130826?traffic_source=rss",
+          "summary": "Donald Trump’s second term has been defined by tariffs, but experts question whether they actually work.",
+          "published": "2026-08-13T05:00:07.000Z",
           "section": "world",
-          "score": 4.25,
+          "score": 4.2,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.9,
-            "recency": 0.35,
-            "promoted": [
-              "colombia"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "DW",
-              "link": "https://www.dw.com/en/colombia-earthquake-death-toll-rises-to-over-100/a-78307841?maca=en-rss-en-world-4025-rdf",
-              "title": "Colombia earthquake: Death toll rises to over 100"
-            }
-          ]
-        },
-        {
-          "title": "Zelenskyy says Ukraine has sent proposals to US to end war with Russia",
-          "link": "https://www.aljazeera.com/news/2026/8/12/zelenskyy-says-ukraine-has-sent-proposals-to-us-to-end-war-with-russia?traffic_source=rss",
-          "summary": "Ukraine's president also says Russia will use its election next month as a pretext to declare a new mobilisation.",
-          "published": "2026-08-12T05:26:26.000Z",
-          "section": "world",
-          "score": 4.24,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 0.9,
-            "recency": 1.94,
+            "recency": 1.9,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
               "name": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/8/12/zelenskyy-says-ukraine-has-sent-proposals-to-us-to-end-war-with-russia?traffic_source=rss",
-              "title": "Zelenskyy says Ukraine has sent proposals to US to end war with Russia"
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/8/13/aje-onl-nf_tariffs-not-the-right-tool-to-bolster-us-production-130826?traffic_source=rss",
+              "title": "Why tariffs are not the right tool to bolster US production"
             }
           ]
         },
         {
-          "title": "Watch: Was Trump smuggled out of Air Force One in a catering truck?",
-          "link": "https://www.bbc.co.uk/news/videos/cj3672ljgzro?at_medium=RSS&at_campaign=rss",
-          "summary": "US media reports say the president secretly left via a catering truck to avoid a threat to his life from Iran.",
-          "published": "2026-08-11T15:53:53.000Z",
+          "title": "Major Russian grain export terminals hit in Ukraine Black Sea port attack",
+          "link": "https://www.bbc.co.uk/news/articles/c5y49xp2wrno?at_medium=RSS&at_campaign=rss",
+          "summary": "Grain exports from both Russia and Ukraine are falling as both countries attack each other's shipping facilities and ports.",
+          "published": "2026-08-13T03:28:56.000Z",
           "section": "world",
-          "score": 4.21,
-          "outlets": 2,
+          "score": 4.17,
+          "outlets": 1,
           "reasons": {
-            "corroboration": 2.22,
+            "corroboration": 1.4,
             "source": 1,
-            "recency": 0.99,
+            "recency": 1.77,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
               "name": "BBC World",
-              "link": "https://www.bbc.co.uk/news/videos/cj3672ljgzro?at_medium=RSS&at_campaign=rss",
-              "title": "Watch: Was Trump smuggled out of Air Force One in a catering truck?"
-            },
-            {
-              "name": "France 24",
-              "link": "https://www.france24.com/en/trump-boarded-secret-flight-via-catering-truck-due-to-iran-threat-us-media-reports",
-              "title": "Trump boarded secret flight via catering truck due to Iran threat, US media reports"
+              "link": "https://www.bbc.co.uk/news/articles/c5y49xp2wrno?at_medium=RSS&at_campaign=rss",
+              "title": "Major Russian grain export terminals hit in Ukraine Black Sea port attack"
             }
           ]
         }
       ],
-      "dropped": 73
+      "dropped": 57
     },
     {
       "id": "ireland",
       "name": "Ireland",
-      "total": 100,
+      "total": 94,
       "items": [
         {
-          "title": "Daniel Kinahan declined offer of legal counsel, Garda sources say",
-          "link": "https://www.irishtimes.com/crime-law/2026/08/12/daniel-kinahan-declined-offer-of-legal-counsel-garda-sources-say/",
-          "summary": "Gardaí surprised Dubliner appeared before court unrepresented as he had known for more than a week he was to be extradited",
-          "published": "2026-08-12T05:15:00.000Z",
+          "title": "30C recorded as 13 counties under weather warning",
+          "link": "https://www.rte.ie/news/2026/0812/1587523-ireland-weather/",
+          "summary": "Temperatures of 30C have been recorded at two weather stations - Oak Park in Co Carlow and Casement Aerodrome in Dublin - as a warning is in place for Leinster and Co Tipperary.",
+          "published": "2026-08-12T04:06:32.000Z",
           "section": "ireland",
-          "score": 7.02,
+          "score": 6.26,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
-            "source": 1.1,
-            "recency": 1.92,
+            "source": 1,
+            "recency": 0.56,
             "promoted": [
               "dublin",
-              "urc"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "Irish Times",
-              "link": "https://www.irishtimes.com/crime-law/2026/08/12/daniel-kinahan-declined-offer-of-legal-counsel-garda-sources-say/",
-              "title": "Daniel Kinahan declined offer of legal counsel, Garda sources say"
-            }
-          ]
-        },
-        {
-          "title": "Yellow high temperature warning in effect in 13 counties",
-          "link": "https://www.rte.ie/news/2026/0812/1587523-ireland-weather/",
-          "summary": "Met Éireann has warned the public to be aware of possible heat stress and animal welfare issues amid a Status Yellow high temperature warning for Leinster and Tipperary.",
-          "published": "2026-08-12T04:06:32.000Z",
-          "section": "ireland",
-          "score": 6.44,
-          "outlets": 2,
-          "reasons": {
-            "corroboration": 2.22,
-            "source": 1,
-            "recency": 1.82,
-            "promoted": [
+              "rome",
               "leinster"
             ],
             "demoted": []
@@ -498,53 +473,22 @@
             {
               "name": "RTÉ",
               "link": "https://www.rte.ie/news/2026/0812/1587523-ireland-weather/",
-              "title": "Yellow high temperature warning in effect in 13 counties"
-            },
-            {
-              "name": "TheJournal.ie",
-              "link": "https://www.thejournal.ie/met-eireann-heat-warning-7127241-Aug2026/",
-              "title": "Met Éireann issues 48-hour high temperature warning for 13 counties from tomorrow"
+              "title": "30C recorded as 13 counties under weather warning"
             }
           ]
         },
         {
-          "title": "Irish in earthquake-hit Colombia: ‘Everything started shaking’",
-          "link": "https://www.irishtimes.com/ireland/2026/08/11/irish-in-earthquake-hit-colombia-the-entire-building-started-swaying/",
-          "summary": "Community of expat Colombians in Ireland tell of shock and agonising wait for news of loved ones back home",
-          "published": "2026-08-11T15:54:31.000Z",
+          "title": "Colombia in 'final phase' of quake search as deaths rise",
+          "link": "https://www.rte.ie/news/world/2026/0813/1587673-colombia-earthquake/",
+          "summary": "Colombia's earthquake rescue efforts have entered what officials called the \"final phase\", as rescuers searched for signs of life beneath collapsed buildings before the critical first 72 hours came to an end.",
+          "published": "2026-08-13T03:47:09.000Z",
           "section": "ireland",
-          "score": 6.29,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1.1,
-            "recency": 0.99,
-            "promoted": [
-              "ireland",
-              "colombia"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "Irish Times",
-              "link": "https://www.irishtimes.com/ireland/2026/08/11/irish-in-earthquake-hit-colombia-the-entire-building-started-swaying/",
-              "title": "Irish in earthquake-hit Colombia: ‘Everything started shaking’"
-            }
-          ]
-        },
-        {
-          "title": "Colombia rescuers find woman alive after earthquake",
-          "link": "https://www.rte.ie/news/world/2026/0812/1587526-colombia-earthquake/",
-          "summary": "Colombian rescuers pulled a 32-year-old woman alive from the rubble of a collapsed building as exhausted crews searched to find more survivors from the country's strongest earthquake in a century.",
-          "published": "2026-08-12T05:54:07.000Z",
-          "section": "ireland",
-          "score": 5.99,
+          "score": 5.79,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 1,
-            "recency": 1.99,
+            "recency": 1.79,
             "promoted": [
               "colombia"
             ],
@@ -553,23 +497,23 @@
           "sources": [
             {
               "name": "RTÉ",
-              "link": "https://www.rte.ie/news/world/2026/0812/1587526-colombia-earthquake/",
-              "title": "Colombia rescuers find woman alive after earthquake"
+              "link": "https://www.rte.ie/news/world/2026/0813/1587673-colombia-earthquake/",
+              "title": "Colombia in 'final phase' of quake search as deaths rise"
             }
           ]
         },
         {
-          "title": "Former Donegal All-Ireland winner James McHugh and his wife Noreen killed in road crash",
-          "link": "https://www.thejournal.ie/james-mchugh-donegal-death-7127108-Aug2026/",
-          "summary": "The collision happened on the N3 at Drummallaght, between Virginia and Cavan, just before 2pm on Monday.",
-          "published": "2026-08-11T21:30:00.000Z",
+          "title": "Here are 13 amazing photos of the solar eclipse (and people watching it)",
+          "link": "https://www.thejournal.ie/amazing-photos-and-videos-of-the-solar-eclipse-7129188-Aug2026/",
+          "summary": "It was one of the most significant astronomical events in decades.",
+          "published": "2026-08-12T20:46:41.000Z",
           "section": "ireland",
-          "score": 5.73,
+          "score": 5.69,
           "outlets": 2,
           "reasons": {
             "corroboration": 2.22,
             "source": 1,
-            "recency": 1.31,
+            "recency": 1.27,
             "promoted": [
               "ireland"
             ],
@@ -578,46 +522,46 @@
           "sources": [
             {
               "name": "TheJournal.ie",
-              "link": "https://www.thejournal.ie/james-mchugh-donegal-death-7127108-Aug2026/",
-              "title": "Former Donegal All-Ireland winner James McHugh and his wife Noreen killed in road crash"
+              "link": "https://www.thejournal.ie/amazing-photos-and-videos-of-the-solar-eclipse-7129188-Aug2026/",
+              "title": "Here are 13 amazing photos of the solar eclipse (and people watching it)"
             },
             {
               "name": "RTÉ",
-              "link": "https://www.rte.ie/sport/football/2026/0811/1587360-donegal-james-mchugh/",
-              "title": "Donegal All-Ireland winner McHugh, wife killed in crash"
+              "link": "https://www.rte.ie/news/ireland/2026/0812/1587525-eclipse-tracker/",
+              "title": "As it happened: Eclipse wows millions across Europe"
             }
           ]
         },
         {
-          "title": "Croke Park to host largest ever crowd for a soccer match in Ireland",
-          "link": "https://www.irishtimes.com/ireland/2026/08/12/croke-park-to-host-largest-ever-crowd-for-a-soccer-match-in-ireland/",
-          "summary": "Friendly between Manchester United and Leeds United will draw 83,000 fans",
-          "published": "2026-08-12T06:00:00.000Z",
+          "title": "Kerry rally in which driver died should not gone ahead owing to bad weather, inquest told",
+          "link": "https://www.irishtimes.com/ireland/2026/08/13/kerry-rally-in-which-driver-died-should-not-gone-ahead-owing-to-bad-weather-inquest-told/",
+          "summary": "Eoin McCarthy (22) of Dunmanway, Co Cork, died in February 2022",
+          "published": "2026-08-13T05:38:13.000Z",
           "section": "ireland",
-          "score": 5.69,
+          "score": 5.67,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 1.1,
-            "recency": 1.99,
+            "recency": 1.97,
             "promoted": [
-              "ireland"
+              "cork"
             ],
             "demoted": []
           },
           "sources": [
             {
               "name": "Irish Times",
-              "link": "https://www.irishtimes.com/ireland/2026/08/12/croke-park-to-host-largest-ever-crowd-for-a-soccer-match-in-ireland/",
-              "title": "Croke Park to host largest ever crowd for a soccer match in Ireland"
+              "link": "https://www.irishtimes.com/ireland/2026/08/13/kerry-rally-in-which-driver-died-should-not-gone-ahead-owing-to-bad-weather-inquest-told/",
+              "title": "Kerry rally in which driver died should not gone ahead owing to bad weather, inquest told"
             }
           ]
         },
         {
-          "title": "Majority of Irish universities hike on-campus accommodation costs for new academic year",
-          "link": "https://www.irishtimes.com/ireland/education/2026/08/12/nearly-all-notable-irish-colleges-hike-on-campus-accommodation-costs-for-academic-year/",
-          "summary": "En suite room in UCD Village priced at almost €12,000 and remains State’s most expensive",
-          "published": "2026-08-12T05:00:01.000Z",
+          "title": "How the Garda is fighting the new wave of Irish drug gangs in the post-Kinahan era",
+          "link": "https://www.irishtimes.com/crime-law/2026/08/13/how-the-garda-is-fighting-the-new-wave-of-irish-drug-gangs-in-the-post-kinahan-era/",
+          "summary": "Irish crime groups have more international contacts than ever, sending their members abroad to act as ‘criminal liaison officers’",
+          "published": "2026-08-13T05:00:01.000Z",
           "section": "ireland",
           "score": 5.6,
           "outlets": 1,
@@ -633,73 +577,23 @@
           "sources": [
             {
               "name": "Irish Times",
-              "link": "https://www.irishtimes.com/ireland/education/2026/08/12/nearly-all-notable-irish-colleges-hike-on-campus-accommodation-costs-for-academic-year/",
-              "title": "Majority of Irish universities hike on-campus accommodation costs for new academic year"
+              "link": "https://www.irishtimes.com/crime-law/2026/08/13/how-the-garda-is-fighting-the-new-wave-of-irish-drug-gangs-in-the-post-kinahan-era/",
+              "title": "How the Garda is fighting the new wave of Irish drug gangs in the post-Kinahan era"
             }
           ]
         },
         {
-          "title": "It’s like hurling on horses: The polo players of Phoenix Park",
-          "link": "https://www.irishtimes.com/ireland/dublin/2026/08/12/its-like-hurling-on-horses-the-polo-players-of-phoenix-park/",
-          "summary": "From May to September the park resounds to the thunder of galloping hooves, players’ shouts and enthusiastic commentary at the All Ireland Polo Club",
-          "published": "2026-08-12T05:00:00.000Z",
+          "title": "Ireland among 30 nations to condemn Iran executions",
+          "link": "https://www.rte.ie/news/middle-east/2026/0813/1587674-iran-executions-statement/",
+          "summary": "More than 30 nations, including Ireland, Britain and Canada, have condemned Iran's use of capital punishment, saying in a joint statement the Islamic republic was executing protesters to \"silence dissent\".",
+          "published": "2026-08-13T04:37:35.000Z",
           "section": "ireland",
-          "score": 5.6,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1.1,
-            "recency": 1.9,
-            "promoted": [
-              "ireland"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "Irish Times",
-              "link": "https://www.irishtimes.com/ireland/dublin/2026/08/12/its-like-hurling-on-horses-the-polo-players-of-phoenix-park/",
-              "title": "It’s like hurling on horses: The polo players of Phoenix Park"
-            }
-          ]
-        },
-        {
-          "title": "Solar eclipse weather forecast: ‘No guarantees’ for clear skies across much of Ireland",
-          "link": "https://www.irishtimes.com/ireland/2026/08/12/no-guarantees-for-clear-skies-across-much-of-country-ahead-of-solar-eclipse/",
-          "summary": "Met Éireann yellow heat warning in place for 12 counties in east and southeast",
-          "published": "2026-08-12T04:00:00.000Z",
-          "section": "ireland",
-          "score": 5.51,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1.1,
-            "recency": 1.81,
-            "promoted": [
-              "ireland"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "Irish Times",
-              "link": "https://www.irishtimes.com/ireland/2026/08/12/no-guarantees-for-clear-skies-across-much-of-country-ahead-of-solar-eclipse/",
-              "title": "Solar eclipse weather forecast: ‘No guarantees’ for clear skies across much of Ireland"
-            }
-          ]
-        },
-        {
-          "title": "Watch: How Ireland viewed the solar eclipse of 1999",
-          "link": "https://www.rte.ie/news/2026/0812/1587483-solar-eclipse/",
-          "summary": "Shortly after 6pm this evening Ireland will experience a partial solar eclipse as the Moon moves across the Sun.",
-          "published": "2026-08-12T05:00:00.000Z",
-          "section": "ireland",
-          "score": 5.5,
+          "score": 5.47,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 1,
-            "recency": 1.9,
+            "recency": 1.87,
             "promoted": [
               "ireland"
             ],
@@ -708,195 +602,274 @@
           "sources": [
             {
               "name": "RTÉ",
-              "link": "https://www.rte.ie/news/2026/0812/1587483-solar-eclipse/",
-              "title": "Watch: How Ireland viewed the solar eclipse of 1999"
-            }
-          ]
-        }
-      ],
-      "dropped": 90
-    },
-    {
-      "id": "uk",
-      "name": "United Kingdom",
-      "total": 25,
-      "items": [
-        {
-          "title": "Burnham to chair Cobra meeting on extreme heat as temperatures surge again",
-          "link": "https://www.bbc.co.uk/weather/articles/c36dr3r3ny0o?at_medium=RSS&at_campaign=rss",
-          "summary": "Summer's record-breaking streak continues as the tally for days above 30C in the UK is broken.",
-          "published": "2026-08-12T05:49:39.000Z",
-          "section": "uk",
-          "score": 4.38,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1,
-            "recency": 1.98,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "BBC UK",
-              "link": "https://www.bbc.co.uk/weather/articles/c36dr3r3ny0o?at_medium=RSS&at_campaign=rss",
-              "title": "Burnham to chair Cobra meeting on extreme heat as temperatures surge again"
+              "link": "https://www.rte.ie/news/middle-east/2026/0813/1587674-iran-executions-statement/",
+              "title": "Ireland among 30 nations to condemn Iran executions"
             }
           ]
         },
         {
-          "title": "Disabled man 'locked up' in care for nearly nine years",
-          "link": "https://www.bbc.co.uk/news/articles/cy731xpjmrdo?at_medium=RSS&at_campaign=rss",
-          "summary": "A disabled man from Bristol says he felt he was in \"jail\" during the nearly nine years he spent in a council-run care centre.",
-          "published": "2026-08-12T05:23:16.000Z",
-          "section": "uk",
-          "score": 4.34,
+          "title": "UK professor under investigation was NEPS guest speaker",
+          "link": "https://www.rte.ie/news/2026/0812/1587566-jason-arday-neps-cambridge/",
+          "summary": "A University of Cambridge professor who has made headlines over an investigation by the institution into his academic qualifications and honorary appointments was a guest speaker at the Irish National Educational Psychological Service (NEPS) conference last year.",
+          "published": "2026-08-12T09:24:25.000Z",
+          "section": "ireland",
+          "score": 5.42,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 1,
-            "recency": 1.94,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "BBC UK",
-              "link": "https://www.bbc.co.uk/news/articles/cy731xpjmrdo?at_medium=RSS&at_campaign=rss",
-              "title": "Disabled man 'locked up' in care for nearly nine years"
-            }
-          ]
-        },
-        {
-          "title": "First homes near pylons to get £250 a year off energy bills are revealed",
-          "link": "https://www.bbc.co.uk/news/articles/c8rn42jp7d6o?at_medium=RSS&at_campaign=rss",
-          "summary": "Households living within 1,600ft of upgraded pylons will get £250 a year off their electricity bills.",
-          "published": "2026-08-12T05:04:31.000Z",
-          "section": "uk",
-          "score": 4.31,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1,
-            "recency": 1.91,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "BBC UK",
-              "link": "https://www.bbc.co.uk/news/articles/c8rn42jp7d6o?at_medium=RSS&at_campaign=rss",
-              "title": "First homes near pylons to get £250 a year off energy bills are revealed"
-            }
-          ]
-        },
-        {
-          "title": "Boy, four, taken to hospital after fake squishy toy explodes in his face",
-          "link": "https://www.bbc.co.uk/news/articles/cwymv2nx2n1o?at_medium=RSS&at_campaign=rss",
-          "summary": "Jodanna Bevan says she feels guilty for buying the counterfeit toy from Shein.",
-          "published": "2026-08-12T05:03:52.000Z",
-          "section": "uk",
-          "score": 4.3,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1,
-            "recency": 1.9,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "BBC UK",
-              "link": "https://www.bbc.co.uk/news/articles/cwymv2nx2n1o?at_medium=RSS&at_campaign=rss",
-              "title": "Boy, four, taken to hospital after fake squishy toy explodes in his face"
-            }
-          ]
-        },
-        {
-          "title": "Early release scheme risks more serious crimes, probation chief warns",
-          "link": "https://www.bbc.co.uk/news/articles/c39e3y1y2zjo?at_medium=RSS&at_campaign=rss",
-          "summary": "The chief inspector of probation for England and Wales tells the BBC services are already under \"unprecedented pressure\".",
-          "published": "2026-08-12T05:00:23.000Z",
-          "section": "uk",
-          "score": 4.3,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1,
-            "recency": 1.9,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "BBC UK",
-              "link": "https://www.bbc.co.uk/news/articles/c39e3y1y2zjo?at_medium=RSS&at_campaign=rss",
-              "title": "Early release scheme risks more serious crimes, probation chief warns"
-            }
-          ]
-        },
-        {
-          "title": "PM admits cost of living help is not enough and hints at further support",
-          "link": "https://www.bbc.co.uk/news/articles/cgmkee248vdo?at_medium=RSS&at_campaign=rss",
-          "summary": "The PM has announced a rake of measures to help people since taking office three weeks ago.",
-          "published": "2026-08-12T04:13:45.000Z",
-          "section": "uk",
-          "score": 4.23,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1,
-            "recency": 1.83,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "BBC UK",
-              "link": "https://www.bbc.co.uk/news/articles/cgmkee248vdo?at_medium=RSS&at_campaign=rss",
-              "title": "PM admits cost of living help is not enough and hints at further support"
-            }
-          ]
-        }
-      ],
-      "dropped": 19
-    },
-    {
-      "id": "us",
-      "name": "United States",
-      "total": 30,
-      "items": [
-        {
-          "title": "Earthquake response strains Colombia's new government and rescuers",
-          "link": "https://www.npr.org/2026/08/12/g-s1-138315/colombia-earthquake-updates",
-          "summary": "The earthquake killed at least 181 people and left 2,595 injured, according to Colombian authorities. At least 195 remained missing, but civilian-run databases put that number closer to 4,000.",
-          "published": "2026-08-12T05:13:06.000Z",
-          "section": "us",
-          "score": 5.82,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 0.9,
-            "recency": 1.92,
+            "recency": 0.72,
             "promoted": [
-              "colombia"
+              "irish",
+              "investigation"
             ],
             "demoted": []
           },
           "sources": [
             {
-              "name": "NPR",
-              "link": "https://www.npr.org/2026/08/12/g-s1-138315/colombia-earthquake-updates",
-              "title": "Earthquake response strains Colombia's new government and rescuers"
+              "name": "RTÉ",
+              "link": "https://www.rte.ie/news/2026/0812/1587566-jason-arday-neps-cambridge/",
+              "title": "UK professor under investigation was NEPS guest speaker"
             }
           ]
         },
         {
-          "title": "Search for earthquake survivors in Colombia enters critical phase",
-          "link": "https://www.pbs.org/newshour/show/search-for-earthquake-survivors-in-colombia-enters-critical-phase",
-          "summary": "In Colombia, the desperate search for survivors is entering a critical phase after the powerful earthquake that devastated parts of the country. More than 180 people are confirmed dead. But 24 hours after the quake struck, there are still remarkable moments of hope. Geoff Bennett reports.",
-          "published": "2026-08-11T22:50:55.000Z",
+          "title": "Three people arrested during investigation into brothel keeping and money laundering in Dublin",
+          "link": "https://www.thejournal.ie/three-people-arrested-in-investigation-into-brothel-keeping-and-money-laundering-7128605-Aug2026/",
+          "summary": "The operation targeted the Dublin 24 and Dublin 1 areas on Monday.",
+          "published": "2026-08-12T13:09:43.000Z",
+          "section": "ireland",
+          "score": 5.27,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.7,
+            "recency": 0.87,
+            "promoted": [
+              "dublin",
+              "investigation"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "TheJournal.ie",
+              "link": "https://www.thejournal.ie/three-people-arrested-in-investigation-into-brothel-keeping-and-money-laundering-7128605-Aug2026/",
+              "title": "Three people arrested during investigation into brothel keeping and money laundering in Dublin"
+            }
+          ]
+        },
+        {
+          "title": "Jury awards $29m to Irish man's family after plane crash",
+          "link": "https://www.rte.ie/news/world/2026/0813/1587670-micheal-ryan-boeing-crash/",
+          "summary": "A US jury has awarded $29m in damages to the family of an Irish UN employee who died in a 2019 Boeing 737 MAX crash, a US court spokesperson said.",
+          "published": "2026-08-12T23:48:20.000Z",
+          "section": "ireland",
+          "score": 5.07,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1,
+            "recency": 1.47,
+            "promoted": [
+              "irish"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "RTÉ",
+              "link": "https://www.rte.ie/news/world/2026/0813/1587670-micheal-ryan-boeing-crash/",
+              "title": "Jury awards $29m to Irish man's family after plane crash"
+            }
+          ]
+        },
+        {
+          "title": "Even Dublin’s seagulls took a moment to pause as the solar eclipse filled the sky",
+          "link": "https://www.irishtimes.com/ireland/2026/08/12/even-dublins-seagulls-take-a-moment-to-pause-with-the-solar-eclipse-over-the-capital/",
+          "summary": "The event brought strangers together as few things do at the city’s numerous vantage points",
+          "published": "2026-08-12T21:17:10.000Z",
+          "section": "ireland",
+          "score": 5,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1.1,
+            "recency": 1.3,
+            "promoted": [
+              "dublin"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "Irish Times",
+              "link": "https://www.irishtimes.com/ireland/2026/08/12/even-dublins-seagulls-take-a-moment-to-pause-with-the-solar-eclipse-over-the-capital/",
+              "title": "Even Dublin’s seagulls took a moment to pause as the solar eclipse filled the sky"
+            }
+          ]
+        }
+      ],
+      "dropped": 84
+    },
+    {
+      "id": "uk",
+      "name": "United Kingdom",
+      "total": 22,
+      "items": [
+        {
+          "title": "Pupils across Northern Ireland to receive AS and A-level results",
+          "link": "https://www.bbc.co.uk/news/articles/cj63p83l8jlo?at_medium=RSS&at_campaign=rss",
+          "summary": "Many students can view their A and AS-level results online from 08:00 BST on Thursday.",
+          "published": "2026-08-12T23:01:41.000Z",
+          "section": "uk",
+          "score": 5.02,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1,
+            "recency": 1.42,
+            "promoted": [
+              "ireland"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "BBC UK",
+              "link": "https://www.bbc.co.uk/news/articles/cj63p83l8jlo?at_medium=RSS&at_campaign=rss",
+              "title": "Pupils across Northern Ireland to receive AS and A-level results"
+            }
+          ]
+        },
+        {
+          "title": "Cloudy skies lead to mixed fortunes for Scotland's eclipse hunters",
+          "link": "https://www.bbc.co.uk/news/articles/c5y49e2z8yno?at_medium=RSS&at_campaign=rss",
+          "summary": "Scotland's best chance of seeing a solar eclipse in 27 years left some disappointed, though there were moments of magic.",
+          "published": "2026-08-13T05:40:24.000Z",
+          "section": "uk",
+          "score": 4.37,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1,
+            "recency": 1.97,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "BBC UK",
+              "link": "https://www.bbc.co.uk/news/articles/c5y49e2z8yno?at_medium=RSS&at_campaign=rss",
+              "title": "Cloudy skies lead to mixed fortunes for Scotland's eclipse hunters"
+            }
+          ]
+        },
+        {
+          "title": "Students wait for A-level, T-level and BTec results",
+          "link": "https://www.bbc.co.uk/news/articles/c8dn8q3r8mzo?at_medium=RSS&at_campaign=rss",
+          "summary": "Another record number of students are expected to secure a place at their first choice of university.",
+          "published": "2026-08-13T05:40:22.000Z",
+          "section": "uk",
+          "score": 4.37,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1,
+            "recency": 1.97,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "BBC UK",
+              "link": "https://www.bbc.co.uk/news/articles/c8dn8q3r8mzo?at_medium=RSS&at_campaign=rss",
+              "title": "Students wait for A-level, T-level and BTec results"
+            }
+          ]
+        },
+        {
+          "title": "The Papers: 'The Sun, the Moon' and 'The greatest show on Earth'",
+          "link": "https://www.bbc.co.uk/news/articles/cx2j1peddwgo?at_medium=RSS&at_campaign=rss",
+          "summary": "The once in a generation solar eclipse across the UK and Europe dominates Thursday's front pages.",
+          "published": "2026-08-13T05:30:21.000Z",
+          "section": "uk",
+          "score": 4.35,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1,
+            "recency": 1.95,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "BBC UK",
+              "link": "https://www.bbc.co.uk/news/articles/cx2j1peddwgo?at_medium=RSS&at_campaign=rss",
+              "title": "The Papers: 'The Sun, the Moon' and 'The greatest show on Earth'"
+            }
+          ]
+        },
+        {
+          "title": "Acting pals Cumming and Henderson put 40-year friendship onto paper",
+          "link": "https://www.bbc.co.uk/news/articles/cdrvp5nl636o?at_medium=RSS&at_campaign=rss",
+          "summary": "Alan Cumming and Shirley Henderson's acting relationship goes back a long way, mirroring the show the pair have been reunited on.",
+          "published": "2026-08-13T05:14:18.000Z",
+          "section": "uk",
+          "score": 4.33,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1,
+            "recency": 1.93,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "BBC UK",
+              "link": "https://www.bbc.co.uk/news/articles/cdrvp5nl636o?at_medium=RSS&at_campaign=rss",
+              "title": "Acting pals Cumming and Henderson put 40-year friendship onto paper"
+            }
+          ]
+        },
+        {
+          "title": "I've been fighting wildfires while I wait for my A-level results",
+          "link": "https://www.bbc.co.uk/news/articles/clye3q00zd0o?at_medium=RSS&at_campaign=rss",
+          "summary": "Grades for A-levels and a number of vocational qualifications will be published on Thursday.",
+          "published": "2026-08-13T05:09:13.000Z",
+          "section": "uk",
+          "score": 4.32,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1,
+            "recency": 1.92,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "BBC UK",
+              "link": "https://www.bbc.co.uk/news/articles/clye3q00zd0o?at_medium=RSS&at_campaign=rss",
+              "title": "I've been fighting wildfires while I wait for my A-level results"
+            }
+          ]
+        }
+      ],
+      "dropped": 16
+    },
+    {
+      "id": "us",
+      "name": "United States",
+      "total": 28,
+      "items": [
+        {
+          "title": "News Wrap: Trump confirms he was secretly whisked away from Air Force One in Turkey",
+          "link": "https://www.pbs.org/newshour/show/news-wrap-trump-confirms-he-was-secretly-whisked-away-from-air-force-one-in-turkey",
+          "summary": "In our news wrap Wednesday, President Trump confirmed that he was whisked away from Air Force One in a catering truck at the Secret Service's direction, the hope of finding survivors is diminishing more than two days after a powerful earthquake hit Colombia and White House Press Secretary Karoline Leavitt says she will soon leave the job to spend more time with her family.",
+          "published": "2026-08-12T22:45:26.000Z",
           "section": "us",
           "score": 5.3,
           "outlets": 1,
@@ -912,23 +885,23 @@
           "sources": [
             {
               "name": "PBS NewsHour",
-              "link": "https://www.pbs.org/newshour/show/search-for-earthquake-survivors-in-colombia-enters-critical-phase",
-              "title": "Search for earthquake survivors in Colombia enters critical phase"
+              "link": "https://www.pbs.org/newshour/show/news-wrap-trump-confirms-he-was-secretly-whisked-away-from-air-force-one-in-turkey",
+              "title": "News Wrap: Trump confirms he was secretly whisked away from Air Force One in Turkey"
             }
           ]
         },
         {
-          "title": "As search for thousands of missing pushes on, Colombia earthquake tests new president",
-          "link": "https://www.pbs.org/newshour/world/as-search-for-thousands-of-missing-pushes-on-colombia-earthquake-tests-new-president",
-          "summary": "Rescue crews and civilians in Colombia painstakingly searched through rubble Tuesday in the hopes of finding survivors trapped under debris after a powerful earthquake left thousands missing in dozens of cities and towns.",
-          "published": "2026-08-11T21:36:53.000Z",
+          "title": "Earthquake response strains Colombia's new government and rescuers as they race against the clock",
+          "link": "https://www.pbs.org/newshour/world/earthquake-response-strains-colombias-new-government-and-rescuers-as-they-race-against-the-clock",
+          "summary": "Tons of aid from regional partners began to roll into Colombia on Wednesday, as the search for survivors in the rubble of powerful earthquake grew more desperate after the temblor razed buildings, buckled roads and crushed cars.",
+          "published": "2026-08-12T22:12:50.000Z",
           "section": "us",
-          "score": 5.22,
+          "score": 5.26,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.9,
-            "recency": 1.32,
+            "recency": 1.36,
             "promoted": [
               "colombia"
             ],
@@ -937,363 +910,386 @@
           "sources": [
             {
               "name": "PBS NewsHour",
-              "link": "https://www.pbs.org/newshour/world/as-search-for-thousands-of-missing-pushes-on-colombia-earthquake-tests-new-president",
-              "title": "As search for thousands of missing pushes on, Colombia earthquake tests new president"
+              "link": "https://www.pbs.org/newshour/world/earthquake-response-strains-colombias-new-government-and-rescuers-as-they-race-against-the-clock",
+              "title": "Earthquake response strains Colombia's new government and rescuers as they race against the clock"
             }
           ]
         },
         {
-          "title": "The death toll climbs from Monday's 7.4 magnitude earthquake in Colombia",
-          "link": "https://www.npr.org/2026/08/11/nx-s1-5928036/the-death-toll-climbs-from-mondays-7-4-magnitude-earthquake-in-colombia",
-          "summary": "Hundreds of rescue workers have been deployed in hardest hit cities trying to free victims still trapped under the rubble. Hundreds of people are still missing.",
-          "published": "2026-08-11T21:12:05.000Z",
+          "title": "3 men set for lethal injection on same day in Tennessee, Alabama and Oklahoma",
+          "link": "https://www.npr.org/2026/08/13/g-s1-138552/us-same-day-executions",
+          "summary": "Three men in Tennessee, Alabama and Oklahoma are scheduled for lethal injection Thursday in a rare convergence of executions on the same day in the U.S.",
+          "published": "2026-08-13T05:43:43.000Z",
           "section": "us",
-          "score": 5.19,
+          "score": 5.09,
+          "outlets": 2,
+          "reasons": {
+            "corroboration": 2.22,
+            "source": 0.9,
+            "recency": 1.97,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "NPR",
+              "link": "https://www.npr.org/2026/08/13/g-s1-138552/us-same-day-executions",
+              "title": "3 men set for lethal injection on same day in Tennessee, Alabama and Oklahoma"
+            },
+            {
+              "name": "PBS NewsHour",
+              "link": "https://www.pbs.org/newshour/nation/3-states-are-set-to-hold-executions-on-the-same-day-a-first-in-the-us-since-2010",
+              "title": "3 states are set to hold executions on the same day, a first in the US since 2010"
+            }
+          ]
+        },
+        {
+          "title": "AP report: ICE plans to give its officers gloves that can deliver painful electric shocks",
+          "link": "https://www.pbs.org/newshour/nation/ap-report-ice-plans-to-give-its-officers-gloves-that-can-deliver-painful-electric-shocks",
+          "summary": "Immigration and Customs Enforcement plans to spend up to $20 million to purchase thousands of gloves that can deliver painful electric shocks intended to gain compliance from individuals.",
+          "published": "2026-08-12T18:46:22.000Z",
+          "section": "us",
+          "score": 4.85,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.9,
-            "recency": 1.29,
+            "recency": 1.15,
             "promoted": [
-              "colombia"
+              "urc"
             ],
             "demoted": []
           },
           "sources": [
             {
-              "name": "NPR",
-              "link": "https://www.npr.org/2026/08/11/nx-s1-5928036/the-death-toll-climbs-from-mondays-7-4-magnitude-earthquake-in-colombia",
-              "title": "The death toll climbs from Monday's 7.4 magnitude earthquake in Colombia"
+              "name": "PBS NewsHour",
+              "link": "https://www.pbs.org/newshour/nation/ap-report-ice-plans-to-give-its-officers-gloves-that-can-deliver-painful-electric-shocks",
+              "title": "AP report: ICE plans to give its officers gloves that can deliver painful electric shocks"
             }
           ]
         },
         {
-          "title": "Former U.S. Marine held in Russia on disputed charges has been released",
-          "link": "https://www.npr.org/2026/08/12/g-s1-138323/former-us-marine-russia",
-          "summary": "Russia released an American military veteran, allowing his return to the U.S. after four years of what his family and U.S. officials allege was wrongful incarceration and abusive treatment.",
-          "published": "2026-08-12T05:27:13.000Z",
+          "title": "WATCH: AG Blanche announces charges over green card scheme involving 'sham' marriages",
+          "link": "https://www.pbs.org/newshour/nation/watch-ag-blanche-announces-charges-over-green-card-scheme-involving-sham-marriages",
+          "summary": "The Department of Justice has charged nearly a dozen people with participating in a multimillion-dollar scheme to help hundreds of Chinese nationals fraudulently obtain green cards through sham marriages to U.S. citizens, officials said Wednesday.",
+          "published": "2026-08-12T22:11:48.000Z",
           "section": "us",
-          "score": 4.24,
+          "score": 4.76,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.9,
-            "recency": 1.94,
+            "recency": 1.36,
+            "promoted": [
+              "fraud"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "link": "https://www.pbs.org/newshour/nation/watch-ag-blanche-announces-charges-over-green-card-scheme-involving-sham-marriages",
+              "title": "WATCH: AG Blanche announces charges over green card scheme involving 'sham' marriages"
+            }
+          ]
+        },
+        {
+          "title": "Karoline Leavitt is leaving her role as Trump's White House press secretary",
+          "link": "https://www.pbs.org/newshour/politics/karoline-leavitt-is-leaving-her-role-as-trumps-white-house-press-secretary",
+          "summary": "Leavitt called it a \"bittersweet decision\" in a social media post Wednesday shortly after President Donald Trump announced she would be stepping down. She recently returned to the White House podium after the birth of her second child, a daughter named Viviana, in May.",
+          "published": "2026-08-13T00:32:39.000Z",
+          "section": "us",
+          "score": 4.65,
+          "outlets": 2,
+          "reasons": {
+            "corroboration": 2.22,
+            "source": 0.9,
+            "recency": 1.53,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
-              "name": "NPR",
-              "link": "https://www.npr.org/2026/08/12/g-s1-138323/former-us-marine-russia",
-              "title": "Former U.S. Marine held in Russia on disputed charges has been released"
-            }
-          ]
-        },
-        {
-          "title": "Progressive Peggy Flanagan wins Democratic Senate primary in Minnesota",
-          "link": "https://www.npr.org/2026/08/11/nx-s1-5927473/2026-minnesota-senate-primary-election-peggy-flanagan",
-          "summary": "Progressive Lt. Gov. Peggy Flanagan won the Democratic primary for Senate from Minnesota. It continues a series of wins for the progressive wing of the party over centrists.",
-          "published": "2026-08-12T03:34:54.000Z",
-          "section": "us",
-          "score": 4.07,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 0.9,
-            "recency": 1.77,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
+              "name": "PBS NewsHour",
+              "link": "https://www.pbs.org/newshour/politics/karoline-leavitt-is-leaving-her-role-as-trumps-white-house-press-secretary",
+              "title": "Karoline Leavitt is leaving her role as Trump's White House press secretary"
+            },
             {
               "name": "NPR",
-              "link": "https://www.npr.org/2026/08/11/nx-s1-5927473/2026-minnesota-senate-primary-election-peggy-flanagan",
-              "title": "Progressive Peggy Flanagan wins Democratic Senate primary in Minnesota"
+              "link": "https://www.npr.org/2026/08/12/nx-s1-5929560/karoline-leavitt-white-house-press-secretary-leaving",
+              "title": "White House press secretary leaving"
             }
           ]
         }
       ],
-      "dropped": 24
+      "dropped": 22
     },
     {
       "id": "carbon",
       "name": "Climate and carbon",
-      "total": 0,
-      "items": [],
+      "total": 1,
+      "items": [
+        {
+          "title": "Analysis: Weaker EV targets could cost UK consumers £3bn a year by 2030",
+          "link": "https://www.carbonbrief.org/analysis-weaker-ev-targets-could-cost-uk-consumers-3bn-a-year-by-2030",
+          "summary": "An upcoming UK government consultation on weakening targets for electric vehicles (EVs) could cost consumers as much as £3bn a… The post Analysis: Weaker EV targets could cost UK consumers £3bn a year by 2030 appeared first on Carbon Brief .",
+          "published": "2026-08-12T14:50:39.000Z",
+          "section": "carbon",
+          "score": 3.64,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1.3,
+            "recency": 0.94,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "Carbon Brief",
+              "link": "https://www.carbonbrief.org/analysis-weaker-ev-targets-could-cost-uk-consumers-3bn-a-year-by-2030",
+              "title": "Analysis: Weaker EV targets could cost UK consumers £3bn a year by 2030"
+            }
+          ]
+        }
+      ],
       "dropped": 0
     },
     {
       "id": "rugby",
       "name": "Rugby",
-      "total": 34,
+      "total": 37,
       "items": [
         {
-          "title": "Ulster reveal summer surgery to Henderson alongside three team-mates",
-          "link": "https://www.rugbypass.com/news/ulster-reveal-summer-surgery-to-iain-henderson-alongside-three-team-mates-bryn-ward-juarno-augustus-jude-postlethwaite/",
-          "summary": "Ulster have confirmed that captain Iain Henderson will be out of action for a \"number of months\" after undergoing an operation on his hip this summer.",
-          "published": "2026-08-11T13:53:38.000Z",
+          "title": "Les Kiss teases new-look Wallabies combination on the flanks",
+          "link": "https://www.rugbypass.com/news/les-kiss-teases-new-look-wallabies-combination-on-the-flanks/",
+          "summary": "Wallabies coach Les Kiss has teased that potentially fans could see Fraser McReight and Carlo Tizzano on the field at the same time.",
+          "published": "2026-08-13T05:40:13.000Z",
           "section": "rugby",
-          "score": 5.52,
-          "outlets": 2,
-          "reasons": {
-            "corroboration": 2.22,
-            "source": 1,
-            "recency": 0.9,
-            "promoted": [
-              "ulster"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "RugbyPass",
-              "link": "https://www.rugbypass.com/news/ulster-reveal-summer-surgery-to-iain-henderson-alongside-three-team-mates-bryn-ward-juarno-augustus-jude-postlethwaite/",
-              "title": "Ulster reveal summer surgery to Henderson alongside three team-mates"
-            },
-            {
-              "name": "BBC Rugby Union",
-              "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c74gvd10kkxo?at_medium=RSS&at_campaign=rss",
-              "title": "Ulster captain Henderson to miss start of season"
-            }
-          ]
-        },
-        {
-          "title": "Ethan de Groot makes 'easy' call on future with new deal until 2029",
-          "link": "https://www.rugbypass.com/news/ethan-de-groot-makes-easy-call-on-future-with-new-deal-to-2029/",
-          "summary": "The deal's announcement comes just hours after De Groot suited up for a non-Test match against the Sharks in Durban, playing 54 minutes in the 54-0 win.",
-          "published": "2026-08-12T06:00:15.000Z",
-          "section": "rugby",
-          "score": 4.3,
+          "score": 4.27,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.9,
-            "recency": 2,
+            "recency": 1.97,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
               "name": "RugbyPass",
-              "link": "https://www.rugbypass.com/news/ethan-de-groot-makes-easy-call-on-future-with-new-deal-to-2029/",
-              "title": "Ethan de Groot makes 'easy' call on future with new deal until 2029"
+              "link": "https://www.rugbypass.com/news/les-kiss-teases-new-look-wallabies-combination-on-the-flanks/",
+              "title": "Les Kiss teases new-look Wallabies combination on the flanks"
             }
           ]
         },
         {
-          "title": "Black Ferns and Blacks Ferns XV name teams for annual showdown",
-          "link": "https://www.rugbypass.com/news/black-ferns-and-blacks-ferns-xv-name-teams-for-annual-showdown/",
-          "summary": "Whitney Hansen and Blair Baxter have named their respective teams for the annual Black Ferns vs Black Ferns XV match, which will pit New Zealand's best of the best against the best of the rest in Upper Hutt on Friday afternoon.",
-          "published": "2026-08-12T04:38:46.000Z",
+          "title": "Les Kiss highlights importance of bringing Rugby World Cup to Townsville",
+          "link": "https://www.rugbypass.com/news/les-kiss-highlights-importance-of-bringing-rugby-world-cup-to-townsville/",
+          "summary": "Wallabies coach Les Kiss has stressed the importance of bringing four Men’s Rugby World Cup 2027 pool stage matches to Townsville.",
+          "published": "2026-08-13T04:54:00.000Z",
           "section": "rugby",
-          "score": 4.17,
+          "score": 4.2,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.9,
-            "recency": 1.87,
+            "recency": 1.9,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
               "name": "RugbyPass",
-              "link": "https://www.rugbypass.com/news/black-ferns-and-blacks-ferns-xv-name-teams-for-annual-showdown/",
-              "title": "Black Ferns and Blacks Ferns XV name teams for annual showdown"
+              "link": "https://www.rugbypass.com/news/les-kiss-highlights-importance-of-bringing-rugby-world-cup-to-townsville/",
+              "title": "Les Kiss highlights importance of bringing Rugby World Cup to Townsville"
             }
           ]
         },
         {
-          "title": "Rugby sevens pools confirmed for Dakar Summer Youth Olympic Games",
-          "link": "https://www.rugbypass.com/news/rugby-sevens-pools-confirmed-for-dakar-summer-youth-olympic-games/",
-          "summary": "After making its debut at the 2014 iteration in Nanjing, rugby sevens is set to return to the Youth Olympic Games format.",
-          "published": "2026-08-12T04:05:14.000Z",
+          "title": "History beckons with Wallaby No. 1000 in line to debut against Japan",
+          "link": "https://www.rugbypass.com/news/history-beckons-with-wallaby-no-1000-in-line-to-debut-against-japan/",
+          "summary": "Queensland Reds prop Massimo De Lutiis is poised to become Wallabies representative number 1000 after being named on the bench to face Japan.",
+          "published": "2026-08-13T02:14:18.000Z",
           "section": "rugby",
-          "score": 4.11,
+          "score": 3.96,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.9,
-            "recency": 1.81,
+            "recency": 1.66,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
               "name": "RugbyPass",
-              "link": "https://www.rugbypass.com/news/rugby-sevens-pools-confirmed-for-dakar-summer-youth-olympic-games/",
-              "title": "Rugby sevens pools confirmed for Dakar Summer Youth Olympic Games"
+              "link": "https://www.rugbypass.com/news/history-beckons-with-wallaby-no-1000-in-line-to-debut-against-japan/",
+              "title": "History beckons with Wallaby No. 1000 in line to debut against Japan"
             }
           ]
         },
         {
-          "title": "Dave Rennie not satisfied with All Blacks' first half as discipline issues persist",
-          "link": "https://www.rugbypass.com/news/dave-rennie-not-satisfied-with-all-blacks-first-half-as-discipline-issues-persist/",
-          "summary": "The All Blacks ran out to a resounding 54-0 win over the Sharks at King's Park in Durban, but head coach Dave Rennie was left unsatisfied.",
-          "published": "2026-08-12T04:03:02.000Z",
+          "title": "Crusaders pry Maori All Black away from Blues to fill gaping midfield hole",
+          "link": "https://www.rugbypass.com/news/crusaders-pry-maori-all-black-away-from-blues-to-fill-gaping-midfield-hole/",
+          "summary": "The Crusaders have taken the first step in rebuilding their midfield stocks for the 2027 season by signing versatile Northland and Blues talent Corey Evans on a two-year deal.",
+          "published": "2026-08-13T02:07:51.000Z",
           "section": "rugby",
-          "score": 4.11,
+          "score": 3.95,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.9,
-            "recency": 1.81,
+            "recency": 1.65,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
               "name": "RugbyPass",
-              "link": "https://www.rugbypass.com/news/dave-rennie-not-satisfied-with-all-blacks-first-half-as-discipline-issues-persist/",
-              "title": "Dave Rennie not satisfied with All Blacks' first half as discipline issues persist"
+              "link": "https://www.rugbypass.com/news/crusaders-pry-maori-all-black-away-from-blues-to-fill-gaping-midfield-hole/",
+              "title": "Crusaders pry Maori All Black away from Blues to fill gaping midfield hole"
             }
           ]
         },
         {
-          "title": "Seven clips the Wallabies will be analysing after another tight win over Japan",
-          "link": "https://www.rugbypass.com/news/seven-clips-the-wallabies-will-be-analysing-after-another-tight-win-over-japan/",
-          "summary": "Let’s be blunt: seven linebreaks is far too many, and so is the total of nine the Japanese managed to get against the Wallabies, according to the stats.",
-          "published": "2026-08-12T03:43:27.000Z",
+          "title": "Richie Mo'unga receives long-awaited All Blacks call-up",
+          "link": "https://www.rugbypass.com/news/richie-mounga-gets-highly-anticipated-all-blacks-call-up/",
+          "summary": "Richie Mo'unga is en route to South Africa to join the All Blacks squad ahead of their game against the Bulls in Pretoria this weekend.",
+          "published": "2026-08-13T01:45:33.000Z",
           "section": "rugby",
-          "score": 4.08,
+          "score": 3.92,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.9,
-            "recency": 1.78,
+            "recency": 1.62,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
               "name": "RugbyPass",
-              "link": "https://www.rugbypass.com/news/seven-clips-the-wallabies-will-be-analysing-after-another-tight-win-over-japan/",
-              "title": "Seven clips the Wallabies will be analysing after another tight win over Japan"
+              "link": "https://www.rugbypass.com/news/richie-mounga-gets-highly-anticipated-all-blacks-call-up/",
+              "title": "Richie Mo'unga receives long-awaited All Blacks call-up"
             }
           ]
         },
         {
-          "title": "Prem champions Saints name Henry as defence coach",
-          "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c86neyn7pydo?at_medium=RSS&at_campaign=rss",
-          "summary": "Northampton Saints name Jim Henry as their new defence coach following the departure of Lee Radford.",
-          "published": "2026-08-11T11:01:21.000Z",
+          "title": "‘Caught in the washing machine’: Bell reflects on Kiss’ Wallabies message",
+          "link": "https://www.rugbypass.com/news/caught-in-the-washing-machine-bell-reflects-on-kiss-wallabies-message/",
+          "summary": "Les Kiss has only been in the Wallabies top job for a matter of weeks, but already the head coach has led the team to a tough win.",
+          "published": "2026-08-13T01:23:10.000Z",
           "section": "rugby",
-          "score": 4,
-          "outlets": 2,
-          "reasons": {
-            "corroboration": 2.22,
-            "source": 1,
-            "recency": 0.78,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "BBC Rugby Union",
-              "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c86neyn7pydo?at_medium=RSS&at_campaign=rss",
-              "title": "Prem champions Saints name Henry as defence coach"
-            },
-            {
-              "name": "RugbyPass",
-              "link": "https://www.rugbypass.com/news/champions-northampton-confirm-lee-radford-successor-jim-henry/",
-              "title": "Champions Northampton confirm Lee Radford successor"
-            }
-          ]
-        },
-        {
-          "title": "Wallabies dealt injury blow with Suaalii ruled out of second Japan Test",
-          "link": "https://www.rugbypass.com/news/wallabies-dealt-injury-blow-with-suaalii-ruled-out-of-second-japan-test/",
-          "summary": "Joseph-Aukuso Suaalii has been ruled out of the second Flight Centre Series clash against Japan after picking up an injury last weekend.",
-          "published": "2026-08-11T23:28:58.000Z",
-          "section": "rugby",
-          "score": 3.74,
+          "score": 3.89,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.9,
-            "recency": 1.44,
+            "recency": 1.59,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
               "name": "RugbyPass",
-              "link": "https://www.rugbypass.com/news/wallabies-dealt-injury-blow-with-suaalii-ruled-out-of-second-japan-test/",
-              "title": "Wallabies dealt injury blow with Suaalii ruled out of second Japan Test"
+              "link": "https://www.rugbypass.com/news/caught-in-the-washing-machine-bell-reflects-on-kiss-wallabies-message/",
+              "title": "‘Caught in the washing machine’: Bell reflects on Kiss’ Wallabies message"
+            }
+          ]
+        },
+        {
+          "title": "Townsville locks in three more Wallabies Tests on top of RWC matches",
+          "link": "https://www.rugbypass.com/news/wallabies-lock-in-three-more-townsville-tests-outside-the-rugby-world-cup/",
+          "summary": "Rugby Australia has announced the Wallabies will return to North Queensland at least three times over the next four years.",
+          "published": "2026-08-12T22:45:46.000Z",
+          "section": "rugby",
+          "score": 3.7,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.9,
+            "recency": 1.4,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "RugbyPass",
+              "link": "https://www.rugbypass.com/news/wallabies-lock-in-three-more-townsville-tests-outside-the-rugby-world-cup/",
+              "title": "Townsville locks in three more Wallabies Tests on top of RWC matches"
+            }
+          ]
+        },
+        {
+          "title": "The locks and loose forwards are as good as New Zealand has had",
+          "link": "https://www.rugbypass.com/news/the-locks-and-loose-forwards-are-as-good-as-new-zealand-has-had/",
+          "summary": "I look at someone such as Ethan Blackadder, who’s been an afterthought in recent times. Yet his work rate and accuracy off the bench against the Sharks was eye-catching for a guy who’s relatively far down the pecking order.",
+          "published": "2026-08-12T22:37:56.000Z",
+          "section": "rugby",
+          "score": 3.69,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.9,
+            "recency": 1.39,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "RugbyPass",
+              "link": "https://www.rugbypass.com/news/the-locks-and-loose-forwards-are-as-good-as-new-zealand-has-had/",
+              "title": "The locks and loose forwards are as good as New Zealand has had"
             }
           ]
         }
       ],
-      "dropped": 26
+      "dropped": 29
     },
     {
       "id": "sport",
       "name": "Other sport",
-      "total": 30,
+      "total": 26,
       "items": [
         {
-          "title": "All-Ireland SHC: What's the state of play for Liam MacCarthy management teams?",
-          "link": "https://www.the42.ie/all-ireland-shc-managers-liam-maccarthy-cup-7127569-Aug2026/",
-          "summary": "There have been three manager changes, some high-profile renewals, and backroom tweaks.",
-          "published": "2026-08-12T05:30:26.000Z",
+          "title": "Madigan: The issues Ireland need to fix and why I don't see O'Gara at Leinster",
+          "link": "https://www.the42.ie/ian-madigan-interview-7128626-Aug2026/",
+          "summary": "The former Ireland out-half discusses some of the big talking points from the summer.",
+          "published": "2026-08-12T14:31:56.000Z",
           "section": "sport",
-          "score": 5.95,
+          "score": 6.33,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 1.4,
-            "recency": 1.95,
+            "recency": 0.93,
             "promoted": [
-              "ireland"
+              "ireland",
+              "leinster"
             ],
             "demoted": []
           },
           "sources": [
             {
               "name": "The 42",
-              "link": "https://www.the42.ie/all-ireland-shc-managers-liam-maccarthy-cup-7127569-Aug2026/",
-              "title": "All-Ireland SHC: What's the state of play for Liam MacCarthy management teams?"
+              "link": "https://www.the42.ie/ian-madigan-interview-7128626-Aug2026/",
+              "title": "Madigan: The issues Ireland need to fix and why I don't see O'Gara at Leinster"
             }
           ]
         },
         {
-          "title": "Former Donegal All-Ireland winner James McHugh and his wife Noreen killed in road crash",
-          "link": "https://www.the42.ie/james-mchugh-donegal-death-3-7128128-Aug2026/",
-          "summary": "The collision happened on the N3 at Drummallaght, between Virginia and Cavan, just before 2pm on Monday.",
-          "published": "2026-08-11T21:40:30.000Z",
+          "title": "McIlroy hopes to 'see where my game is' at FedEx St Jude Championship",
+          "link": "https://www.the42.ie/rory-mcilroy-fedex-st-jude-championship-7129213-Aug2026/",
+          "summary": "The Northern Irishman is currently 12th in the FedEx Cup standings.",
+          "published": "2026-08-12T20:43:46.000Z",
           "section": "sport",
-          "score": 5.32,
+          "score": 5.26,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 1.4,
-            "recency": 1.32,
-            "promoted": [
-              "ireland"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "The 42",
-              "link": "https://www.the42.ie/james-mchugh-donegal-death-3-7128128-Aug2026/",
-              "title": "Former Donegal All-Ireland winner James McHugh and his wife Noreen killed in road crash"
-            }
-          ]
-        },
-        {
-          "title": "Sarah Healy finishes agonising fourth in European 5,000m; Irish duo miss out on 100m final",
-          "link": "https://www.the42.ie/sarah-healy-athletics-7128008-Aug2026/",
-          "summary": "Healy’s time of 15:40.95 was just three-tenths of a second behind surprise third-placed finisher Micol Majori.",
-          "published": "2026-08-11T20:51:00.000Z",
-          "section": "sport",
-          "score": 5.27,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1.4,
-            "recency": 1.27,
+            "recency": 1.26,
             "promoted": [
               "irish"
             ],
@@ -1302,72 +1298,122 @@
           "sources": [
             {
               "name": "The 42",
-              "link": "https://www.the42.ie/sarah-healy-athletics-7128008-Aug2026/",
-              "title": "Sarah Healy finishes agonising fourth in European 5,000m; Irish duo miss out on 100m final"
+              "link": "https://www.the42.ie/rory-mcilroy-fedex-st-jude-championship-7129213-Aug2026/",
+              "title": "McIlroy hopes to 'see where my game is' at FedEx St Jude Championship"
             }
           ]
         },
         {
-          "title": "Lisandro Martinez joins Man United's Irish camp, Mason Mount to miss Croke Park friendly",
-          "link": "https://www.the42.ie/manchester-united-leeds-croke-park-dublin-friendly-7128086-Aug2026/",
-          "summary": "Michael Carrick has an almost-full complement of players training ahead of Wednesday’s match against Leeds.",
-          "published": "2026-08-11T20:38:20.000Z",
+          "title": "Tribute paid after the death of Offaly's 1981 All-Ireland winning captain Pádraig Horan",
+          "link": "https://www.the42.ie/padraig-horan-7128434-Aug2026/",
+          "summary": "St Rynaghs clubman captained Offaly to their first Liam MacCarthy Cup.",
+          "published": "2026-08-12T12:53:56.000Z",
           "section": "sport",
-          "score": 5.25,
+          "score": 4.86,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 1.4,
-            "recency": 1.25,
+            "recency": 0.86,
             "promoted": [
-              "irish"
+              "ireland"
             ],
             "demoted": []
           },
           "sources": [
             {
               "name": "The 42",
-              "link": "https://www.the42.ie/manchester-united-leeds-croke-park-dublin-friendly-7128086-Aug2026/",
-              "title": "Lisandro Martinez joins Man United's Irish camp, Mason Mount to miss Croke Park friendly"
+              "link": "https://www.the42.ie/padraig-horan-7128434-Aug2026/",
+              "title": "Tribute paid after the death of Offaly's 1981 All-Ireland winning captain Pádraig Horan"
+            }
+          ]
+        },
+        {
+          "title": "Doue hits winner as PSG edge out Aston Villa to claim Super Cup title",
+          "link": "https://www.the42.ie/psg-aston-villa-super-cup-final-7128787-Aug2026/",
+          "summary": "PSG are just the third club to retain the trophy after AC Milan in 1990 and Real Madrid in 2017.",
+          "published": "2026-08-12T21:13:01.000Z",
+          "section": "sport",
+          "score": 4.8,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1.4,
+            "recency": 1.3,
+            "promoted": [
+              "milan"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "The 42",
+              "link": "https://www.the42.ie/psg-aston-villa-super-cup-final-7128787-Aug2026/",
+              "title": "Doue hits winner as PSG edge out Aston Villa to claim Super Cup title"
             }
           ]
         }
       ],
-      "dropped": 26
+      "dropped": 22
     },
     {
       "id": "culture",
       "name": "Film and books",
-      "total": 24,
+      "total": 21,
       "items": [
         {
-          "title": "A Wealthy Donor to My University Just Silenced One of the World’s Leading Scholars of Genocide",
-          "link": "https://lithub.com/a-wealthy-donor-to-my-university-just-silenced-one-of-the-worlds-leading-scholars-of-genocide/",
-          "summary": "July 2026 was the deadliest month of the last year for Palestinians. The Gaza Health Ministry reported that 152 Palestinians were murdered by Israel, bringing the official death toll in the American-backed Israeli genocide to more than 73,000 people in",
-          "published": "2026-08-11T19:06:09.000Z",
+          "title": "Eight Books to Read If You’re Still Thinking About the Roman Empire",
+          "link": "https://lithub.com/eight-books-to-read-if-youre-still-thinking-about-the-roman-empire/",
+          "summary": "Now that our president is minting gold coins with his face on them, building a triumphal arch, and sponsoring blood sport in the capital, it seems like a good time to read up on ancient Rome. That’s what I was",
+          "published": "2026-08-12T09:08:19.000Z",
           "section": "culture",
-          "score": 3.56,
+          "score": 3.81,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 1,
-            "recency": 1.16,
-            "promoted": [],
+            "recency": 0.71,
+            "promoted": [
+              "rome"
+            ],
             "demoted": []
           },
           "sources": [
             {
               "name": "Literary Hub",
-              "link": "https://lithub.com/a-wealthy-donor-to-my-university-just-silenced-one-of-the-worlds-leading-scholars-of-genocide/",
-              "title": "A Wealthy Donor to My University Just Silenced One of the World’s Leading Scholars of Genocide"
+              "link": "https://lithub.com/eight-books-to-read-if-youre-still-thinking-about-the-roman-empire/",
+              "title": "Eight Books to Read If You’re Still Thinking About the Roman Empire"
             }
           ]
         },
         {
-          "title": "‘House of the Dragon’ Only Wants to Get More Unhinged from Here",
-          "link": "https://www.indiewire.com/features/interviews/house-of-the-dragon-season-3-final-ryan-condal-interview-1235209273/",
-          "summary": "Series co-creator and showrunner Ryan Condal tells IndieWire about closing the door and/or window on older parts of the show and opening new ones.",
-          "published": "2026-08-11T20:00:00.000Z",
+          "title": "The TV Academy Hall of Fame Is Not Worried About Whether or Not You Have Too Many Emmys",
+          "link": "https://www.indiewire.com/awards/consider-this/tv-academy-hall-of-fame-2026-legacy-award-1235210282/",
+          "summary": "IndieWire speaks to TV Academy President and CEO Maury McIntyre about the thought process behind who is inducted into the TV Academy Hall of Fame ahead of the event kicking off Televerse 2026.",
+          "published": "2026-08-12T23:00:00.000Z",
+          "section": "culture",
+          "score": 3.62,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.8,
+            "recency": 1.42,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "IndieWire",
+              "link": "https://www.indiewire.com/awards/consider-this/tv-academy-hall-of-fame-2026-legacy-award-1235210282/",
+              "title": "The TV Academy Hall of Fame Is Not Worried About Whether or Not You Have Too Many Emmys"
+            }
+          ]
+        },
+        {
+          "title": "Cinematographer Michael Bauman Looked to His Own Roots for ‘Monster: The Ed Gein Story’",
+          "link": "https://www.indiewire.com/features/craft/michael-bauman-cinematography-ed-gein-story-ryan-murphy-1235208535/",
+          "summary": "The Oscar-nominated cinematographer tells IndieWire about crafting the perfect visual language to express mystery, madness, and claustrophobia in the Netflix series.",
+          "published": "2026-08-12T20:00:00.000Z",
           "section": "culture",
           "score": 3.42,
           "outlets": 1,
@@ -1381,62 +1427,16 @@
           "sources": [
             {
               "name": "IndieWire",
-              "link": "https://www.indiewire.com/features/interviews/house-of-the-dragon-season-3-final-ryan-condal-interview-1235209273/",
-              "title": "‘House of the Dragon’ Only Wants to Get More Unhinged from Here"
+              "link": "https://www.indiewire.com/features/craft/michael-bauman-cinematography-ed-gein-story-ryan-murphy-1235208535/",
+              "title": "Cinematographer Michael Bauman Looked to His Own Roots for ‘Monster: The Ed Gein Story’"
             }
           ]
         },
         {
-          "title": "This interactive atlas captures more than a thousand literary journeys.",
-          "link": "https://lithub.com/this-interactive-atlas-captures-more-than-a-thousand-literary-journeys/",
-          "summary": "Have you ever wondered how long those nice people were actually stranded on the Orient Express? Or speculated about the carriage distance from London to Longbourn? Well, dear reader, have I got a tip for you. Reading Maps is home to",
-          "published": "2026-08-11T16:17:39.000Z",
-          "section": "culture",
-          "score": 3.41,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1,
-            "recency": 1.01,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "Literary Hub",
-              "link": "https://lithub.com/this-interactive-atlas-captures-more-than-a-thousand-literary-journeys/",
-              "title": "This interactive atlas captures more than a thousand literary journeys."
-            }
-          ]
-        },
-        {
-          "title": "Inside the Noah Wyle and Shawn Hatosy Relationship That Anchors ‘The Pitt’ Season 2",
-          "link": "https://www.indiewire.com/awards/consider-this/noah-wyle-shawn-hatosy-relationship-the-pitt-interview-emmy-1235209667/",
-          "summary": "The Emmy nominees tell IndieWire about the \"foxhole intimacy\" of their two doctors, how it shaped Season 2, and what it might mean for Season 3.",
-          "published": "2026-08-11T19:30:00.000Z",
-          "section": "culture",
-          "score": 3.39,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 0.8,
-            "recency": 1.19,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "IndieWire",
-              "link": "https://www.indiewire.com/awards/consider-this/noah-wyle-shawn-hatosy-relationship-the-pitt-interview-emmy-1235209667/",
-              "title": "Inside the Noah Wyle and Shawn Hatosy Relationship That Anchors ‘The Pitt’ Season 2"
-            }
-          ]
-        },
-        {
-          "title": "‘Language Is a Construct, Man’: Why We May Never Get Another Spiritual Sequel Like Richard Linklater’s ‘Everybody Wants Some!!’",
-          "link": "https://www.indiewire.com/features/commentary/everybody-wants-some-best-spiritual-movie-sequel-1235209880/",
-          "summary": "The 2016 hangout comedy epitomizes Linklater's delight in making movies that rhyme with each other.",
-          "published": "2026-08-11T19:00:00.000Z",
+          "title": "When Billie Joe Armstrong Asks You to Make a Green Day Movie, You Don’t Say No",
+          "link": "https://www.indiewire.com/features/interviews/nimrods-green-day-movie-billie-joe-armstrong-interview-1235209998/",
+          "summary": "Armstrong and writer/director Lee Kirk tell IndieWire about turning the band's history and catalogue into the coming-of-age comedy \"Nimrods.\"",
+          "published": "2026-08-12T19:00:00.000Z",
           "section": "culture",
           "score": 3.36,
           "outlets": 1,
@@ -1450,113 +1450,136 @@
           "sources": [
             {
               "name": "IndieWire",
-              "link": "https://www.indiewire.com/features/commentary/everybody-wants-some-best-spiritual-movie-sequel-1235209880/",
-              "title": "‘Language Is a Construct, Man’: Why We May Never Get Another Spiritual Sequel Like Richard Linklater’s ‘Everybody Wants Some!!’"
+              "link": "https://www.indiewire.com/features/interviews/nimrods-green-day-movie-billie-joe-armstrong-interview-1235209998/",
+              "title": "When Billie Joe Armstrong Asks You to Make a Green Day Movie, You Don’t Say No"
             }
           ]
         },
         {
-          "title": "Memories of Helen: The Heroic Despair of “John Wick”",
-          "link": "https://www.rogerebert.com/mzs/memories-of-helen-the-heroic-despair-of-john-wick",
-          "summary": "An ode to the violent grief of cinema's most dogged assassin.",
-          "published": "2026-08-11T13:00:00.000Z",
+          "title": "Sundance 2026 Movies Sold: Michal Marczak’s Doc ‘Closure’ Lands at 1-2 Special",
+          "link": "https://www.indiewire.com/news/festivals/sundance-2026-movies-sold-so-far-1235174095/",
+          "summary": "The film about a father searching for his missing son in Warsaw will open in theaters October 28.",
+          "published": "2026-08-12T18:04:46.000Z",
           "section": "culture",
-          "score": 3.36,
+          "score": 3.31,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
-            "source": 1.1,
-            "recency": 0.86,
+            "source": 0.8,
+            "recency": 1.11,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
-              "name": "RogerEbert.com",
-              "link": "https://www.rogerebert.com/mzs/memories-of-helen-the-heroic-despair-of-john-wick",
-              "title": "Memories of Helen: The Heroic Despair of “John Wick”"
+              "name": "IndieWire",
+              "link": "https://www.indiewire.com/news/festivals/sundance-2026-movies-sold-so-far-1235174095/",
+              "title": "Sundance 2026 Movies Sold: Michal Marczak’s Doc ‘Closure’ Lands at 1-2 Special"
+            }
+          ]
+        },
+        {
+          "title": "Anders Danielsen Lie Revisits the Making of ‘Oslo, August 31st’",
+          "link": "https://www.indiewire.com/features/interviews/anders-danielsen-lie-interview-making-oslo-august-31st-1235209755/",
+          "summary": "“It’s the closest I've been to a method acting experiment\" the Norwegian actor (and doctor) says of his landmark second film with Joachim Trier.",
+          "published": "2026-08-12T18:00:00.000Z",
+          "section": "culture",
+          "score": 3.3,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.8,
+            "recency": 1.1,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "IndieWire",
+              "link": "https://www.indiewire.com/features/interviews/anders-danielsen-lie-interview-making-oslo-august-31st-1235209755/",
+              "title": "Anders Danielsen Lie Revisits the Making of ‘Oslo, August 31st’"
             }
           ]
         }
       ],
-      "dropped": 18
+      "dropped": 15
     },
     {
       "id": "longform",
       "name": "The long-form shelf",
-      "total": 19,
+      "total": 16,
       "items": [
         {
-          "title": "Trump Attempts Patience",
-          "link": "https://www.theatlantic.com/national-security/2026/08/trump-iran-economic-pressure/688250/?utm_source=feed",
-          "summary": "But how long can the impulsive, reactive president show restraint?",
-          "published": "2026-08-12T00:20:00.000Z",
+          "title": "The Flawed Logic of Trump’s Airplane Escape",
+          "link": "https://www.theatlantic.com/newsletters/2026/08/trump-airplane-escape-secret-service-turkey/688272/?utm_source=feed",
+          "summary": "The president cleverly evaded a serious threat, but he shouldn’t have kept it a secret.",
+          "published": "2026-08-12T22:48:00.000Z",
           "section": "longform",
-          "score": 3.81,
+          "score": 3.7,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.9,
-            "recency": 1.51,
+            "recency": 1.4,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
               "name": "The Atlantic",
-              "link": "https://www.theatlantic.com/national-security/2026/08/trump-iran-economic-pressure/688250/?utm_source=feed",
-              "title": "Trump Attempts Patience"
+              "link": "https://www.theatlantic.com/newsletters/2026/08/trump-airplane-escape-secret-service-turkey/688272/?utm_source=feed",
+              "title": "The Flawed Logic of Trump’s Airplane Escape"
             }
           ]
         },
         {
-          "title": "16 Hours in an Oakland Dive Bar",
-          "link": "https://longreads.com/2026/08/11/club-2101-the-oaklandside/",
-          "summary": "\"Very few Oakland establishments open before noon. Club 2101 in Dimond is one of them. For patrons, it’s a second home.\"",
-          "published": "2026-08-11T16:00:00.000Z",
+          "title": "Mark Zuckerberg’s Convenient Truth",
+          "link": "https://www.theatlantic.com/technology/2026/08/mark-zuckerberg-ai-manifesto/688269/?utm_source=feed",
+          "summary": "The Meta CEO has a new message now that his company is losing the AI race.",
+          "published": "2026-08-12T21:15:00.000Z",
           "section": "longform",
-          "score": 3.7,
+          "score": 3.6,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
-            "source": 1.3,
-            "recency": 1,
+            "source": 0.9,
+            "recency": 1.3,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
-              "name": "Longreads",
-              "link": "https://longreads.com/2026/08/11/club-2101-the-oaklandside/",
-              "title": "16 Hours in an Oakland Dive Bar"
+              "name": "The Atlantic",
+              "link": "https://www.theatlantic.com/technology/2026/08/mark-zuckerberg-ai-manifesto/688269/?utm_source=feed",
+              "title": "Mark Zuckerberg’s Convenient Truth"
             }
           ]
         },
         {
-          "title": "Moment, Expand",
-          "link": "https://longreads.com/2026/08/11/stand-by-me-rob-reiner-anniversary/",
-          "summary": "\"40 notes on Rob Reiner and Stand By Me .\"",
-          "published": "2026-08-11T15:15:57.000Z",
+          "title": "It May Be Time to Panic About AI",
+          "link": "https://www.theatlantic.com/technology/2026/08/openai-hacks-panic/688264/?utm_source=feed",
+          "summary": "Bots are starting to conspire with one another. Can they be reeled back in?",
+          "published": "2026-08-12T20:05:28.000Z",
           "section": "longform",
-          "score": 3.66,
+          "score": 3.53,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
-            "source": 1.3,
-            "recency": 0.96,
+            "source": 0.9,
+            "recency": 1.23,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
-              "name": "Longreads",
-              "link": "https://longreads.com/2026/08/11/stand-by-me-rob-reiner-anniversary/",
-              "title": "Moment, Expand"
+              "name": "The Atlantic",
+              "link": "https://www.theatlantic.com/technology/2026/08/openai-hacks-panic/688264/?utm_source=feed",
+              "title": "It May Be Time to Panic About AI"
             }
           ]
         }
       ],
-      "dropped": 16
+      "dropped": 13
     }
   ]
 }

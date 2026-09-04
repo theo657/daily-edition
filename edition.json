@@ -1,25 +1,30 @@
 {
   "title": "The Daily Edition",
-  "editionDate": "2026-09-03",
-  "builtAt": "2026-09-03T09:06:03.560Z",
+  "editionDate": "2026-09-04",
+  "builtAt": "2026-09-04T08:58:56.855Z",
   "timezone": "Europe/Rome",
   "longformShelfSize": 3,
   "stats": {
     "feedsConfigured": 26,
-    "feedsOk": 24,
-    "itemsFetched": 566,
-    "itemsInWindow": 393,
+    "feedsOk": 23,
+    "itemsFetched": 577,
+    "itemsInWindow": 400,
     "blocked": 1,
-    "clusters": 374,
-    "merged": 15,
-    "sameOutletDuplicates": 4,
-    "shown": 67
+    "clusters": 381,
+    "merged": 10,
+    "sameOutletDuplicates": 9,
+    "shown": 66
   },
   "failures": [
     {
       "name": "Marginal Carbon",
       "id": "marginal",
       "error": "HTTP 403"
+    },
+    {
+      "name": "Carbon Herald",
+      "id": "carbonherald",
+      "error": "no items in response"
     },
     {
       "name": "Rugby Unity",
@@ -31,20 +36,58 @@
     {
       "id": "world",
       "name": "Wires and world",
-      "total": 80,
+      "total": 90,
       "items": [
         {
-          "title": "Churchillian moment? Macron in Britain amid scramble to boost European defence",
-          "link": "https://www.france24.com/en/tv-shows/the-debate/20260903-churchillian-moment-macron-in-britain-amid-scramble-to-boost-european-defence",
-          "summary": "What can an 11th-century comic strip about the Norman Conquest of England tell us about the spectre of sea change in 2026 Europe? France’s president is on hand for the hottest ticket in London, the first-ever cross-Channel visit of the Bayeux Tapestry, which, for the record, is not a tapestry but a delicate scroll of embroidered cloth that chronicles a radical turning point in our continent’s hist",
-          "published": "2026-09-03T07:39:31.000Z",
+          "title": "Feminist trailblazer Gloria Steinem passes away at age 92",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/9/4/feminist-trailblazer-gloria-steinem-passes-away-at-age-92?traffic_source=rss",
+          "summary": "Women’s rights activist Gloria Steinem has passed away at age 92.",
+          "published": "2026-09-04T01:05:07.000Z",
           "section": "world",
-          "score": 5.56,
+          "score": 5.6,
+          "outlets": 4,
+          "reasons": {
+            "corroboration": 3.25,
+            "source": 1,
+            "recency": 1.35,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/4/feminist-trailblazer-gloria-steinem-passes-away-at-age-92?traffic_source=rss",
+              "title": "Feminist trailblazer Gloria Steinem passes away at age 92"
+            },
+            {
+              "name": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/clyeq3ngwe4o?at_medium=RSS&at_campaign=rss",
+              "title": "Feminist activist and journalist Gloria Steinem dies, aged 92"
+            },
+            {
+              "name": "France 24",
+              "link": "https://www.france24.com/en/video/20260903-us-feminist-icon-and-journalist-gloria-steinem-dies-aged-92",
+              "title": "US feminist icon and journalist Gloria Steinem dies aged 92"
+            },
+            {
+              "name": "DW",
+              "link": "https://www.dw.com/en/gloria-steinem-feminist-activist-and-journalist-dies-at-92/a-78855039?maca=en-rss-en-world-4025-rdf",
+              "title": "Gloria Steinem, feminist activist and journalist, dies at 92"
+            }
+          ]
+        },
+        {
+          "title": "Nvidia to buy Hugging Face for $12.93 billion in major AI expansion",
+          "link": "https://www.france24.com/en/technology/20260903-nvidia-to-buy-hugging-face-for-12-93-billion-in-major-ai-expansion",
+          "summary": "Nvidia said Thursday it will buy AI developer platform Hugging Face for $12.93 billion, its latest major investment to expand its influence in open-source artificial intelligence. The deal would bring Nvidia closer to developers and broaden its customer base as tech giants develop chips to reduce reliance on the company.",
+          "published": "2026-09-03T21:34:26.000Z",
+          "section": "world",
+          "score": 4.84,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.9,
-            "recency": 1.86,
+            "recency": 1.14,
             "promoted": [
               "urc"
             ],
@@ -53,159 +96,283 @@
           "sources": [
             {
               "name": "France 24",
-              "link": "https://www.france24.com/en/tv-shows/the-debate/20260903-churchillian-moment-macron-in-britain-amid-scramble-to-boost-european-defence",
-              "title": "Churchillian moment? Macron in Britain amid scramble to boost European defence"
+              "link": "https://www.france24.com/en/technology/20260903-nvidia-to-buy-hugging-face-for-12-93-billion-in-major-ai-expansion",
+              "title": "Nvidia to buy Hugging Face for $12.93 billion in major AI expansion"
             }
           ]
         },
         {
-          "title": "NBA fines Clippers $30m, suspends several executives in Kawhi Leonard probe",
-          "link": "https://www.aljazeera.com/sports/2026/9/3/nba-fines-clippers-30m-suspends-several-executives-in-kawhi-leonard-probe?traffic_source=rss",
-          "summary": "Clippers owner Steve Ballmer suspended for one year; team disputes league's conclusions and validity of investigation.",
-          "published": "2026-09-03T08:17:46.000Z",
+          "title": "AI data centres are booming in Australia - but at what cost?",
+          "link": "https://www.bbc.co.uk/news/articles/cgl3we7wdr3o?at_medium=RSS&at_campaign=rss",
+          "summary": "Advocates say data centres will bring jobs but others worry they will suck up resources while providing little advantage.",
+          "published": "2026-09-03T18:32:03.000Z",
           "section": "world",
-          "score": 5.32,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 0.9,
-            "recency": 1.92,
-            "promoted": [
-              "investigation"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "Al Jazeera",
-              "link": "https://www.aljazeera.com/sports/2026/9/3/nba-fines-clippers-30m-suspends-several-executives-in-kawhi-leonard-probe?traffic_source=rss",
-              "title": "NBA fines Clippers $30m, suspends several executives in Kawhi Leonard probe"
-            }
-          ]
-        },
-        {
-          "title": "Maltese tycoon acquitted of killing journalist Daphne Caruana Galizia",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/9/3/maltese-tycoon-acquitted-of-killing-journalist-daphne-caruana-galizia?traffic_source=rss",
-          "summary": "The last man prosecuted over the 2017 killing of Maltese journalist Daphne Caruana Galizia has been acquitted.",
-          "published": "2026-09-03T03:00:27.000Z",
-          "section": "world",
-          "score": 5.28,
-          "outlets": 3,
-          "reasons": {
-            "corroboration": 2.8,
-            "source": 1,
-            "recency": 1.48,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/3/maltese-tycoon-acquitted-of-killing-journalist-daphne-caruana-galizia?traffic_source=rss",
-              "title": "Maltese tycoon acquitted of killing journalist Daphne Caruana Galizia"
-            },
-            {
-              "name": "France 24",
-              "link": "https://www.france24.com/en/europe/20260902-maltese-tycoon-acquitted-reporter-murder",
-              "title": "Outrage in Malta as court acquits tycoon in investigative journalist murder case"
-            },
-            {
-              "name": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c5ye295pxgxo?at_medium=RSS&at_campaign=rss",
-              "title": "Maltese tycoon acquitted of orchestrating murder of renowned journalist"
-            }
-          ]
-        },
-        {
-          "title": "EU remains divided over trade sanctions on illegal Israeli settlements",
-          "link": "https://www.aljazeera.com/news/2026/9/3/eu-remains-divided-over-trade-sanctions-on-illegal-israeli-settlements?traffic_source=rss",
-          "summary": "Irish Foreign Minister Helen McEntee says the bloc 'should be moving collectively' in upholding international law.",
-          "published": "2026-09-03T06:35:18.000Z",
-          "section": "world",
-          "score": 5.27,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 0.9,
-            "recency": 1.77,
-            "promoted": [
-              "irish"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/9/3/eu-remains-divided-over-trade-sanctions-on-illegal-israeli-settlements?traffic_source=rss",
-              "title": "EU remains divided over trade sanctions on illegal Israeli settlements"
-            }
-          ]
-        },
-        {
-          "title": "Channel smuggling gangs resort to 'mega-dinghies' as crackdown limits small boat supply",
-          "link": "https://www.bbc.co.uk/news/articles/ce3rn93de9eo?at_medium=RSS&at_campaign=rss",
-          "summary": "Once-rival criminal groups are being forced to work together because of a shortage of small boats, a BBC investigation has found.",
-          "published": "2026-09-03T05:00:04.000Z",
-          "section": "world",
-          "score": 5.13,
+          "score": 4.78,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 1,
-            "recency": 1.63,
+            "recency": 0.98,
             "promoted": [
-              "investigation"
+              "urc"
             ],
             "demoted": []
           },
           "sources": [
             {
               "name": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/ce3rn93de9eo?at_medium=RSS&at_campaign=rss",
-              "title": "Channel smuggling gangs resort to 'mega-dinghies' as crackdown limits small boat supply"
+              "link": "https://www.bbc.co.uk/news/articles/cgl3we7wdr3o?at_medium=RSS&at_campaign=rss",
+              "title": "AI data centres are booming in Australia - but at what cost?"
             }
           ]
         },
         {
-          "title": "Tens of thousands rally across Spain over Ceuta migrant crisis",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/9/3/aje-onl-nf_mass-protests-across-spain-020926?traffic_source=rss",
-          "summary": "Tens of thousands rallied across Spain protesting the government's handling of the Ceuta migrant crisis.",
-          "published": "2026-09-03T03:06:00.000Z",
+          "title": "OpenAI unveils GPT‑6 Astra amid rising scrutiny and safety concerns",
+          "link": "https://www.aljazeera.com/economy/2026/9/4/openai-unveils-gpt-6-astra-amid-rising-scrutiny-and-safety?traffic_source=rss",
+          "summary": "OpenAI claims GPT-6 Astra is the most advanced AI model, amid escalating safety and ethical concerns.",
+          "published": "2026-09-04T03:36:19.000Z",
           "section": "world",
-          "score": 4.7,
+          "score": 4.65,
           "outlets": 2,
           "reasons": {
             "corroboration": 2.22,
-            "source": 1,
-            "recency": 1.49,
+            "source": 0.9,
+            "recency": 1.53,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
               "name": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/3/aje-onl-nf_mass-protests-across-spain-020926?traffic_source=rss",
-              "title": "Tens of thousands rally across Spain over Ceuta migrant crisis"
+              "link": "https://www.aljazeera.com/economy/2026/9/4/openai-unveils-gpt-6-astra-amid-rising-scrutiny-and-safety?traffic_source=rss",
+              "title": "OpenAI unveils GPT‑6 Astra amid rising scrutiny and safety concerns"
             },
             {
-              "name": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c1mvn2yp9n2o?at_medium=RSS&at_campaign=rss",
-              "title": "Protests in Spain against government's handling of Ceuta migrant crisis"
+              "name": "France 24",
+              "link": "https://www.france24.com/en/technology/20260904-openai-begins-rollout-of-gpt-6-with-focus-on-cyber-security-safeguards",
+              "title": "OpenAI begins rollout of GPT-6 amid growing scrutiny over safety"
             }
           ]
         },
         {
-          "title": "US’s Chevron, Italy’s Eni to expand oil projects in Venezuela",
-          "link": "https://www.aljazeera.com/news/2026/9/3/uss-chevron-italys-eni-to-expand-oil-projects-in-venezuela?traffic_source=rss",
-          "summary": "Energy firms sign deals in Caracas, days after Venezuela agreed to grant the US control of a fifth of its oil reserves.",
-          "published": "2026-09-03T04:19:11.000Z",
+          "title": "Why has the Philippines’ peso plunged to a record low?",
+          "link": "https://www.aljazeera.com/economy/2026/9/4/why-has-the-philippines-peso-plunged-to-a-record-low?traffic_source=rss",
+          "summary": "The Southeast Asian country's currency has plummeted amid the fallout of the Iran war and economic challenges at home.",
+          "published": "2026-09-04T08:38:34.000Z",
           "section": "world",
-          "score": 4.58,
+          "score": 4.27,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.9,
-            "recency": 1.58,
+            "recency": 1.97,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "link": "https://www.aljazeera.com/economy/2026/9/4/why-has-the-philippines-peso-plunged-to-a-record-low?traffic_source=rss",
+              "title": "Why has the Philippines’ peso plunged to a record low?"
+            }
+          ]
+        },
+        {
+          "title": "Volkswagen board approves plan to cut another 50,000 jobs",
+          "link": "https://www.bbc.co.uk/news/articles/cx2z0kvy4n4o?at_medium=RSS&at_campaign=rss",
+          "summary": "The group - which includes Audi, Porsche, Skoda as well as the VW brand - plans to cut a total of 100,000 posts by 2030.",
+          "published": "2026-09-04T07:00:10.000Z",
+          "section": "world",
+          "score": 4.21,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1,
+            "recency": 1.81,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cx2z0kvy4n4o?at_medium=RSS&at_campaign=rss",
+              "title": "Volkswagen board approves plan to cut another 50,000 jobs"
+            }
+          ]
+        },
+        {
+          "title": "Argentine leader threatens to sanction oil firms and reiterates Falklands claim",
+          "link": "https://www.bbc.co.uk/news/articles/clyk18g1l8ko?at_medium=RSS&at_campaign=rss",
+          "summary": "Javier Milei reiterates his country's claim on the British overseas territory, saying the \"winds of change\" favour it.",
+          "published": "2026-09-04T06:52:29.000Z",
+          "section": "world",
+          "score": 4.2,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1,
+            "recency": 1.8,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/clyk18g1l8ko?at_medium=RSS&at_campaign=rss",
+              "title": "Argentine leader threatens to sanction oil firms and reiterates Falklands claim"
+            }
+          ]
+        },
+        {
+          "title": "Video: Workers rescued from hydro tunnel nine days after Nepal flooding",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/9/4/video-workers-rescued-from-hydro-tunnel-nine-days-after-nepal-flooding?traffic_source=rss",
+          "summary": "Two workers have been pulled alive from a hydropower tunnel nine days after deadly flash flooding hit Nepal.",
+          "published": "2026-09-04T07:46:48.000Z",
+          "section": "world",
+          "score": 4.18,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.9,
+            "recency": 1.88,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/4/video-workers-rescued-from-hydro-tunnel-nine-days-after-nepal-flooding?traffic_source=rss",
+              "title": "Video: Workers rescued from hydro tunnel nine days after Nepal flooding"
+            }
+          ]
+        },
+        {
+          "title": "Why Pakistan overhauled its military command structure after five decades",
+          "link": "https://www.aljazeera.com/news/2026/9/4/why-pakistan-overhauled-its-military-command-structure-after-five-decades?traffic_source=rss",
+          "summary": "New legislation gives Pakistan's military chief sweeping command powers, raising questions about oversight.",
+          "published": "2026-09-04T07:30:56.000Z",
+          "section": "world",
+          "score": 4.16,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.9,
+            "recency": 1.86,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/9/4/why-pakistan-overhauled-its-military-command-structure-after-five-decades?traffic_source=rss",
+              "title": "Why Pakistan overhauled its military command structure after five decades"
+            }
+          ]
+        },
+        {
+          "title": "Zverev goes distance to scrape into third round as upsets rock US Open",
+          "link": "https://www.aljazeera.com/sports/2026/9/4/zverev-goes-distance-to-scrape-into-third-round-as-upsets-rock-us-open?traffic_source=rss",
+          "summary": "Men's third seed Felix Auger-Aliassime goes out, along with sixth-seed Alex de Minaur and 13th-seed Lorenzo Musetti.",
+          "published": "2026-09-04T07:27:15.000Z",
+          "section": "world",
+          "score": 4.15,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.9,
+            "recency": 1.85,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "link": "https://www.aljazeera.com/sports/2026/9/4/zverev-goes-distance-to-scrape-into-third-round-as-upsets-rock-us-open?traffic_source=rss",
+              "title": "Zverev goes distance to scrape into third round as upsets rock US Open"
+            }
+          ]
+        },
+        {
+          "title": "Why early warning signs of glacier collapse in Nepal were difficult to detect",
+          "link": "https://www.france24.com/en/asia-pacific/20260904-nepal-why-early-warning-signs-of-glacier-collapse-were-difficult-to-detect",
+          "summary": "The glacier collapse that led to devastating flash floods across the Himalayan region of Nepal and its border with the Chinese autonomous region of Tibet on August 26 was preceded by early warning signs, experts say. But monitoring and emergency alert systems in the region are still insufficient to predict such disasters.",
+          "published": "2026-09-04T07:24:28.000Z",
+          "section": "world",
+          "score": 4.15,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.9,
+            "recency": 1.85,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "France 24",
+              "link": "https://www.france24.com/en/asia-pacific/20260904-nepal-why-early-warning-signs-of-glacier-collapse-were-difficult-to-detect",
+              "title": "Why early warning signs of glacier collapse in Nepal were difficult to detect"
+            }
+          ]
+        },
+        {
+          "title": "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment",
+          "link": "https://www.france24.com/en/asia-pacific/20260904-uss-lincoln-crew-hits-the-streets-of-thailand-pattaya-after-nine-month-deployment",
+          "summary": "US sailors and Marines streamed into the Thai resort city of Pattaya Thursday after a record-breaking nine months at sea. Local police said there had so far been no major incidents connected to the 5,000-strong contingent of US service members, though two sailors were sent back to the ship after a drunken bar brawl.",
+          "published": "2026-09-04T07:02:55.000Z",
+          "section": "world",
+          "score": 4.12,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.9,
+            "recency": 1.82,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "France 24",
+              "link": "https://www.france24.com/en/asia-pacific/20260904-uss-lincoln-crew-hits-the-streets-of-thailand-pattaya-after-nine-month-deployment",
+              "title": "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment"
+            }
+          ]
+        },
+        {
+          "title": "Nepal floods: How DNA identification of bodies works",
+          "link": "https://www.aljazeera.com/news/2026/9/4/nepal-floods-how-does-dna-identification-of-bodies-work?traffic_source=rss",
+          "summary": "DNA testing helps identify bodies that may be unrecognisable due to mutilation and decomposition.",
+          "published": "2026-09-04T06:56:11.000Z",
+          "section": "world",
+          "score": 4.11,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.9,
+            "recency": 1.81,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/9/4/nepal-floods-how-does-dna-identification-of-bodies-work?traffic_source=rss",
+              "title": "Nepal floods: How DNA identification of bodies works"
+            }
+          ]
+        },
+        {
+          "title": "'50% savvy political tactics, 50% extraordinarily good luck' - the formula to Meloni's success?",
+          "link": "https://www.france24.com/en/tv-shows/a-propos/20260903-50-savvy-political-tactics-50-extraordinarily-good-luck-the-formula-to-meloni-s-success",
+          "summary": "Giorgia Meloni's hard-right government on Friday becomes the longest-lasting in Italy's postwar history -- a notable record that belies considerable challenges ahead of elections next year. FRANCE 24's Sharon Gaffney speaks with Nathalie Tocci, Director of the Istituto Affari Internazionali in Rome and Professor of Practice at the John Hopkins University SAIS. She says that Meloni's success comes ",
+          "published": "2026-09-03T20:57:14.000Z",
+          "section": "world",
+          "score": 4.1,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.9,
+            "recency": 1.1,
             "promoted": [
               "italy"
             ],
@@ -213,52 +380,240 @@
           },
           "sources": [
             {
-              "name": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/9/3/uss-chevron-italys-eni-to-expand-oil-projects-in-venezuela?traffic_source=rss",
-              "title": "US’s Chevron, Italy’s Eni to expand oil projects in Venezuela"
+              "name": "France 24",
+              "link": "https://www.france24.com/en/tv-shows/a-propos/20260903-50-savvy-political-tactics-50-extraordinarily-good-luck-the-formula-to-meloni-s-success",
+              "title": "'50% savvy political tactics, 50% extraordinarily good luck' - the formula to Meloni's success?"
             }
           ]
         },
         {
-          "title": "Minneapolis shooting kills two, wounds three police officers",
-          "link": "https://www.aljazeera.com/news/2026/9/3/minneapolis-shooting-kills-two-wounds-three-police-officers?traffic_source=rss",
-          "summary": "Police say suspected gunman is also dead and that several people, including three officers, were wounded.",
-          "published": "2026-09-03T02:18:21.000Z",
+          "title": "Two Palestinian teens killed in West Bank raid by Israeli settlers and army",
+          "link": "https://www.france24.com/en/video/20260903-two-palestinian-teens-killed-in-west-bank-raid-by-israeli-settlers-and-army",
+          "summary": "Two Palestinian teenagers ⁠were killed on ​Wednesday in an attack by Israeli settler militants and ​army troops on their village in the occupied West Bank, local officials and the Palestinian health ministry said, amid an uptick in violence ​by ‌Jewish settlers in the territory. The Israeli military said in a statement its forces had entered al-Mughayyir to ​provide security for police officers an",
+          "published": "2026-09-03T16:09:45.000Z",
           "section": "world",
-          "score": 4.55,
+          "score": 4.09,
           "outlets": 2,
           "reasons": {
             "corroboration": 2.22,
+            "source": 1,
+            "recency": 0.87,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "France 24",
+              "link": "https://www.france24.com/en/video/20260903-two-palestinian-teens-killed-in-west-bank-raid-by-israeli-settlers-and-army",
+              "title": "Two Palestinian teens killed in West Bank raid by Israeli settlers and army"
+            },
+            {
+              "name": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cj6482r6yl4o?at_medium=RSS&at_campaign=rss",
+              "title": "Palestinian teens killed during settler attack on West Bank village"
+            }
+          ]
+        },
+        {
+          "title": "In southern Lebanon, Israeli demolitions continue ‘day and night’",
+          "link": "https://www.aljazeera.com/features/2026/9/4/in-southern-lebanon-israeli-demolitions-continue-day-and-night?traffic_source=rss",
+          "summary": "Explosions shake the ground in Froun as Israeli operations persist, disrupting daily life in southern Lebanon.",
+          "published": "2026-09-04T06:24:55.000Z",
+          "section": "world",
+          "score": 4.06,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
             "source": 0.9,
-            "recency": 1.43,
+            "recency": 1.76,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
               "name": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/9/3/minneapolis-shooting-kills-two-wounds-three-police-officers?traffic_source=rss",
-              "title": "Minneapolis shooting kills two, wounds three police officers"
-            },
+              "link": "https://www.aljazeera.com/features/2026/9/4/in-southern-lebanon-israeli-demolitions-continue-day-and-night?traffic_source=rss",
+              "title": "In southern Lebanon, Israeli demolitions continue ‘day and night’"
+            }
+          ]
+        }
+      ],
+      "dropped": 74
+    },
+    {
+      "id": "ireland",
+      "name": "Ireland",
+      "total": 107,
+      "items": [
+        {
+          "title": "Padraic Joyce steps down as Galway senior manager",
+          "link": "https://www.thejournal.ie/padraic-joyce-galway-football-4-2-7152134-Sep2026/",
+          "summary": "He won four Connacht senior titles and guided Galway to two All-Ireland final appearances.",
+          "published": "2026-09-03T18:38:13.000Z",
+          "section": "ireland",
+          "score": 5.68,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.7,
+            "recency": 0.98,
+            "promoted": [
+              "ireland",
+              "connacht"
+            ],
+            "demoted": []
+          },
+          "sources": [
             {
-              "name": "France 24",
-              "link": "https://www.france24.com/en/americas/20260903-minneapolis-apartment-shooting",
-              "title": "Minneapolis apartment shooting leaves three dead, multiple injured"
+              "name": "TheJournal.ie",
+              "link": "https://www.thejournal.ie/padraic-joyce-galway-football-4-2-7152134-Sep2026/",
+              "title": "Padraic Joyce steps down as Galway senior manager"
             }
           ]
         },
         {
-          "title": "Kenyan editor found safe after abduction",
-          "link": "https://www.france24.com/en/kenyan-editor-found-safe-after-abduction",
-          "summary": "In tonight's edition: Media rights groups in Kenya call for an investigation after a top journalist is abducted overnight by heavily armed men. Also, trials for three potential vaccines against the Bundibugyo strain of Ebola are due to start over the next couple of months. Plus Senegalese consumers who are frustrated by the rising cost of living have launched a new campaign.",
-          "published": "2026-09-02T20:15:44.000Z",
-          "section": "world",
-          "score": 4.46,
+          "title": "Boy (12) dies and man injured after train hits car at crossing in Co Mayo",
+          "link": "https://www.irishtimes.com/ireland/2026/09/04/boy-12-killed-and-man-injured-after-train-hits-car-at-crossing-in-co-mayo/",
+          "summary": "Irish Rail says line to remain closed between Westport and Athlone overnight with significant disruption expected on Friday",
+          "published": "2026-09-04T07:18:08.000Z",
+          "section": "ireland",
+          "score": 5.54,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
-            "source": 0.9,
-            "recency": 1.06,
+            "source": 1.1,
+            "recency": 1.84,
+            "promoted": [
+              "irish"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "Irish Times",
+              "link": "https://www.irishtimes.com/ireland/2026/09/04/boy-12-killed-and-man-injured-after-train-hits-car-at-crossing-in-co-mayo/",
+              "title": "Boy (12) dies and man injured after train hits car at crossing in Co Mayo"
+            }
+          ]
+        },
+        {
+          "title": "Church services",
+          "link": "https://www.irishtimes.com/ireland/social-affairs/2026/09/04/church-services/",
+          "summary": "Week beginning Saturday, September 5th, 2026",
+          "published": "2026-09-04T05:00:01.000Z",
+          "section": "ireland",
+          "score": 5.54,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1.1,
+            "recency": 1.64,
+            "promoted": [
+              "urc"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "Irish Times",
+              "link": "https://www.irishtimes.com/ireland/social-affairs/2026/09/04/church-services/",
+              "title": "Church services"
+            }
+          ]
+        },
+        {
+          "title": "Iceland ‘in shock’ after crash that killed Irish teenager Hannah Jane Large (18)",
+          "link": "https://www.irishtimes.com/ireland/2026/09/03/irish-teenager-killed-in-iceland-crash-named-as-18-year-old-from-greystones/",
+          "summary": "Hannah Jane Large and Icelandic man and woman died after car went off road south of the capital Reykjavík on Monday",
+          "published": "2026-09-03T18:23:17.000Z",
+          "section": "ireland",
+          "score": 5.49,
+          "outlets": 2,
+          "reasons": {
+            "corroboration": 2.22,
+            "source": 1.1,
+            "recency": 0.97,
+            "promoted": [
+              "irish"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "Irish Times",
+              "link": "https://www.irishtimes.com/ireland/2026/09/03/irish-teenager-killed-in-iceland-crash-named-as-18-year-old-from-greystones/",
+              "title": "Iceland ‘in shock’ after crash that killed Irish teenager Hannah Jane Large (18)"
+            },
+            {
+              "name": "RTÉ",
+              "link": "https://www.rte.ie/news/europe/2026/0903/1590158-iceland-irish-woman/",
+              "title": "Irish woman, aged 18, dies in car crash in Iceland"
+            }
+          ]
+        },
+        {
+          "title": "Irish overseas aid up but US cuts devastating - minister",
+          "link": "https://www.rte.ie/news/2026/0904/1590293-irish-aid/",
+          "summary": "Minister of State for International Development and Diaspora Neale Richmond has said the impact of the US drastically cutting its aid to countries has been \"devastating\".",
+          "published": "2026-09-04T07:43:39.000Z",
+          "section": "ireland",
+          "score": 5.48,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1,
+            "recency": 1.88,
+            "promoted": [
+              "irish"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "RTÉ",
+              "link": "https://www.rte.ie/news/2026/0904/1590293-irish-aid/",
+              "title": "Irish overseas aid up but US cuts devastating - minister"
+            }
+          ]
+        },
+        {
+          "title": "Why is Ireland's Central Bank facing pressure again over the sale of Israeli bonds?",
+          "link": "https://www.thejournal.ie/israel-bonds-war-gaza-ireland-central-bank-explainer-7149999-Sep2026/",
+          "summary": "It’s still unclear which country, if any, is now approving Israel’s bonds in Europe.",
+          "published": "2026-09-03T20:00:10.000Z",
+          "section": "ireland",
+          "score": 5.35,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.7,
+            "recency": 1.05,
+            "promoted": [
+              "ireland",
+              "central bank"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "TheJournal.ie",
+              "link": "https://www.thejournal.ie/israel-bonds-war-gaza-ireland-central-bank-explainer-7149999-Sep2026/",
+              "title": "Why is Ireland's Central Bank facing pressure again over the sale of Israeli bonds?"
+            }
+          ]
+        },
+        {
+          "title": "Reform UK officials step down over donation allegations",
+          "link": "https://www.rte.ie/news/uk/2026/0904/1590291-uk-reform-party/",
+          "summary": "Two Reform UK officials have stepped down and the party has launched an investigation following allegations they breached political donation rules by having polling paid for by an overseas company.",
+          "published": "2026-09-04T07:18:02.000Z",
+          "section": "ireland",
+          "score": 5.34,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1,
+            "recency": 1.84,
             "promoted": [
               "investigation"
             ],
@@ -266,87 +621,281 @@
           },
           "sources": [
             {
-              "name": "France 24",
-              "link": "https://www.france24.com/en/kenyan-editor-found-safe-after-abduction",
-              "title": "Kenyan editor found safe after abduction"
+              "name": "RTÉ",
+              "link": "https://www.rte.ie/news/uk/2026/0904/1590291-uk-reform-party/",
+              "title": "Reform UK officials step down over donation allegations"
             }
           ]
         },
         {
-          "title": "Photos: Symbolic funerals held in Nepal for missing flood victims",
-          "link": "https://www.aljazeera.com/gallery/2026/9/3/photos-symbolic-funerals-held-in-nepal-for-missing-flood-victims?traffic_source=rss",
-          "summary": "Symbolic funerals held in Nepal for those still missing after deadly floods in the Himalayan nation.",
-          "published": "2026-09-03T08:32:34.000Z",
-          "section": "world",
-          "score": 4.25,
+          "title": "Croke Park's last Irish boxer hails Taylor's farewell",
+          "link": "https://www.rte.ie/news/ireland/2026/0904/1590269-croke-park-boxing-taylor/",
+          "summary": "When Katie Taylor steps into the ring tomorrow night for a momentous farewell - the last Irish boxer, who fought in Croke Park, 54 years ago, will be among the 80,000 spectators.",
+          "published": "2026-09-04T05:00:00.000Z",
+          "section": "ireland",
+          "score": 5.24,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
-            "source": 0.9,
-            "recency": 1.95,
+            "source": 1,
+            "recency": 1.64,
+            "promoted": [
+              "irish"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "RTÉ",
+              "link": "https://www.rte.ie/news/ireland/2026/0904/1590269-croke-park-boxing-taylor/",
+              "title": "Croke Park's last Irish boxer hails Taylor's farewell"
+            }
+          ]
+        },
+        {
+          "title": "'Nearly as bad as a title fight': Bernard Dunne did his Irish Leaving Cert exam this year",
+          "link": "https://www.thejournal.ie/bernard-dunne-irish-leaving-cert-7152392-Sep2026/",
+          "summary": "Dunne said it was the only subject he failed in his Leaving Cert.",
+          "published": "2026-09-04T08:11:24.000Z",
+          "section": "ireland",
+          "score": 5.22,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.7,
+            "recency": 1.92,
+            "promoted": [
+              "irish"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "TheJournal.ie",
+              "link": "https://www.thejournal.ie/bernard-dunne-irish-leaving-cert-7152392-Sep2026/",
+              "title": "'Nearly as bad as a title fight': Bernard Dunne did his Irish Leaving Cert exam this year"
+            }
+          ]
+        },
+        {
+          "title": "EPA investigating noise complaints at Dublin data centre",
+          "link": "https://www.rte.ie/news/environment/2026/0903/1590132-noise-clondalkin-data-centre/",
+          "summary": "An investigation is under way by the Environmental Protection Agency into complaints about noise emitting from a new data centre in Clondalkin in west Dublin.",
+          "published": "2026-09-03T05:00:00.000Z",
+          "section": "ireland",
+          "score": 5.2,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1,
+            "recency": 0.5,
+            "promoted": [
+              "dublin",
+              "investigation"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "RTÉ",
+              "link": "https://www.rte.ie/news/environment/2026/0903/1590132-noise-clondalkin-data-centre/",
+              "title": "EPA investigating noise complaints at Dublin data centre"
+            }
+          ]
+        }
+      ],
+      "dropped": 97
+    },
+    {
+      "id": "uk",
+      "name": "United Kingdom",
+      "total": 32,
+      "items": [
+        {
+          "title": "Controversial Jackdaw gas field set to be approved in weeks, sources say",
+          "link": "https://www.bbc.co.uk/news/articles/cj9xe09jz4eo?at_medium=RSS&at_campaign=rss",
+          "summary": "The government is set to give the go-ahead for the gas field off the coast of Aberdeen, the BBC understands.",
+          "published": "2026-09-04T05:59:10.000Z",
+          "section": "uk",
+          "score": 5.52,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1,
+            "recency": 1.72,
+            "promoted": [
+              "urc"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "BBC UK",
+              "link": "https://www.bbc.co.uk/news/articles/cj9xe09jz4eo?at_medium=RSS&at_campaign=rss",
+              "title": "Controversial Jackdaw gas field set to be approved in weeks, sources say"
+            }
+          ]
+        },
+        {
+          "title": "Two Reform officials step down after undercover donations report",
+          "link": "https://www.bbc.co.uk/news/articles/c86xj5z7x61o?at_medium=RSS&at_campaign=rss",
+          "summary": "Reform says Dan Jukes and James Orr have left their roles as it launches an investigation into the report.",
+          "published": "2026-09-04T08:45:58.000Z",
+          "section": "uk",
+          "score": 5.48,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1,
+            "recency": 1.98,
+            "promoted": [
+              "investigation"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "BBC UK",
+              "link": "https://www.bbc.co.uk/news/articles/c86xj5z7x61o?at_medium=RSS&at_campaign=rss",
+              "title": "Two Reform officials step down after undercover donations report"
+            }
+          ]
+        },
+        {
+          "title": "Greggs, H&M and Space NK - how to get birthday freebies and why there's a catch",
+          "link": "https://www.bbc.co.uk/news/articles/c5y4jr4yr2eo?at_medium=RSS&at_campaign=rss",
+          "summary": "Cake, coffee, make-up and burgers are just some of the free things you can get on your birthday.",
+          "published": "2026-09-04T07:19:06.000Z",
+          "section": "uk",
+          "score": 5.14,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1,
+            "recency": 1.84,
+            "promoted": [
+              "coffee"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "BBC UK",
+              "link": "https://www.bbc.co.uk/news/articles/c5y4jr4yr2eo?at_medium=RSS&at_campaign=rss",
+              "title": "Greggs, H&M and Space NK - how to get birthday freebies and why there's a catch"
+            }
+          ]
+        },
+        {
+          "title": "Why Northern Ireland was the 'perfect place' for Robin Hood's death",
+          "link": "https://www.bbc.co.uk/news/articles/ce9eg0zz8k4o?at_medium=RSS&at_campaign=rss",
+          "summary": "The Death of Robin Hood, which stars Hugh Jackman and Jodie Comer, was filmed entirely in Northern Ireland.",
+          "published": "2026-09-03T23:00:34.000Z",
+          "section": "uk",
+          "score": 4.82,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1,
+            "recency": 1.22,
+            "promoted": [
+              "ireland"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "BBC UK",
+              "link": "https://www.bbc.co.uk/news/articles/ce9eg0zz8k4o?at_medium=RSS&at_campaign=rss",
+              "title": "Why Northern Ireland was the 'perfect place' for Robin Hood's death"
+            }
+          ]
+        },
+        {
+          "title": "Schools to close early for A66 crash funeral",
+          "link": "https://www.bbc.co.uk/news/articles/c2kwv0dypnwo?at_medium=RSS&at_campaign=rss",
+          "summary": "The funeral of one of five young men killed in the crash with a police car will take place on Friday.",
+          "published": "2026-09-04T08:57:55.000Z",
+          "section": "uk",
+          "score": 4.4,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1,
+            "recency": 2,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
-              "name": "Al Jazeera",
-              "link": "https://www.aljazeera.com/gallery/2026/9/3/photos-symbolic-funerals-held-in-nepal-for-missing-flood-victims?traffic_source=rss",
-              "title": "Photos: Symbolic funerals held in Nepal for missing flood victims"
+              "name": "BBC UK",
+              "link": "https://www.bbc.co.uk/news/articles/c2kwv0dypnwo?at_medium=RSS&at_campaign=rss",
+              "title": "Schools to close early for A66 crash funeral"
             }
           ]
         },
         {
-          "title": "🔴 No 'solid proof' Morocco planned Ceuta migrant rush, says Spanish PM Sanchez",
-          "link": "https://www.france24.com/en/europe/20260903-spanish-pm-sanchez-says-no-solid-proof-morocco-planned-ceuta-migrant-rush",
-          "summary": "",
-          "published": "2026-09-03T08:32:27.000Z",
-          "section": "world",
-          "score": 4.25,
+          "title": "Anger as human poo and maggot-infested food left behind at beauty spot",
+          "link": "https://www.bbc.co.uk/news/articles/c62jg4d433mo?at_medium=RSS&at_campaign=rss",
+          "summary": "A national park authority says there is \"no justification\" after the \"worst example\" of fly-tipping.",
+          "published": "2026-09-04T07:59:17.000Z",
+          "section": "uk",
+          "score": 4.3,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
-            "source": 0.9,
-            "recency": 1.95,
+            "source": 1,
+            "recency": 1.9,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
-              "name": "France 24",
-              "link": "https://www.france24.com/en/europe/20260903-spanish-pm-sanchez-says-no-solid-proof-morocco-planned-ceuta-migrant-rush",
-              "title": "🔴 No 'solid proof' Morocco planned Ceuta migrant rush, says Spanish PM Sanchez"
+              "name": "BBC UK",
+              "link": "https://www.bbc.co.uk/news/articles/c62jg4d433mo?at_medium=RSS&at_campaign=rss",
+              "title": "Anger as human poo and maggot-infested food left behind at beauty spot"
             }
           ]
-        },
+        }
+      ],
+      "dropped": 26
+    },
+    {
+      "id": "us",
+      "name": "United States",
+      "total": 29,
+      "items": [
         {
-          "title": "Good Good Golf CEO, president quit amid advertisement controversy",
-          "link": "https://www.aljazeera.com/sports/2026/9/3/good-good-golf-ceo-president-quit-amid-advertisement-controversy?traffic_source=rss",
-          "summary": "The advertisement faced severe backlash and prompted calls for a boycott of products from Callaway, which co-branded it.",
-          "published": "2026-09-03T08:32:20.000Z",
-          "section": "world",
-          "score": 4.25,
+          "title": "Fed governor Waller muddies outlook on possible rate hike later this month",
+          "link": "https://www.pbs.org/newshour/economy/fed-governor-waller-muddies-outlook-on-possible-rate-hike-later-this-month",
+          "summary": "Federal Reserve governor Christopher Waller said Thursday that an inflation report next week will largely determine whether he supports an interest rate hike later this month or not.",
+          "published": "2026-09-04T00:08:19.000Z",
+          "section": "us",
+          "score": 4.59,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.9,
-            "recency": 1.95,
-            "promoted": [],
+            "recency": 1.29,
+            "promoted": [
+              "federal reserve"
+            ],
             "demoted": []
           },
           "sources": [
             {
-              "name": "Al Jazeera",
-              "link": "https://www.aljazeera.com/sports/2026/9/3/good-good-golf-ceo-president-quit-amid-advertisement-controversy?traffic_source=rss",
-              "title": "Good Good Golf CEO, president quit amid advertisement controversy"
+              "name": "PBS NewsHour",
+              "link": "https://www.pbs.org/newshour/economy/fed-governor-waller-muddies-outlook-on-possible-rate-hike-later-this-month",
+              "title": "Fed governor Waller muddies outlook on possible rate hike later this month"
             }
           ]
         },
         {
-          "title": "Russia to close Goethe-Institut centres as Germany tensions escalate",
-          "link": "https://www.aljazeera.com/news/2026/9/3/russia-to-close-goethe-institut-centres-as-germany-tensions-escalate?traffic_source=rss",
-          "summary": "Moscow to shut Goethe-Institut centres after Germany announces the closure of two Russian institutions.",
-          "published": "2026-09-03T08:12:46.000Z",
-          "section": "world",
+          "title": "Trump already tried to hurt Iran with sanctions once - and it didn't work",
+          "link": "https://www.npr.org/2026/09/04/nx-s1-5945582/trump-already-tried-to-hurt-iran-with-sanctions-once-and-it-didnt-work",
+          "summary": "President Trump is again hoping to use economic pressure to force Iran to the negotiating table.",
+          "published": "2026-09-04T08:06:02.000Z",
+          "section": "us",
           "score": 4.21,
           "outlets": 1,
           "reasons": {
@@ -358,654 +907,63 @@
           },
           "sources": [
             {
-              "name": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/9/3/russia-to-close-goethe-institut-centres-as-germany-tensions-escalate?traffic_source=rss",
-              "title": "Russia to close Goethe-Institut centres as Germany tensions escalate"
+              "name": "NPR",
+              "link": "https://www.npr.org/2026/09/04/nx-s1-5945582/trump-already-tried-to-hurt-iran-with-sanctions-once-and-it-didnt-work",
+              "title": "Trump already tried to hurt Iran with sanctions once - and it didn't work"
             }
           ]
         },
         {
-          "title": "Small nuclear reactors could be America’s next power move",
-          "link": "https://www.csmonitor.com/USA/2026/0902/nuclear-power-data-centers?icid=rss",
-          "summary": "Interest is growing about small nuclear reactors as a potential source to help meet growing U.S. energy demands.",
-          "published": "2026-09-02T09:00:10.000Z",
-          "section": "world",
+          "title": "Work set to begin in Trump's plan for triumphal arch",
+          "link": "https://www.npr.org/2026/09/04/nx-s1-5956892/work-set-to-begin-in-trumps-plan-for-triumphal-arch",
+          "summary": "NPR's Steve Inskeep speaks with New York Times reporter Emily Badger about the Trump administration's plans to move forward with construction of a triumphal arch.",
+          "published": "2026-09-04T08:04:39.000Z",
+          "section": "us",
           "score": 4.21,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
-            "source": 0.8,
-            "recency": 0.61,
-            "promoted": [
-              "urc"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "CS Monitor",
-              "link": "https://www.csmonitor.com/USA/2026/0902/nuclear-power-data-centers?icid=rss",
-              "title": "Small nuclear reactors could be America’s next power move"
-            }
-          ]
-        },
-        {
-          "title": "OpenAI’s Sam Altman tells G20 AI will be as essential as electricity",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/9/3/openais-sam-altman-tells-g20-ai-will-be-as-essential-as-electricity?traffic_source=rss",
-          "summary": "‘A kid growing up today will never be smarter than AI.’",
-          "published": "2026-09-03T08:04:36.000Z",
-          "section": "world",
-          "score": 4.2,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
             "source": 0.9,
-            "recency": 1.9,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/3/openais-sam-altman-tells-g20-ai-will-be-as-essential-as-electricity?traffic_source=rss",
-              "title": "OpenAI’s Sam Altman tells G20 AI will be as essential as electricity"
-            }
-          ]
-        },
-        {
-          "title": "In Somaliland, a book fair is writing a nation into existence",
-          "link": "https://www.csmonitor.com/World/Africa/2026/0903/hargeisa-international-book-fair-somaliland-recognition?icid=rss",
-          "summary": "In Somaliland, an international book fair has become a forum for telling the story of a country you won’t find on a world map.",
-          "published": "2026-09-03T09:00:11.000Z",
-          "section": "world",
-          "score": 4.19,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 0.8,
-            "recency": 1.99,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "CS Monitor",
-              "link": "https://www.csmonitor.com/World/Africa/2026/0903/hargeisa-international-book-fair-somaliland-recognition?icid=rss",
-              "title": "In Somaliland, a book fair is writing a nation into existence"
-            }
-          ]
-        }
-      ],
-      "dropped": 64
-    },
-    {
-      "id": "ireland",
-      "name": "Ireland",
-      "total": 105,
-      "items": [
-        {
-          "title": "Environmental Protection Agency launches investigation into noise complaints over Dublin data centre",
-          "link": "https://www.thejournal.ie/epa-launches-investigation-noise-complaints-clondalkin-data-centre-7150972-Sep2026/",
-          "summary": "The EPA said 13 noise complaints related to the Clondalkin data centre have been submitted since 15 July.",
-          "published": "2026-09-03T08:57:48.000Z",
-          "section": "ireland",
-          "score": 7.51,
-          "outlets": 2,
-          "reasons": {
-            "corroboration": 2.22,
-            "source": 1,
-            "recency": 1.99,
-            "promoted": [
-              "dublin",
-              "investigation"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "TheJournal.ie",
-              "link": "https://www.thejournal.ie/epa-launches-investigation-noise-complaints-clondalkin-data-centre-7150972-Sep2026/",
-              "title": "Environmental Protection Agency launches investigation into noise complaints over Dublin data centre"
-            },
-            {
-              "name": "RTÉ",
-              "link": "https://www.rte.ie/news/environment/2026/0903/1590132-noise-clondalkin-data-centre/",
-              "title": "EPA investigating noise complaints at Dublin data centre"
-            }
-          ]
-        },
-        {
-          "title": "Catherine Connolly to meet with Donald Trump during his visit to Ireland next week",
-          "link": "https://www.thejournal.ie/trump-to-meet-president-connelly-when-he-visits-next-week-7150927-Sep2026/",
-          "summary": "The US President is set for a a “courtesy visit” at Áras an Uachtaráin",
-          "published": "2026-09-03T08:50:00.000Z",
-          "section": "ireland",
-          "score": 6.39,
-          "outlets": 2,
-          "reasons": {
-            "corroboration": 2.22,
-            "source": 1,
-            "recency": 1.97,
-            "promoted": [
-              "ireland"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "TheJournal.ie",
-              "link": "https://www.thejournal.ie/trump-to-meet-president-connelly-when-he-visits-next-week-7150927-Sep2026/",
-              "title": "Catherine Connolly to meet with Donald Trump during his visit to Ireland next week"
-            },
-            {
-              "name": "RTÉ",
-              "link": "https://www.rte.ie/news/politics/2026/0903/1590152-donald-trump-visit/",
-              "title": "Trump to meet President at Áras during visit next weekend"
-            }
-          ]
-        },
-        {
-          "title": "Irish teenager killed in Iceland crash named as 18-year-old from Greystones",
-          "link": "https://www.irishtimes.com/ireland/2026/09/03/irish-teenager-killed-in-iceland-crash-named-as-18-year-old-from-greystones/",
-          "summary": "Hannah Jane Large and Icelandic man and woman died after car went off road south of the capital Reykjavík on Monday",
-          "published": "2026-09-03T07:25:39.000Z",
-          "section": "ireland",
-          "score": 6.36,
-          "outlets": 2,
-          "reasons": {
-            "corroboration": 2.22,
-            "source": 1.1,
-            "recency": 1.84,
-            "promoted": [
-              "irish"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "Irish Times",
-              "link": "https://www.irishtimes.com/ireland/2026/09/03/irish-teenager-killed-in-iceland-crash-named-as-18-year-old-from-greystones/",
-              "title": "Irish teenager killed in Iceland crash named as 18-year-old from Greystones"
-            },
-            {
-              "name": "RTÉ",
-              "link": "https://www.rte.ie/news/world/2026/0903/1590158-iceland-irish-woman/",
-              "title": "Irish woman, aged 18, dies in car crash in Iceland"
-            }
-          ]
-        },
-        {
-          "title": "Firefighters battle huge blaze at scrapyard in Belfast",
-          "link": "https://www.thejournal.ie/fire-belfast-scrapyard-7150868-Sep2026/",
-          "summary": "The fire broke out on Wednesday afternoon.",
-          "published": "2026-09-03T06:36:30.000Z",
-          "section": "ireland",
-          "score": 6.29,
-          "outlets": 2,
-          "reasons": {
-            "corroboration": 2.22,
-            "source": 1.1,
-            "recency": 1.77,
-            "promoted": [
-              "belfast"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "TheJournal.ie",
-              "link": "https://www.thejournal.ie/fire-belfast-scrapyard-7150868-Sep2026/",
-              "title": "Firefighters battle huge blaze at scrapyard in Belfast"
-            },
-            {
-              "name": "Irish Times",
-              "link": "https://www.irishtimes.com/ireland/2026/09/03/firefighters-tackle-huge-blaze-at-car-scrap-yard-in-belfast/",
-              "title": "Firefighters tackle huge blaze at car scrap yard in Belfast"
-            }
-          ]
-        },
-        {
-          "title": "Nepal to rebuild landslide warning system after floods",
-          "link": "https://www.rte.ie/news/2026/0903/1590151-nepal-warning-system/",
-          "summary": "Nepal plans ⁠to rebuild an early-warning system for landslides on part of its border with China, installing seismic sensors, cameras and a satellite link, two Nepali government sources said, a week after a glacial flood killed more than 1,000.",
-          "published": "2026-09-03T05:48:57.000Z",
-          "section": "ireland",
-          "score": 5.5,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1,
-            "recency": 1.7,
-            "promoted": [
-              "urc"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "RTÉ",
-              "link": "https://www.rte.ie/news/2026/0903/1590151-nepal-warning-system/",
-              "title": "Nepal to rebuild landslide warning system after floods"
-            }
-          ]
-        },
-        {
-          "title": "Taoiseach not ruling out cutting excise on alcohol",
-          "link": "https://www.rte.ie/news/2026/0902/1590130-taoiseach-alcohol-excise/",
-          "summary": "Taoiseach Micheál Martin has not ruled out cutting excise on alcohol as part of next month's Budget.",
-          "published": "2026-09-02T18:56:30.000Z",
-          "section": "ireland",
-          "score": 5.41,
-          "outlets": 2,
-          "reasons": {
-            "corroboration": 2.22,
-            "source": 1,
-            "recency": 0.99,
-            "promoted": [
-              "taoiseach"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "RTÉ",
-              "link": "https://www.rte.ie/news/2026/0902/1590130-taoiseach-alcohol-excise/",
-              "title": "Taoiseach not ruling out cutting excise on alcohol"
-            },
-            {
-              "name": "TheJournal.ie",
-              "link": "https://www.thejournal.ie/taoiseach-cabinet-7150261-Sep2026/",
-              "title": "Taoiseach says government hasn't discussed cutting alcohol excise in Budget 2027"
-            }
-          ]
-        },
-        {
-          "title": "Woman in court accused of using angle grinder to gain access to repossessed Dublin home",
-          "link": "https://www.thejournal.ie/woman-accused-angle-grinder-repossessed-home-dublin-7150398-Sep2026/",
-          "summary": "Pauline O’Callaghan denied having caused any damage to the property, her barrister told the court.",
-          "published": "2026-09-02T15:26:57.000Z",
-          "section": "ireland",
-          "score": 5.35,
-          "outlets": 2,
-          "reasons": {
-            "corroboration": 2.22,
-            "source": 1.1,
-            "recency": 0.83,
-            "promoted": [
-              "dublin"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "TheJournal.ie",
-              "link": "https://www.thejournal.ie/woman-accused-angle-grinder-repossessed-home-dublin-7150398-Sep2026/",
-              "title": "Woman in court accused of using angle grinder to gain access to repossessed Dublin home"
-            },
-            {
-              "name": "Irish Times",
-              "link": "https://www.irishtimes.com/crime-law/courts/2026/09/02/woman-accused-of-using-angle-grinder-to-gain-access-to-repossessed-dublin-home/",
-              "title": "Woman accused of using angle grinder to gain access to repossessed Dublin home"
-            }
-          ]
-        },
-        {
-          "title": "The kids take over on new RTÉ show First Class Takes",
-          "link": "https://www.rte.ie/entertainment/2026/0903/1590135-the-kids-take-over-on-new-rte-show-first-class-takes/",
-          "summary": "Ok, here's the pitch - take a slightly zany Irish comedian and shove him into a classroom full of school kids aged from six to 12 years old, point a camera at them and watch the chats and the giggles flow.",
-          "published": "2026-09-03T06:00:00.000Z",
-          "section": "ireland",
-          "score": 5.32,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1,
-            "recency": 1.72,
-            "promoted": [
-              "irish"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "RTÉ",
-              "link": "https://www.rte.ie/entertainment/2026/0903/1590135-the-kids-take-over-on-new-rte-show-first-class-takes/",
-              "title": "The kids take over on new RTÉ show First Class Takes"
-            }
-          ]
-        },
-        {
-          "title": "Irish woman one of three young people killed in single-vehicle collision in Iceland",
-          "link": "https://www.thejournal.ie/irish-woman-one-of-three-young-people-killed-in-single-vehicle-collision-in-iceland-7150887-Sep2026/",
-          "summary": "Icelandic police said that the car ‘veered off the road’ shortly after midnight on 31 August.",
-          "published": "2026-09-03T07:07:08.000Z",
-          "section": "ireland",
-          "score": 5.11,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 0.7,
-            "recency": 1.81,
-            "promoted": [
-              "irish"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "TheJournal.ie",
-              "link": "https://www.thejournal.ie/irish-woman-one-of-three-young-people-killed-in-single-vehicle-collision-in-iceland-7150887-Sep2026/",
-              "title": "Irish woman one of three young people killed in single-vehicle collision in Iceland"
-            }
-          ]
-        },
-        {
-          "title": "'Out of kilter': Harris says Irish workers hit with higher tax rate sooner than other countries",
-          "link": "https://www.thejournal.ie/budget-2027-income-tax-cuts-7150471-Sep2026/",
-          "summary": "Budget day is just over six weeks away and crunch talks are getting underway.",
-          "published": "2026-09-03T06:25:42.000Z",
-          "section": "ireland",
-          "score": 5.05,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 0.7,
-            "recency": 1.75,
-            "promoted": [
-              "irish"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "TheJournal.ie",
-              "link": "https://www.thejournal.ie/budget-2027-income-tax-cuts-7150471-Sep2026/",
-              "title": "'Out of kilter': Harris says Irish workers hit with higher tax rate sooner than other countries"
-            }
-          ]
-        }
-      ],
-      "dropped": 95
-    },
-    {
-      "id": "uk",
-      "name": "United Kingdom",
-      "total": 23,
-      "items": [
-        {
-          "title": "Channel smuggling gangs resort to 'mega-dinghies' as crackdown limits small boat supply",
-          "link": "https://www.bbc.co.uk/news/articles/ce3rn93de9eo?at_medium=RSS&at_campaign=rss",
-          "summary": "Once-rival criminal groups are being forced to work together because of a shortage of small boats, a BBC investigation has found.",
-          "published": "2026-09-03T05:00:04.000Z",
-          "section": "uk",
-          "score": 5.13,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1,
-            "recency": 1.63,
-            "promoted": [
-              "investigation"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "BBC UK",
-              "link": "https://www.bbc.co.uk/news/articles/ce3rn93de9eo?at_medium=RSS&at_campaign=rss",
-              "title": "Channel smuggling gangs resort to 'mega-dinghies' as crackdown limits small boat supply"
-            }
-          ]
-        },
-        {
-          "title": "Almost half of households do not see benefits of economic growth, report says",
-          "link": "https://www.bbc.co.uk/news/articles/crerw510gdzo?at_medium=RSS&at_campaign=rss",
-          "summary": "Analysis has found a \"stark\" gap in the spending power of households in the north and south of England on average.",
-          "published": "2026-09-03T05:47:11.000Z",
-          "section": "uk",
-          "score": 4.1,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1,
-            "recency": 1.7,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "BBC UK",
-              "link": "https://www.bbc.co.uk/news/articles/crerw510gdzo?at_medium=RSS&at_campaign=rss",
-              "title": "Almost half of households do not see benefits of economic growth, report says"
-            }
-          ]
-        },
-        {
-          "title": "Glasgow City Council at 'critical' point over £110m budget gap",
-          "link": "https://www.bbc.co.uk/news/articles/cd79e2xwyrzo?at_medium=RSS&at_campaign=rss",
-          "summary": "The Accounts Commission warns \"robust oversight\" is needed to tackle a £110m budget gap spanning the next two financial years.",
-          "published": "2026-09-03T05:08:43.000Z",
-          "section": "uk",
-          "score": 4.04,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1,
-            "recency": 1.64,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "BBC UK",
-              "link": "https://www.bbc.co.uk/news/articles/cd79e2xwyrzo?at_medium=RSS&at_campaign=rss",
-              "title": "Glasgow City Council at 'critical' point over £110m budget gap"
-            }
-          ]
-        },
-        {
-          "title": "Hundreds of North Sea workers too heavy for new helicopter rules",
-          "link": "https://www.bbc.co.uk/news/articles/c4gk2zlv0e6o?at_medium=RSS&at_campaign=rss",
-          "summary": "Workers should weigh no more than 19.5st fully clothed so that they can be winched to safety in an emergency.",
-          "published": "2026-09-03T05:06:55.000Z",
-          "section": "uk",
-          "score": 4.04,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1,
-            "recency": 1.64,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "BBC UK",
-              "link": "https://www.bbc.co.uk/news/articles/c4gk2zlv0e6o?at_medium=RSS&at_campaign=rss",
-              "title": "Hundreds of North Sea workers too heavy for new helicopter rules"
-            }
-          ]
-        },
-        {
-          "title": "Michael Sheen says Wales should be asked if it wants the Prince of Wales title back",
-          "link": "https://www.bbc.co.uk/news/articles/c8jdyxpdnldo?at_medium=RSS&at_campaign=rss",
-          "summary": "Sheen was speaking ahead of his portrayal of Owain Glyndwr, the last Welsh-born Prince of Wales.",
-          "published": "2026-09-03T05:04:19.000Z",
-          "section": "uk",
-          "score": 4.04,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1,
-            "recency": 1.64,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "BBC UK",
-              "link": "https://www.bbc.co.uk/news/articles/c8jdyxpdnldo?at_medium=RSS&at_campaign=rss",
-              "title": "Michael Sheen says Wales should be asked if it wants the Prince of Wales title back"
-            }
-          ]
-        },
-        {
-          "title": "Widow whose husband died after falling into slurry pit warns of pressure on farmers",
-          "link": "https://www.bbc.co.uk/news/articles/cn9wv8l15ezo?at_medium=RSS&at_campaign=rss",
-          "summary": "Margaret Owen said it seemed \"things are getting worse\" after a rise in deaths on British farms.",
-          "published": "2026-09-03T05:03:15.000Z",
-          "section": "uk",
-          "score": 4.04,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1,
-            "recency": 1.64,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "BBC UK",
-              "link": "https://www.bbc.co.uk/news/articles/cn9wv8l15ezo?at_medium=RSS&at_campaign=rss",
-              "title": "Widow whose husband died after falling into slurry pit warns of pressure on farmers"
-            }
-          ]
-        }
-      ],
-      "dropped": 17
-    },
-    {
-      "id": "us",
-      "name": "United States",
-      "total": 30,
-      "items": [
-        {
-          "title": "As millions of kids lose SNAP food benefits, free school meals are also at risk",
-          "link": "https://www.npr.org/2026/09/03/nx-s1-5954205/snap-food-free-school-lunch-usda",
-          "summary": "Food stamps have a direct link to other critical resources, such as free breakfast and lunch at school. Now, experts say they're starting to see that link break.",
-          "published": "2026-09-03T09:00:00.000Z",
-          "section": "us",
-          "score": 5.69,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 0.9,
-            "recency": 1.99,
-            "promoted": [
-              "urc"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "NPR",
-              "link": "https://www.npr.org/2026/09/03/nx-s1-5954205/snap-food-free-school-lunch-usda",
-              "title": "As millions of kids lose SNAP food benefits, free school meals are also at risk"
-            }
-          ]
-        },
-        {
-          "title": "No Democrat has won a Kansas Senate seat in a century. Can a megachurch pastor change that?",
-          "link": "https://www.pbs.org/newshour/politics/no-democrat-has-won-a-kansas-senate-seat-in-a-century-can-a-megachurch-pastor-change-that",
-          "summary": "Adam Hamilton has spent decades trying to bring people to Jesus as founder of the nation's largest United Methodist church. Now he wants to bring Kansas voters to the polls as the Democratic nominee for U.S. Senate.",
-          "published": "2026-09-02T21:58:10.000Z",
-          "section": "us",
-          "score": 4.85,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 0.9,
-            "recency": 1.15,
-            "promoted": [
-              "urc"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "PBS NewsHour",
-              "link": "https://www.pbs.org/newshour/politics/no-democrat-has-won-a-kansas-senate-seat-in-a-century-can-a-megachurch-pastor-change-that",
-              "title": "No Democrat has won a Kansas Senate seat in a century. Can a megachurch pastor change that?"
-            }
-          ]
-        },
-        {
-          "title": "Whistleblower's attorney details concerns over USPS mail-in ballot system",
-          "link": "https://www.pbs.org/newshour/show/whistleblowers-attorney-details-concerns-over-usps-mail-in-ballot-system",
-          "summary": "A whistleblower inside the U.S. Postal Service says the agency is rushing to implement a new system for handling election mail that has not been adequately tested and could put mail-in ballots at risk. The whistleblower is remaining anonymous, but is represented by the organization Whistleblower Aid. Geoff Bennett spoke with David Kligerman of Whistleblower Aid about the allegations.",
-          "published": "2026-09-02T22:40:19.000Z",
-          "section": "us",
-          "score": 4.59,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 0.9,
-            "recency": 1.19,
-            "promoted": [
-              "whistleblower"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "PBS NewsHour",
-              "link": "https://www.pbs.org/newshour/show/whistleblowers-attorney-details-concerns-over-usps-mail-in-ballot-system",
-              "title": "Whistleblower's attorney details concerns over USPS mail-in ballot system"
-            }
-          ]
-        },
-        {
-          "title": "He tried to eliminate FEMA. Now he says the Trump administration has changed course",
-          "link": "https://www.npr.org/2026/09/03/nx-s1-5943052/fema-trump-flood-wildfire-hurricane-disaster",
-          "summary": "David Richardson worked to eliminate the country's top disaster agency when he led FEMA last year. Now, he says the administration has abandoned that goal.",
-          "published": "2026-09-03T09:00:00.000Z",
-          "section": "us",
-          "score": 4.29,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 0.9,
-            "recency": 1.99,
+            "recency": 1.91,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
               "name": "NPR",
-              "link": "https://www.npr.org/2026/09/03/nx-s1-5943052/fema-trump-flood-wildfire-hurricane-disaster",
-              "title": "He tried to eliminate FEMA. Now he says the Trump administration has changed course"
+              "link": "https://www.npr.org/2026/09/04/nx-s1-5956892/work-set-to-begin-in-trumps-plan-for-triumphal-arch",
+              "title": "Work set to begin in Trump's plan for triumphal arch"
             }
           ]
         },
         {
-          "title": "Democrats demand Homeland Security officials fund election security ahead of midterms",
-          "link": "https://www.npr.org/2026/09/03/nx-s1-5954541/election-security-midterms-dhs-democrats",
-          "summary": "The lawmakers wrote that they share \"grave concern that time is running out … to assist state and local election officials in protecting our elections from cyber and mis-and disinformation threats.\"",
-          "published": "2026-09-03T09:00:00.000Z",
+          "title": "IRS targets private schools that help racial minority students",
+          "link": "https://www.npr.org/2026/09/04/nx-s1-5955666/irs-targets-private-schools-that-help-racial-minority-students",
+          "summary": "The Trump administration has said it will end the tax-exempt status for universities with programs that help racial minority students.",
+          "published": "2026-09-04T08:02:55.000Z",
           "section": "us",
-          "score": 4.29,
+          "score": 4.21,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.9,
-            "recency": 1.99,
+            "recency": 1.91,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
               "name": "NPR",
-              "link": "https://www.npr.org/2026/09/03/nx-s1-5954541/election-security-midterms-dhs-democrats",
-              "title": "Democrats demand Homeland Security officials fund election security ahead of midterms"
+              "link": "https://www.npr.org/2026/09/04/nx-s1-5955666/irs-targets-private-schools-that-help-racial-minority-students",
+              "title": "IRS targets private schools that help racial minority students"
             }
           ]
         },
         {
           "title": "Morning News Brief",
-          "link": "https://www.npr.org/2026/09/03/nx-s1-5947221/morning-news-brief",
-          "summary": "Exodus of experienced military leadership continues in the Pentagon, Trump touts Venezuela oil deal as critics question legality, the jury is deadlocked in the trial of Lindsay Clancy.",
-          "published": "2026-09-03T08:03:57.000Z",
+          "link": "https://www.npr.org/2026/09/04/nx-s1-5947222/morning-news-brief",
+          "summary": "",
+          "published": "2026-09-04T07:57:16.000Z",
           "section": "us",
           "score": 4.2,
           "outlets": 1,
@@ -1019,31 +977,79 @@
           "sources": [
             {
               "name": "NPR",
-              "link": "https://www.npr.org/2026/09/03/nx-s1-5947221/morning-news-brief",
+              "link": "https://www.npr.org/2026/09/04/nx-s1-5947222/morning-news-brief",
               "title": "Morning News Brief"
+            }
+          ]
+        },
+        {
+          "title": "The price of diesel hits a record high",
+          "link": "https://www.npr.org/2026/09/04/nx-s1-5948016/diesel-price-record-high",
+          "summary": "The price of diesel has reached an all-time high, a result of the war in Iran and Ukraine's attacks on Russian refineries. That will matter across the supply chain.",
+          "published": "2026-09-04T07:44:21.000Z",
+          "section": "us",
+          "score": 4.18,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.9,
+            "recency": 1.88,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "NPR",
+              "link": "https://www.npr.org/2026/09/04/nx-s1-5948016/diesel-price-record-high",
+              "title": "The price of diesel hits a record high"
             }
           ]
         }
       ],
-      "dropped": 24
+      "dropped": 23
     },
     {
       "id": "carbon",
       "name": "Climate and carbon",
-      "total": 16,
+      "total": 7,
       "items": [
+        {
+          "title": "These States Are Leading the Electricity Generation Boom",
+          "link": "https://insideclimatenews.org/news/03092026/inside-clean-energy-electricity-generation-boom/",
+          "summary": "As data centers and other large users drove demand higher, U.S. power plants increased their output by 2.1 percent in the first half of the year compared to the first half of 2025. This week, I looked at which states rose and fell the most and which power sources drove those changes, based on figures […]",
+          "published": "2026-09-03T13:00:00.000Z",
+          "section": "carbon",
+          "score": 4.34,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.8,
+            "recency": 0.74,
+            "promoted": [
+              "urc"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "Inside Climate",
+              "link": "https://insideclimatenews.org/news/03092026/inside-clean-energy-electricity-generation-boom/",
+              "title": "These States Are Leading the Electricity Generation Boom"
+            }
+          ]
+        },
         {
           "title": "New Trump Rules Would Limit State Power to Block Pipelines, Energy Projects",
           "link": "https://insideclimatenews.org/news/03092026/epa-clean-water-act-provision-would-limit-state-power/",
           "summary": "When the Trump administration last fall unveiled its cornerstone policy for carrying out the Clean Water Act—new language spelling out the reach of the Environmental Protection Agency’s authority—it said one of its goals was to return power to states and tribes. “This proposal recognizes that states and tribes know their local land and water resources […]",
           "published": "2026-09-03T09:00:00.000Z",
           "section": "carbon",
-          "score": 5.59,
+          "score": 4.21,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.8,
-            "recency": 1.99,
+            "recency": 0.61,
             "promoted": [
               "urc"
             ],
@@ -1058,50 +1064,25 @@
           ]
         },
         {
-          "title": "Carbon Business Council Launches New Series Exploring CDR Buyer Profiles",
-          "link": "https://carbonherald.com/carbon-business-council-launches-new-series-exploring-cdr-buyer-profiles/?utm_source=rss&utm_medium=rss&utm_campaign=carbon-business-council-launches-new-series-exploring-cdr-buyer-profiles",
-          "summary": "The Carbon Business Council (CO2BC) is launching a new series of publications that explore the profiles of carbon… The post Carbon Business Council Launches New Series Exploring CDR Buyer Profiles appeared first on Carbon Herald .",
-          "published": "2026-09-02T13:08:20.000Z",
+          "title": "Court Stalls EPA Plan to Override California’s Vehicle Pollution Standards",
+          "link": "https://insideclimatenews.org/news/03092026/judge-blocks-epa-from-challenging-californias-emissions-standards/",
+          "summary": "A federal judge has temporarily blocked the Environmental Protection Agency from challenging California’s longstanding authority to set vehicle pollution standards stricter than federal requirements. The legal dispute stems from a decision announced in June by EPA administrator Lee Zeldin, who said the agency had determined that four of California’s Clean Air Act preemption waivers were […]",
+          "published": "2026-09-03T19:41:34.000Z",
           "section": "carbon",
-          "score": 5.04,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 0.9,
-            "recency": 0.74,
-            "promoted": [
-              "cdr"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "Carbon Herald",
-              "link": "https://carbonherald.com/carbon-business-council-launches-new-series-exploring-cdr-buyer-profiles/?utm_source=rss&utm_medium=rss&utm_campaign=carbon-business-council-launches-new-series-exploring-cdr-buyer-profiles",
-              "title": "Carbon Business Council Launches New Series Exploring CDR Buyer Profiles"
-            }
-          ]
-        },
-        {
-          "title": "In South Florida, a Crackdown on Overdue Electricity Bills Coincides With Peak Summer Heat, ICE Enforcement",
-          "link": "https://insideclimatenews.org/news/03092026/homestead-florida-electricity-bill-disconnections/",
-          "summary": "HOMESTEAD, Fla.—It was too hot to sleep. When the lights turned off and the air conditioning unit went quiet that night in July, it didn’t come as a surprise for Mirella Estrada, 51. She and her husband, both farmworkers, had long been struggling to pay off their climbing electricity bill debt. Earlier that week, a […]",
-          "published": "2026-09-03T08:55:00.000Z",
-          "section": "carbon",
-          "score": 4.18,
+          "score": 3.24,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.8,
-            "recency": 1.98,
+            "recency": 1.04,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
               "name": "Inside Climate",
-              "link": "https://insideclimatenews.org/news/03092026/homestead-florida-electricity-bill-disconnections/",
-              "title": "In South Florida, a Crackdown on Overdue Electricity Bills Coincides With Peak Summer Heat, ICE Enforcement"
+              "link": "https://insideclimatenews.org/news/03092026/judge-blocks-epa-from-challenging-californias-emissions-standards/",
+              "title": "Court Stalls EPA Plan to Override California’s Vehicle Pollution Standards"
             }
           ]
         },
@@ -1111,12 +1092,12 @@
           "summary": "China’s carbon dioxide (CO2) emissions fell by 1% in the second quarter of 2026, as oil consumption plummeted amid the… The post Analysis: China’s CO2 emissions fall in Q2 2026 due to plummeting oil use appeared first on Carbon Brief .",
           "published": "2026-09-02T23:01:00.000Z",
           "section": "carbon",
-          "score": 3.91,
+          "score": 3.07,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 1.3,
-            "recency": 1.21,
+            "recency": 0.37,
             "promoted": [],
             "demoted": []
           },
@@ -1129,17 +1110,63 @@
           ]
         },
         {
+          "title": "There’s No Comprehensive Mailing List for All Texas Data Center Operators",
+          "link": "https://insideclimatenews.org/news/03092026/texas-no-mailing-list-for-data-centers/",
+          "summary": "Texas officials told lawmakers at a state Senate hearing on Tuesday that they want to know how much water data centers across the state are using, but there is no master mailing list. The regulators are thus uncertain whether they’re reaching facility operators at the right address, or if they’re being ignored. The lack of […]",
+          "published": "2026-09-03T13:55:35.000Z",
+          "section": "carbon",
+          "score": 2.98,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.8,
+            "recency": 0.78,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "Inside Climate",
+              "link": "https://insideclimatenews.org/news/03092026/texas-no-mailing-list-for-data-centers/",
+              "title": "There’s No Comprehensive Mailing List for All Texas Data Center Operators"
+            }
+          ]
+        },
+        {
+          "title": "In South Florida, a Crackdown on Overdue Electricity Bills Coincides With Peak Summer Heat, ICE Enforcement",
+          "link": "https://insideclimatenews.org/news/03092026/homestead-florida-electricity-bill-disconnections/",
+          "summary": "HOMESTEAD, Fla.—It was too hot to sleep. When the lights turned off and the air conditioning unit went quiet that night in July, it didn’t come as a surprise for Mirella Estrada, 51. She and her husband, both farmworkers, had long been struggling to pay off their climbing electricity bill debt. Earlier that week, a […]",
+          "published": "2026-09-03T08:55:00.000Z",
+          "section": "carbon",
+          "score": 2.81,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.8,
+            "recency": 0.61,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "Inside Climate",
+              "link": "https://insideclimatenews.org/news/03092026/homestead-florida-electricity-bill-disconnections/",
+              "title": "In South Florida, a Crackdown on Overdue Electricity Bills Coincides With Peak Summer Heat, ICE Enforcement"
+            }
+          ]
+        },
+        {
           "title": "China’s Carbon Pollution Fell in Recent Months as Oil Demand Plummeted",
           "link": "https://insideclimatenews.org/news/02092026/china-oil-consumption-declines/",
           "summary": "China’s carbon pollution fell modestly in recent months after the country’s consumers and industries sharply cut their use of oil, according to a new analysis. With oil and gas markets still in turmoil due to war in the Middle East, the trend could translate into a full-year decline for China’s carbon dioxide emissions. After the […]",
           "published": "2026-09-02T23:01:00.000Z",
           "section": "carbon",
-          "score": 3.41,
+          "score": 2.57,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.8,
-            "recency": 1.21,
+            "recency": 0.37,
             "promoted": [],
             "demoted": []
           },
@@ -1150,274 +1177,207 @@
               "title": "China’s Carbon Pollution Fell in Recent Months as Oil Demand Plummeted"
             }
           ]
-        },
-        {
-          "title": "Green Carbon, New Forests Target Large-Scale Rice Methane Projects In Vietnam",
-          "link": "https://carbonherald.com/green-carbon-new-forests-target-large-scale-rice-methane-projects-in-vietnam/?utm_source=rss&utm_medium=rss&utm_campaign=green-carbon-new-forests-target-large-scale-rice-methane-projects-in-vietnam",
-          "summary": "Japanese climate tech company Green Carbon has signed a Memorandum of Understanding (MoU) with New Forests Asia to… The post Green Carbon, New Forests Target Large-Scale Rice Methane Projects In Vietnam appeared first on Carbon Herald .",
-          "published": "2026-09-02T11:57:23.000Z",
-          "section": "carbon",
-          "score": 3,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 0.9,
-            "recency": 0.7,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "Carbon Herald",
-              "link": "https://carbonherald.com/green-carbon-new-forests-target-large-scale-rice-methane-projects-in-vietnam/?utm_source=rss&utm_medium=rss&utm_campaign=green-carbon-new-forests-target-large-scale-rice-methane-projects-in-vietnam",
-              "title": "Green Carbon, New Forests Target Large-Scale Rice Methane Projects In Vietnam"
-            }
-          ]
-        },
-        {
-          "title": "Mati Carbon Inks New Partnership On Tropical ERW Field Trials",
-          "link": "https://carbonherald.com/mati-carbon-inks-new-partnership-on-tropical-erw-field-trials/?utm_source=rss&utm_medium=rss&utm_campaign=mati-carbon-inks-new-partnership-on-tropical-erw-field-trials",
-          "summary": "XPRIZE Competition Grand Prize winner Mati Carbon has embarked on a new partnership focused on field trials that… The post Mati Carbon Inks New Partnership On Tropical ERW Field Trials appeared first on Carbon Herald .",
-          "published": "2026-09-02T11:28:20.000Z",
-          "section": "carbon",
-          "score": 2.99,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 0.9,
-            "recency": 0.69,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "Carbon Herald",
-              "link": "https://carbonherald.com/mati-carbon-inks-new-partnership-on-tropical-erw-field-trials/?utm_source=rss&utm_medium=rss&utm_campaign=mati-carbon-inks-new-partnership-on-tropical-erw-field-trials",
-              "title": "Mati Carbon Inks New Partnership On Tropical ERW Field Trials"
-            }
-          ]
-        },
-        {
-          "title": "Switzerland Marks Commercial BECCS Debut With First CO2 Shipment To Denmark",
-          "link": "https://carbonherald.com/switzerland-marks-commercial-beccs-debut-with-first-co2-shipment-to-denmark/?utm_source=rss&utm_medium=rss&utm_campaign=switzerland-marks-commercial-beccs-debut-with-first-co2-shipment-to-denmark",
-          "summary": "Swiss carbon technology firm Airfix, local project operator CO2 Energie AG, and carbon project developer South Pole have… The post Switzerland Marks Commercial BECCS Debut With First CO2 Shipment To Denmark appeared first on Carbon Herald .",
-          "published": "2026-09-02T08:45:27.000Z",
-          "section": "carbon",
-          "score": 2.9,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 0.9,
-            "recency": 0.6,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "Carbon Herald",
-              "link": "https://carbonherald.com/switzerland-marks-commercial-beccs-debut-with-first-co2-shipment-to-denmark/?utm_source=rss&utm_medium=rss&utm_campaign=switzerland-marks-commercial-beccs-debut-with-first-co2-shipment-to-denmark",
-              "title": "Switzerland Marks Commercial BECCS Debut With First CO2 Shipment To Denmark"
-            }
-          ]
         }
       ],
-      "dropped": 8
+      "dropped": 0
     },
     {
       "id": "rugby",
       "name": "Rugby",
-      "total": 41,
+      "total": 36,
       "items": [
         {
-          "title": "Maro Itoje admits to being taken aback by Steve Borthwick's novel idea",
-          "link": "https://www.rugbypass.com/news/maro-itoje-admits-to-being-taken-aback-by-steve-borthwicks-novel-idea/",
-          "summary": "The England and Lions skipper says Borthwick first approached him after the Six Nations to discuss taking the summer off after exceeding the recommended 30-game-a-season limit in the 2023-24 and 2024-25 campaigns.",
-          "published": "2026-09-02T15:54:09.000Z",
+          "title": "Queensland Reds to play Italy XV during four-match international tour",
+          "link": "https://www.rugbypass.com/news/queensland-reds-to-play-italy-xv-during-four-match-international-tour/",
+          "summary": "The Queensland Reds will play four matches during an international tour this November, as they build towards the 2027 Super Rugby Pacific season.",
+          "published": "2026-09-04T04:40:53.000Z",
           "section": "rugby",
-          "score": 4.55,
+          "score": 4.62,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.9,
-            "recency": 0.85,
+            "recency": 1.62,
             "promoted": [
-              "six nations"
+              "italy"
             ],
             "demoted": []
           },
           "sources": [
             {
               "name": "RugbyPass",
-              "link": "https://www.rugbypass.com/news/maro-itoje-admits-to-being-taken-aback-by-steve-borthwicks-novel-idea/",
-              "title": "Maro Itoje admits to being taken aback by Steve Borthwick's novel idea"
+              "link": "https://www.rugbypass.com/news/queensland-reds-to-play-italy-xv-during-four-match-international-tour/",
+              "title": "Queensland Reds to play Italy XV during four-match international tour"
             }
           ]
         },
         {
-          "title": "‘It left me wanting more’: Holland Bogan hungry for more after promising Scotland start",
-          "link": "https://www.rugbypass.com/news/it-left-me-wanting-more-holland-bogan-hungry-for-more-after-promising-scotland-start/",
-          "summary": "After a frustrating Guinness Women’s Six Nations campaign you get the feeling that Scotland are determined to play some bold and exciting rugby during the WXV Global Series.",
-          "published": "2026-09-02T12:49:49.000Z",
+          "title": "Contepomi shuffles Pumas pack in bid to end Argentina's losing run",
+          "link": "https://www.rugbypass.com/news/contepomi-shuffles-pumas-pack-in-bid-to-end-argentinas-losing-run/",
+          "summary": "Argentina's starting XV includes four changes of personnel and a couple of key positional switches for Saturday's rematch with Australia in Mendoza.",
+          "published": "2026-09-04T08:24:50.000Z",
           "section": "rugby",
-          "score": 4.43,
+          "score": 4.24,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.9,
-            "recency": 0.73,
+            "recency": 1.94,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "RugbyPass",
+              "link": "https://www.rugbypass.com/news/contepomi-shuffles-pumas-pack-in-bid-to-end-argentinas-losing-run/",
+              "title": "Contepomi shuffles Pumas pack in bid to end Argentina's losing run"
+            }
+          ]
+        },
+        {
+          "title": "Gloucester address rumours of a Ross Byrne return to Irish rugby",
+          "link": "https://www.rugbypass.com/news/gloucester-address-rumours-of-a-ross-byrne-return-to-irish-rugby/",
+          "summary": "Gloucester boss George Skivington has said that former Ireland fly-half Ross Byrne, who has been linked with moves to France, is staying at Kingsholm and will feature in his squad this season.",
+          "published": "2026-09-03T10:51:51.000Z",
+          "section": "rugby",
+          "score": 4.17,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.9,
+            "recency": 0.67,
             "promoted": [
-              "six nations"
+              "ireland"
             ],
             "demoted": []
           },
           "sources": [
             {
               "name": "RugbyPass",
-              "link": "https://www.rugbypass.com/news/it-left-me-wanting-more-holland-bogan-hungry-for-more-after-promising-scotland-start/",
-              "title": "‘It left me wanting more’: Holland Bogan hungry for more after promising Scotland start"
+              "link": "https://www.rugbypass.com/news/gloucester-address-rumours-of-a-ross-byrne-return-to-irish-rugby/",
+              "title": "Gloucester address rumours of a Ross Byrne return to Irish rugby"
             }
           ]
         },
         {
-          "title": "'Basically cheating': Ex-Bok coach levels accusation at All Blacks",
-          "link": "https://www.rugbypass.com/news/basically-cheating-ex-springboks-coach-nick-mallett-levels-accusation-at-all-blacks-rassie-erasmus-dave-rennie/",
-          "summary": "Former South Africa head coach Nick Mallett has hit back at claims the Springboks were walking around in the scrum by accusing the All Blacks of “basically cheating”.",
-          "published": "2026-09-03T08:33:47.000Z",
+          "title": "South African airline pull fly-over for third Test amid investigation",
+          "link": "https://www.rugbypass.com/news/south-african-airline-airlink-pull-fly-over-for-third-test-amid-investigation/",
+          "summary": "Airlink - the South African airline behind the Rugby's Greatest Rivalary flyover that has the avivation world doing cartwheels - has pulled a request for a fly-over for the third Test.",
+          "published": "2026-09-03T09:43:18.000Z",
           "section": "rugby",
-          "score": 4.25,
+          "score": 4.03,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.9,
-            "recency": 1.95,
+            "recency": 0.63,
+            "promoted": [
+              "investigation"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "RugbyPass",
+              "link": "https://www.rugbypass.com/news/south-african-airline-airlink-pull-fly-over-for-third-test-amid-investigation/",
+              "title": "South African airline pull fly-over for third Test amid investigation"
+            }
+          ]
+        },
+        {
+          "title": "Australia and New Zealand announce historic Under 21 women’s fixture",
+          "link": "https://www.rugbypass.com/news/australia-and-new-zealand-announce-historic-under-21-womens-fixture/",
+          "summary": "Rugby Australia and New Zealand Rugby have announced a historic NexGen Under-21s women’s fixture to be played in October.",
+          "published": "2026-09-04T04:21:37.000Z",
+          "section": "rugby",
+          "score": 3.89,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.9,
+            "recency": 1.59,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
               "name": "RugbyPass",
-              "link": "https://www.rugbypass.com/news/basically-cheating-ex-springboks-coach-nick-mallett-levels-accusation-at-all-blacks-rassie-erasmus-dave-rennie/",
-              "title": "'Basically cheating': Ex-Bok coach levels accusation at All Blacks"
+              "link": "https://www.rugbypass.com/news/australia-and-new-zealand-announce-historic-under-21-womens-fixture/",
+              "title": "Australia and New Zealand announce historic Under 21 women’s fixture"
             }
           ]
         },
         {
-          "title": "Black Ferns back youth as star ruled out of Boks double-header",
-          "link": "https://www.rugbypass.com/news/black-ferns-back-youth-as-star-ruled-out-of-boks-double-header/",
-          "summary": "Black Ferns head coach Whitney Hansen has named her matchday 23 for a historic double-header at FNB Stadium in Johannesburg, but she has been unable to name her star No.8, Kaipo Olsen-Baker.",
-          "published": "2026-09-03T08:00:06.000Z",
+          "title": "Wallabies coach Kiss explains thinking behind latest fly-half change",
+          "link": "https://www.rugbypass.com/news/wallabies-coach-kiss-explains-thinking-behind-latest-fly-half-change/",
+          "summary": "Ben Donaldson hasn’t started a Wallabies match at fly-half in practically two years to the day, but the 24-Test utility will get that opportunity this weekend.",
+          "published": "2026-09-04T02:29:25.000Z",
           "section": "rugby",
-          "score": 4.19,
+          "score": 3.75,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.9,
-            "recency": 1.89,
+            "recency": 1.45,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
               "name": "RugbyPass",
-              "link": "https://www.rugbypass.com/news/black-ferns-back-youth-as-star-ruled-out-of-boks-double-header/",
-              "title": "Black Ferns back youth as star ruled out of Boks double-header"
+              "link": "https://www.rugbypass.com/news/wallabies-coach-kiss-explains-thinking-behind-latest-fly-half-change/",
+              "title": "Wallabies coach Kiss explains thinking behind latest fly-half change"
             }
           ]
         },
         {
-          "title": "'He's in some form at the moment; I think he's the best 12 in the world'",
-          "link": "https://www.rugbypass.com/news/hes-in-some-form-at-the-moment-i-think-hes-the-best-12-in-the-world/",
-          "summary": "When Quinn Tupaea was crowned the Super Rugby Pacific Player of the Year back in June, he would have been well within his rights to wonder whether the new All Blacks selectors would share the view that he is New Zealand's premier N0.12. But that thought never truly manifested.",
-          "published": "2026-09-03T07:03:43.000Z",
+          "title": "‘The next level up’: USA U20s captain’s rise to Eagles-heavy squad",
+          "link": "https://www.rugbypass.com/news/the-next-level-up-usa-u20-captains-rise-to-eagles-heavy-squad/",
+          "summary": "USA U20s captain Spencer Huntley is no stranger to being the youngest rugby prospect in the room.",
+          "published": "2026-09-04T01:09:32.000Z",
           "section": "rugby",
-          "score": 4.11,
+          "score": 3.66,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.9,
-            "recency": 1.81,
+            "recency": 1.36,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
               "name": "RugbyPass",
-              "link": "https://www.rugbypass.com/news/hes-in-some-form-at-the-moment-i-think-hes-the-best-12-in-the-world/",
-              "title": "'He's in some form at the moment; I think he's the best 12 in the world'"
+              "link": "https://www.rugbypass.com/news/the-next-level-up-usa-u20-captains-rise-to-eagles-heavy-squad/",
+              "title": "‘The next level up’: USA U20s captain’s rise to Eagles-heavy squad"
             }
           ]
         },
         {
-          "title": "‘Making that kid proud’: Taha Kemara leaves Crusaders to chase Chiefs dream",
-          "link": "https://www.rugbypass.com/news/making-that-kid-proud-taha-kemara-leaves-crusaders-to-chase-chiefs-dream/",
-          "summary": "Taha Kemara used to kick the ball around FMG Stadium Waikato as a Year 7 school student, hoping to one day pull on the Chiefs jersey.",
-          "published": "2026-09-03T05:30:09.000Z",
+          "title": "Obano to put England career on hold with Pau move",
+          "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c8047p5em5lo?at_medium=RSS&at_campaign=rss",
+          "summary": "Beno Obano will become the latest England player to put his Test career on ice after agreeing to join French side Pau at the end of the forthcoming season.",
+          "published": "2026-09-03T22:46:30.000Z",
           "section": "rugby",
-          "score": 3.97,
+          "score": 3.61,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
-            "source": 0.9,
-            "recency": 1.67,
+            "source": 1,
+            "recency": 1.21,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
-              "name": "RugbyPass",
-              "link": "https://www.rugbypass.com/news/making-that-kid-proud-taha-kemara-leaves-crusaders-to-chase-chiefs-dream/",
-              "title": "‘Making that kid proud’: Taha Kemara leaves Crusaders to chase Chiefs dream"
-            }
-          ]
-        },
-        {
-          "title": "Fiji-born former Wallaby Isi Naisarani returns to Super Rugby with Drua",
-          "link": "https://www.rugbypass.com/news/fiji-born-former-wallaby-isi-naisarani-returns-to-super-rugby-with-drua/",
-          "summary": "Former Wallabies backrower Isi Naisarani has secured a Super Rugby Pacific homecoming after inking a deal with the Fijian Drua.",
-          "published": "2026-09-03T04:18:33.000Z",
-          "section": "rugby",
-          "score": 3.88,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 0.9,
-            "recency": 1.58,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "RugbyPass",
-              "link": "https://www.rugbypass.com/news/fiji-born-former-wallaby-isi-naisarani-returns-to-super-rugby-with-drua/",
-              "title": "Fiji-born former Wallaby Isi Naisarani returns to Super Rugby with Drua"
-            }
-          ]
-        },
-        {
-          "title": "Triston Reilly to captain First Nations & Pasifika XV in historic match",
-          "link": "https://www.rugbypass.com/news/triston-reilly-to-captain-first-nations-pasifika-xv-in-historic-match/",
-          "summary": "ACT Brumbies recruit Triston Reilly will captain the First Nations & Pasifika XV in a historic clash with a Tonga President’s XV.",
-          "published": "2026-09-03T02:01:10.000Z",
-          "section": "rugby",
-          "score": 3.71,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 0.9,
-            "recency": 1.41,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "RugbyPass",
-              "link": "https://www.rugbypass.com/news/triston-reilly-to-captain-first-nations-pasifika-xv-in-historic-match/",
-              "title": "Triston Reilly to captain First Nations & Pasifika XV in historic match"
+              "name": "BBC Rugby Union",
+              "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c8047p5em5lo?at_medium=RSS&at_campaign=rss",
+              "title": "Obano to put England career on hold with Pau move"
             }
           ]
         }
       ],
-      "dropped": 33
+      "dropped": 28
     },
     {
       "id": "sport",
@@ -1425,17 +1385,69 @@
       "total": 35,
       "items": [
         {
+          "title": "Padraic Joyce steps down as Galway senior manager",
+          "link": "https://www.the42.ie/padraic-joyce-galway-football-4-7152093-Sep2026/",
+          "summary": "He won four Connacht senior titles and guided Galway to two All-Ireland final appearances.",
+          "published": "2026-09-03T18:01:32.000Z",
+          "section": "sport",
+          "score": 6.35,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1.4,
+            "recency": 0.95,
+            "promoted": [
+              "ireland",
+              "connacht"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "The 42",
+              "link": "https://www.the42.ie/padraic-joyce-galway-football-4-7152093-Sep2026/",
+              "title": "Padraic Joyce steps down as Galway senior manager"
+            }
+          ]
+        },
+        {
+          "title": "Ronan O'Gara set to extend contract with La Rochelle - reports",
+          "link": "https://www.the42.ie/ronan-ogara-new-la-rochelle-contract-7151625-Sep2026/",
+          "summary": "The Corkman has been linked with the Leinster job, which Leo Cullen will leave in 2027.",
+          "published": "2026-09-03T14:00:44.000Z",
+          "section": "sport",
+          "score": 6.18,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1.4,
+            "recency": 0.78,
+            "promoted": [
+              "cork",
+              "leinster"
+            ],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "The 42",
+              "link": "https://www.the42.ie/ronan-ogara-new-la-rochelle-contract-7151625-Sep2026/",
+              "title": "Ronan O'Gara set to extend contract with La Rochelle - reports"
+            }
+          ]
+        },
+        {
           "title": "Van der Flier: Leinster determined to 'make it a good year' for Cullen's send-off",
           "link": "https://www.the42.ie/josh-van-der-flier-leo-cullen-7150619-Sep2026/",
           "summary": "The flanker was speaking as Canterbury launched a new Ireland jersey.",
           "published": "2026-09-03T06:00:10.000Z",
           "section": "sport",
-          "score": 7.12,
+          "score": 5.93,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 1.4,
-            "recency": 1.72,
+            "recency": 0.53,
             "promoted": [
               "ireland",
               "leinster"
@@ -1451,78 +1463,27 @@
           ]
         },
         {
-          "title": "What do you think of the new Ireland rugby jerseys?",
-          "link": "https://www.the42.ie/ireland-rugby-jerseys-7150665-Sep2026/",
-          "summary": "2026/27 kits unveiled in Dublin on Wednesday.",
-          "published": "2026-09-02T18:57:31.000Z",
+          "title": "O'Brien: 'I’m getting older, so I just have to take every chance I get now'",
+          "link": "https://www.the42.ie/jimmy-obrien-ireland-interview-7151274-Sep2026/",
+          "summary": "The versatile back is coming into the new season on a high after starting all three of Ireland’s July Tests.",
+          "published": "2026-09-04T06:00:22.000Z",
           "section": "sport",
-          "score": 6.39,
+          "score": 5.73,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 1.4,
-            "recency": 0.99,
+            "recency": 1.73,
             "promoted": [
-              "ireland",
-              "ireland rugby"
+              "ireland"
             ],
             "demoted": []
           },
           "sources": [
             {
               "name": "The 42",
-              "link": "https://www.the42.ie/ireland-rugby-jerseys-7150665-Sep2026/",
-              "title": "What do you think of the new Ireland rugby jerseys?"
-            }
-          ]
-        },
-        {
-          "title": "The Irish players set for new WSL season as Manchester City start as champions",
-          "link": "https://www.the42.ie/wsl-irish-players-3-7147491-Sep2026/",
-          "summary": "Chelsea and Arsenal are among those looking to wrestle back the crown.",
-          "published": "2026-09-03T06:30:46.000Z",
-          "section": "sport",
-          "score": 5.76,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1.4,
-            "recency": 1.76,
-            "promoted": [
-              "irish"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "The 42",
-              "link": "https://www.the42.ie/wsl-irish-players-3-7147491-Sep2026/",
-              "title": "The Irish players set for new WSL season as Manchester City start as champions"
-            }
-          ]
-        },
-        {
-          "title": "Inspired by Football Manager and John Troy, the first management sim launches for Gaelic games",
-          "link": "https://www.the42.ie/irish-sport-manager-gaa-management-simulation-computer-game-7150052-Sep2026/",
-          "summary": "A demo version of Irish Sport Manager is available to play now.",
-          "published": "2026-09-03T05:30:33.000Z",
-          "section": "sport",
-          "score": 5.67,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1.4,
-            "recency": 1.67,
-            "promoted": [
-              "irish"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "The 42",
-              "link": "https://www.the42.ie/irish-sport-manager-gaa-management-simulation-computer-game-7150052-Sep2026/",
-              "title": "Inspired by Football Manager and John Troy, the first management sim launches for Gaelic games"
+              "link": "https://www.the42.ie/jimmy-obrien-ireland-interview-7151274-Sep2026/",
+              "title": "O'Brien: 'I’m getting older, so I just have to take every chance I get now'"
             }
           ]
         }
@@ -1532,13 +1493,13 @@
     {
       "id": "culture",
       "name": "Film and books",
-      "total": 24,
+      "total": 25,
       "items": [
         {
-          "title": "The Jerusalem of the East: When Billy Graham Visited Pyongyang",
-          "link": "https://lithub.com/the-jerusalem-of-the-east-when-billy-graham-visited-pyongyang/",
-          "summary": "In the fall of 1991, Rev. Billy Graham, the American evangelist, received an unexpected invitation from Pyongyang. “It will be a great joy to welcome you to our church,” read the letter, which was sent by leaders of North Korea’s",
-          "published": "2026-09-02T09:08:25.000Z",
+          "title": "Landscapes That Tell Stories: On the Power and Personality of Trees",
+          "link": "https://lithub.com/landscapes-that-tell-stories-on-the-power-and-personality-of-trees/",
+          "summary": "Early last summer I happened to observe the huge landslide site in Oyarei, Shizuoka prefecture, known as Oya-kuzure. I was shocked to see its effects. When I found out that the Abe river, whose source flows from the collapsed area,",
+          "published": "2026-09-03T09:09:26.000Z",
           "section": "culture",
           "score": 4.41,
           "outlets": 1,
@@ -1554,130 +1515,128 @@
           "sources": [
             {
               "name": "Literary Hub",
-              "link": "https://lithub.com/the-jerusalem-of-the-east-when-billy-graham-visited-pyongyang/",
-              "title": "The Jerusalem of the East: When Billy Graham Visited Pyongyang"
+              "link": "https://lithub.com/landscapes-that-tell-stories-on-the-power-and-personality-of-trees/",
+              "title": "Landscapes That Tell Stories: On the Power and Personality of Trees"
             }
           ]
         },
         {
-          "title": "The Independent Press Top 40 Bestsellers: Nonfiction",
-          "link": "https://lithub.com/the-independent-press-top-40-bestsellers-nonfiction-33/",
-          "summary": "Here are this week’s Independent Press Top 40 Bestsellers for nonfiction, based on sales in hundreds of independent bookstores nationwide, generously provided by the American Booksellers Association. Compiled, designed, and distributed by The Independent Publishers Caucus. * 1. The Rise",
-          "published": "2026-09-03T08:56:29.000Z",
+          "title": "George Clooney-Backed Lebanese Heist Thriller ‘Furies’ Set to Electrify Venice — Watch First Clip",
+          "link": "https://www.indiewire.com/news/festivals/furies-movie-venice-clip-george-clooney-heist-thriller-1235214586/",
+          "summary": "Exclusive: Director Rami Kodeih's exciting new feature follows two women who hatch a scheme to rob a Beirut bank, and take back their own money. Watch a first clip.",
+          "published": "2026-09-04T07:01:00.000Z",
           "section": "culture",
-          "score": 4.38,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1,
-            "recency": 1.98,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "Literary Hub",
-              "link": "https://lithub.com/the-independent-press-top-40-bestsellers-nonfiction-33/",
-              "title": "The Independent Press Top 40 Bestsellers: Nonfiction"
-            }
-          ]
-        },
-        {
-          "title": "“Dogs in Guatemala”",
-          "link": "https://lithub.com/dogs-in-guatemala/",
-          "summary": "Dogs in Guatemala are like this. It’s what Molly would tell the teenage student beside her, weeping in the street over yet one more brutalized stray, if only it weren’t the worst possible time to stop and give explanations. Molly",
-          "published": "2026-09-03T08:24:58.000Z",
-          "section": "culture",
-          "score": 4.33,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1,
-            "recency": 1.93,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "Literary Hub",
-              "link": "https://lithub.com/dogs-in-guatemala/",
-              "title": "“Dogs in Guatemala”"
-            }
-          ]
-        },
-        {
-          "title": "G’Ra Asim on 99 Problems Finding the 1",
-          "link": "https://lithub.com/gra-asim-on-99-problems-finding-the-1/",
-          "summary": "Nonfiction writer G’Ra Asim joins co-hosts V.V. Ganeshananthan and Whitney Terrell to talk about his new book, 99 Problems Finding the 1: a love story (sort of). Asim discusses Afropessimism, heteropessimism, and their relationship to his pursuit of love as",
-          "published": "2026-09-03T08:01:39.000Z",
-          "section": "culture",
-          "score": 4.3,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1,
-            "recency": 1.9,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "Literary Hub",
-              "link": "https://lithub.com/gra-asim-on-99-problems-finding-the-1/",
-              "title": "G’Ra Asim on 99 Problems Finding the 1"
-            }
-          ]
-        },
-        {
-          "title": "Venice’s ‘Burgundy’ Finds ‘The Truffle Hunters’ Directors Seduced by French Wine Country — Watch Exclusive Clip",
-          "link": "https://www.indiewire.com/news/festivals/burgundy-documentary-new-movie-from-truffle-hunters-clip-1235214175/",
-          "summary": "Michael Dweck and Gregory Kershaw's delightful new French confection will premiere out of competition in Italy before making its way through more fall festivals.",
-          "published": "2026-09-02T08:01:00.000Z",
-          "section": "culture",
-          "score": 3.48,
+          "score": 4.01,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.8,
-            "recency": 0.58,
-            "promoted": [
-              "italy"
-            ],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "IndieWire",
-              "link": "https://www.indiewire.com/news/festivals/burgundy-documentary-new-movie-from-truffle-hunters-clip-1235214175/",
-              "title": "Venice’s ‘Burgundy’ Finds ‘The Truffle Hunters’ Directors Seduced by French Wine Country — Watch Exclusive Clip"
-            }
-          ]
-        },
-        {
-          "title": "Can Rupert Murdoch Origin Story ‘Ink’ Push Danny Boyle, Jack O’Connell, Guy Pearce, and Netflix Into the Oscar Race?",
-          "link": "https://www.indiewire.com/news/festivals/netflix-ink-oscar-odds-danny-boyle-jack-oconnell-murdoch-1235214456/",
-          "summary": "At Venice, Oscar-winning director Danny Boyle likened Jack O'Connell's work in \"Ink\" to Al Pacino in \"The Godfather.\"",
-          "published": "2026-09-02T23:31:30.000Z",
-          "section": "culture",
-          "score": 3.44,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 0.8,
-            "recency": 1.24,
+            "recency": 1.81,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
               "name": "IndieWire",
-              "link": "https://www.indiewire.com/news/festivals/netflix-ink-oscar-odds-danny-boyle-jack-oconnell-murdoch-1235214456/",
-              "title": "Can Rupert Murdoch Origin Story ‘Ink’ Push Danny Boyle, Jack O’Connell, Guy Pearce, and Netflix Into the Oscar Race?"
+              "link": "https://www.indiewire.com/news/festivals/furies-movie-venice-clip-george-clooney-heist-thriller-1235214586/",
+              "title": "George Clooney-Backed Lebanese Heist Thriller ‘Furies’ Set to Electrify Venice — Watch First Clip"
+            }
+          ]
+        },
+        {
+          "title": "Visible and Powerful: Gloria Steinem (1934-2026)",
+          "link": "https://www.rogerebert.com/tributes/visible-and-powerful-gloria-steinem-1934-2026",
+          "summary": "A tribute to a pioneer.",
+          "published": "2026-09-03T21:12:46.000Z",
+          "section": "culture",
+          "score": 3.62,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1.1,
+            "recency": 1.12,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "RogerEbert.com",
+              "link": "https://www.rogerebert.com/tributes/visible-and-powerful-gloria-steinem-1934-2026",
+              "title": "Visible and Powerful: Gloria Steinem (1934-2026)"
+            }
+          ]
+        },
+        {
+          "title": "A new font promises to hide your text from AI.",
+          "link": "https://lithub.com/a-new-font-promises-to-hide-your-text-from-ai/",
+          "summary": "Can you read the text above? Because large language models can’t. The design and tech company Mixfont has created Decoy Font, which promises to hide your text from AI crawlers. As covered in Dezeen, the font works by using two",
+          "published": "2026-09-03T18:26:07.000Z",
+          "section": "culture",
+          "score": 3.37,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1,
+            "recency": 0.97,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "Literary Hub",
+              "link": "https://lithub.com/a-new-font-promises-to-hide-your-text-from-ai/",
+              "title": "A new font promises to hide your text from AI."
+            }
+          ]
+        },
+        {
+          "title": "John Malkovich Could Finally Win an Oscar as ‘Wild Horse Nine’ Emerges as First Major Academy Awards Contender of the Fall",
+          "link": "https://www.indiewire.com/news/festivals/john-malkovich-wild-horse-nine-best-actor-oscar-chances-1235214640/",
+          "summary": "After receiving raves at Venice, Martin McDonagh's latest spy comedy is the perfect showcase for two-time nominee John Malkovich.",
+          "published": "2026-09-03T21:25:03.000Z",
+          "section": "culture",
+          "score": 3.33,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.8,
+            "recency": 1.13,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "IndieWire",
+              "link": "https://www.indiewire.com/news/festivals/john-malkovich-wild-horse-nine-best-actor-oscar-chances-1235214640/",
+              "title": "John Malkovich Could Finally Win an Oscar as ‘Wild Horse Nine’ Emerges as First Major Academy Awards Contender of the Fall"
+            }
+          ]
+        },
+        {
+          "title": "From Assault Allegations to Fights Over Unpaid Bills: Bruin Theatre Chief Rui Pereira’s Scandals Go Back Years",
+          "link": "https://www.indiewire.com/news/breaking-news/bruin-theater-rui-pereira-kingsway-toronto-assault-allegation-investigation-1235212961/",
+          "summary": "Accusations of assault, nonpayment, and unlicensed screenings are among the disputes that have followed the Bruin's controversial new operator from Toronto to Los Angeles. Pereira is also accused of racist and antisemitic speech, as well as online harassment.",
+          "published": "2026-09-03T20:37:43.000Z",
+          "section": "culture",
+          "score": 3.28,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.8,
+            "recency": 1.08,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "IndieWire",
+              "link": "https://www.indiewire.com/news/breaking-news/bruin-theater-rui-pereira-kingsway-toronto-assault-allegation-investigation-1235212961/",
+              "title": "From Assault Allegations to Fights Over Unpaid Bills: Bruin Theatre Chief Rui Pereira’s Scandals Go Back Years"
             }
           ]
         }
       ],
-      "dropped": 18
+      "dropped": 19
     },
     {
       "id": "longform",
@@ -1685,71 +1644,71 @@
       "total": 20,
       "items": [
         {
-          "title": "Trump’s DOJ Blocked Serious ICE Shooting Charge Over Federal Prosecutor’s “Strongest Possible” Objections",
-          "link": "https://www.propublica.org/article/doj-blocks-charges-ice-agent-minneapolis-julio-cesar-sosa-celis",
-          "summary": "The post Trump’s DOJ Blocked Serious ICE Shooting Charge Over Federal Prosecutor’s “Strongest Possible” Objections appeared first on ProPublica .",
-          "published": "2026-09-03T01:14:00.000Z",
+          "title": "Trump’s Antitrust Gambit May Backfire",
+          "link": "https://www.theatlantic.com/ideas/2026/09/live-nation-trump-antitrust-monopolies/688508/?utm_source=feed",
+          "summary": "What the Live Nation Case Says About the Fate of Monopolies Now.",
+          "published": "2026-09-04T02:52:03.000Z",
           "section": "longform",
-          "score": 3.95,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1.2,
-            "recency": 1.35,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "ProPublica",
-              "link": "https://www.propublica.org/article/doj-blocks-charges-ice-agent-minneapolis-julio-cesar-sosa-celis",
-              "title": "Trump’s DOJ Blocked Serious ICE Shooting Charge Over Federal Prosecutor’s “Strongest Possible” Objections"
-            }
-          ]
-        },
-        {
-          "title": "The 17 Minutes That Changed America",
-          "link": "https://longreads.com/2026/09/02/9-11-national-geographic/",
-          "summary": "\"For the briefest of windows, September 11, 2001, wasn’t yet a calamity but merely a strange accident. And that pivotal span forever altered the way we look at disasters, at the sky, and at one another.\"",
-          "published": "2026-09-02T17:30:00.000Z",
-          "section": "longform",
-          "score": 3.62,
-          "outlets": 1,
-          "reasons": {
-            "corroboration": 1.4,
-            "source": 1.3,
-            "recency": 0.92,
-            "promoted": [],
-            "demoted": []
-          },
-          "sources": [
-            {
-              "name": "Longreads",
-              "link": "https://longreads.com/2026/09/02/9-11-national-geographic/",
-              "title": "The 17 Minutes That Changed America"
-            }
-          ]
-        },
-        {
-          "title": "An Inflection Point for Prediction Markets",
-          "link": "https://www.theatlantic.com/newsletters/2026/09/kalshi-polymarket-insider-trading-santos/688505/?utm_source=feed",
-          "summary": "The crackdown on insider trading has exposed the platforms’ fundamental contradictions.",
-          "published": "2026-09-02T22:59:00.000Z",
-          "section": "longform",
-          "score": 3.51,
+          "score": 3.78,
           "outlets": 1,
           "reasons": {
             "corroboration": 1.4,
             "source": 0.9,
-            "recency": 1.21,
+            "recency": 1.48,
             "promoted": [],
             "demoted": []
           },
           "sources": [
             {
               "name": "The Atlantic",
-              "link": "https://www.theatlantic.com/newsletters/2026/09/kalshi-polymarket-insider-trading-santos/688505/?utm_source=feed",
-              "title": "An Inflection Point for Prediction Markets"
+              "link": "https://www.theatlantic.com/ideas/2026/09/live-nation-trump-antitrust-monopolies/688508/?utm_source=feed",
+              "title": "Trump’s Antitrust Gambit May Backfire"
+            }
+          ]
+        },
+        {
+          "title": "Going Home with Wendell Berry",
+          "link": "https://longreads.com/2026/09/03/wendell-berry-new-yorker-interview/",
+          "summary": "\"The writer and farmer on local knowledge, embracing limits, and the exploitation of rural America.\"",
+          "published": "2026-09-03T15:44:08.000Z",
+          "section": "longform",
+          "score": 3.55,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 1.3,
+            "recency": 0.85,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "Longreads",
+              "link": "https://longreads.com/2026/09/03/wendell-berry-new-yorker-interview/",
+              "title": "Going Home with Wendell Berry"
+            }
+          ]
+        },
+        {
+          "title": "The Vicious Cycle Trump May Restart",
+          "link": "https://www.theatlantic.com/newsletters/2026/09/venezuela-trump-oil-cycle/688516/?utm_source=feed",
+          "summary": "The American seizure of Venezuelan oil is likely the first step in a familiar, unhappy chain of events.",
+          "published": "2026-09-03T22:32:00.000Z",
+          "section": "longform",
+          "score": 3.49,
+          "outlets": 1,
+          "reasons": {
+            "corroboration": 1.4,
+            "source": 0.9,
+            "recency": 1.19,
+            "promoted": [],
+            "demoted": []
+          },
+          "sources": [
+            {
+              "name": "The Atlantic",
+              "link": "https://www.theatlantic.com/newsletters/2026/09/venezuela-trump-oil-cycle/688516/?utm_source=feed",
+              "title": "The Vicious Cycle Trump May Restart"
             }
           ]
         }

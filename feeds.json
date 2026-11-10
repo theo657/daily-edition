@@ -54,7 +54,14 @@
     { "id": "longreads",   "name": "Longreads",        "section": "longform","url": "https://longreads.com/feed/",                              "weight": 1.3 },
     { "id": "propublica",  "name": "ProPublica",       "section": "longform","url": "https://www.propublica.org/feeds/propublica/main",         "weight": 1.2 },
     { "id": "aeon",        "name": "Aeon",             "section": "longform","url": "https://aeon.co/feed.rss",                                 "weight": 0.9 },
-    { "id": "atlantic",    "name": "The Atlantic",     "section": "longform","url": "https://www.theatlantic.com/feed/all/",                    "weight": 0.9 }
+    { "id": "atlantic",    "name": "The Atlantic",     "section": "longform","url": "https://www.theatlantic.com/feed/all/",                    "weight": 0.9 },
+    { "id": "cityjournal", "name": "City Journal",     "section": "longform","url": "https://www.city-journal.org/rss.xml",                     "weight": 1.0 },
+    { "id": "freepress",   "name": "The Free Press",   "section": "longform","url": "https://www.thefp.com/feed",                               "weight": 1.0 },
+    { "id": "unherd",      "name": "UnHerd",           "section": "longform","url": "https://unherd.com/feed/",                                 "weight": 1.0 },
+    { "id": "quillette",   "name": "Quillette",        "section": "longform","url": "https://quillette.com/feed/",                              "weight": 0.9 },
+    { "id": "palladium",   "name": "Palladium",        "section": "longform","url": "https://www.palladiummag.com/feed/",                       "weight": 0.9 },
+    { "id": "compact",     "name": "Compact",          "section": "longform","url": "https://www.compactmag.com/feed",                          "weight": 0.9 },
+    { "id": "tablet",      "name": "Tablet",           "section": "longform","url": "https://www.tabletmag.com/feeds/articles.rss",             "weight": 0.9 }
   ],
 
   "_scoring_comment": "Promote and demote are matched against title plus summary, case-insensitively. Weight is added to (promote) or subtracted from (demote) the item score. Tune these freely; they are the closest thing this paper has to an editor.",

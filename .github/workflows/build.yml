@@ -3,7 +3,10 @@ name: Build the edition
 on:
   schedule:
     - cron: '30 4 * * *'
+    - cron: '0 5 * * *'
     - cron: '30 5 * * *'
+    - cron: '0 6 * * *'
+    - cron: '30 6 * * *'
   workflow_dispatch:
     inputs:
       force:
